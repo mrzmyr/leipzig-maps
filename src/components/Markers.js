@@ -91,7 +91,7 @@ const Markers = ({ showMarker, cache }) => <>
     <MapMarkers
       data={cache.supermarkets.elements}
       renderTooltip={item => <div>{item.tags.name}<br />{item.tags.organic ? `organic: ${item.tags.organic}`: ''}</div>}
-      renderIcon={item => <FontAwesomeIcon color={colors.supermarkets} icon={faShoppingBasket} />}
+      renderIcon={item => <FontAwesomeIcon color={item.tags.organic ? 'green' : colors.supermarkets} icon={faShoppingBasket} />}
       renderLink={item => `https://www.openstreetmap.org/search?query=${item.lat},${item.lon}`}
     />
   }
