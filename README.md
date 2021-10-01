@@ -1,5 +1,3 @@
-[![Stargazers](https://img.shields.io/github/stars/mrzmyr/leipzig-maps)](https://github.com/mrzmyr/leipzig-maps)
-[![Issues](https://img.shields.io/github/issues/mrzmyr/leipzig-maps)](https://github.com/mrzmyr/leipzig-maps/issues)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/mrzmyr.svg?style=social&label=Follow%20%40mrzmyr)](https://twitter.com/mrzmyr)
 
 <!-- PROJECT LOGO -->
@@ -74,7 +72,8 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-mrzmyr - [@mrzmyr](https://twitter.com/mrzmyr)
+mrzmyr [@mrzmyr](https://twitter.com/mrzmyr)
+
 Project Link: [https://github.com/mrzmyr/leipzig-maps](https://github.com/mrzmyr/leipzig-maps)
 
 ## Sources used
