@@ -39,9 +39,9 @@ const DataOverlayOptions = ({
   
   return (
     <div style={{ paddingBottom: 20, paddingLeft: 20, paddingRight: 20, paddingTop: 5, }}>
-      <p><strong>Details für Ortsteile</strong> zeigen mit farblichen Flächen bspw. an, wie viele Arbeitslose im Jahr 2016 in jeweiligen Ortsteil gelebt haben. 
+      <p><strong>Details für Ortsteile</strong> zeigen mit farblichen Flächen bspw. an, wie viele Arbeitslose im Jahr 2016 in jeweiligem Ortsteil gelebt haben. 
       <br/>
-      Wähle eine <strong>Kategorie</strong>, <strong>Unterkategorie</strong> und <strong>Jahr</strong>, um die andere Daten zu sehen.</p>
+      Wähle eine <strong>Kategorie</strong>, <strong>Unterkategorie</strong> und <strong>Jahr</strong>.</p>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Kategorie&nbsp;<span style={{ opacity: 0.5 }}>{dataEntries[selectedDataKey].title} ({Object.keys(dataEntries).length})</span></Accordion.Header>
