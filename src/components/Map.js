@@ -131,7 +131,7 @@ const Map = () => {
     
     if(!cache[key]) {
       setLoadings({ ...loadings, [key]: true })
-      fetch(`/data/leipzig-${key}.json`)
+      fetch(`${process.env.PUBLIC_URL}/data/leipzig-${key}.json`)
         .then(response => response.json())
         .then(response => {
           setLoadings(loadings => ({ ...loadings, [key]: false }))
@@ -146,7 +146,7 @@ const Map = () => {
   const toggleMarkers = (key) => {
     if(!cache[key]) {
       setLoadings({ ...loadings, [key]: true })
-      fetch(`/data/leipzig-${key.replace('_', '-')}.json`)
+      fetch(`${process.env.PUBLIC_URL}/data/leipzig-${key.replace('_', '-')}.json`)
         .then(response => response.json())
         .then(data => {
           setCache({ ...cache, [key]: data })
@@ -159,7 +159,7 @@ const Map = () => {
   }
 
   useEffect(() => {
-    fetch(`/data/leipzig-districts.json`)
+    fetch(`${process.env.PUBLIC_URL}/data/leipzig-districts.json`)
     .then(res => res.json())
     .then(data => {
       setCache(cache => ({ ...cache, districts: data }))
