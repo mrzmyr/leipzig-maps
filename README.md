@@ -74,7 +74,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@mrzmyr](https://twitter.com/mrzmyr)
+mrzmyr - [@mrzmyr](https://twitter.com/mrzmyr)
 Project Link: [https://github.com/mrzmyr/leipzig-maps](https://github.com/mrzmyr/leipzig-maps)
 
 ## Sources used
