@@ -166,6 +166,7 @@ const Map = () => {
       setLoadings(loadings => ({ ...loadings, districts: false }))
     })
     selectDataOverlayCategory(Object.keys(dataOverlayEntries)[0])
+  // eslint-disable-next-line
   }, [])
 
   useEffect(() => {
