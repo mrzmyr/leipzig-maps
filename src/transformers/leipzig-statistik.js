@@ -20,7 +20,7 @@ const files = [
 
 files.forEach(f => {
 
-  const contents = JSON.parse(fs.readFileSync(`${__dirname}/../data-raw/${f}`));
+  const contents = JSON.parse(fs.readFileSync(`${__dirname}/../../public/data-raw/${f}`));
   const data = contents.data;
 
   const getUnique = (data, k) => {

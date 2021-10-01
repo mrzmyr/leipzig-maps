@@ -10,7 +10,7 @@ const CreditsModal = (props) => {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Credits / Source
+          Copyright &amp; Daten
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -20,6 +20,7 @@ const CreditsModal = (props) => {
           <li><a href="https://www.cyclosm.org">&copy; cyclosm</a></li>
           <li><a href="https://github.com/mrzmyr/leipzig-maps">GitHub Source Code</a><br /></li>
         </ul>
+        <p>Ein Teil der Beschriftungen kommen aus anderen Quellen und sind daher nicht gegendert.</p>
       </Modal.Body>
     </Modal>
   );
