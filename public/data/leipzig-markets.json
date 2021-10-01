@@ -1,0 +1,107 @@
+[
+  {
+    "location": "An der Kaufhalle",
+    "opening_hours": "We 09:00-13:00; Fr 09:00-14:00",
+    "title": "Wochenmarkt in der Bästleinstraße",
+    "lon": 12.42495,
+    "lat": 51.35542
+  },
+  {
+    "location": "Lützowstraße/Georg-Schumann-Straße",
+    "opening_hours": "We 09:00-16:00",
+    "title": "Wochenmarkt Gohlis-Arkaden",
+    "lon": 12.37084,
+    "lat": 51.36221
+  },
+  {
+    "location": "Landsberger Straße/Max-Liebermann-Straße",
+    "opening_hours": "Tu, Th 09:00-16:00",
+    "title": "Wochenmarkt Gohlis-Park",
+    "lon": 12.36016,
+    "lat": 51.37624
+  },
+  {
+    "location": "Grünauer Allee/Alte Salzstraße",
+    "opening_hours": "Fr 09:00-15:00",
+    "title": "Wochenmarkt Grünau (Wohnkomplex 2)",
+    "lon": 12.30418,
+    "lat": 51.322
+  },
+  {
+    "location": "Stuttgarter Allee an der ehem. Post",
+    "opening_hours": "Tu, Th 09:00-16:00",
+    "title": "Wochenmarkt Grünau (Wohnkomplex 4)",
+    "lon": 12.2929,
+    "lat": 51.31414
+  },
+  {
+    "location": "Miltitzer Allee/Jupiterstraße",
+    "opening_hours": "We 09:00-14:00",
+    "title": "Wochenmarkt Grünau (Wohnkomplex 7)",
+    "lon": 12.26863,
+    "lat": 51.31611
+  },
+  {
+    "location": "Marktplatz",
+    "opening_hours": "Fr 08:00-14:00",
+    "title": "Wochenmarkt Liebertwolkwitz",
+    "lon": 12.4639511,
+    "lat": 51.2826373
+  },
+  {
+    "location": "Lindenauer Markt",
+    "opening_hours": "We, Fr 09:00-16:00",
+    "title": "Wochenmarkt am Lindenauer Markt",
+    "lon": 12.33403,
+    "lat": 51.33722
+  },
+  {
+    "location": "Johannes-R.-Becher-Straße",
+    "opening_hours": "Th 09:00-15:00; Sa 08:30-12:00",
+    "title": "Wochenmarkt Lößnig",
+    "lon": 12.3990085,
+    "lat": 51.3011382
+  },
+  {
+    "location": "Richard-Wagner-Platz",
+    "opening_hours": "Sa 10:00-16:00",
+    "title": "Wochenmarkt am Richard-Wagner-Platz",
+    "lon": 12.37265,
+    "lat": 51.34362
+  },
+  {
+    "location": null,
+    "opening_hours": "Th 09:00-16:00",
+    "title": "Wochenmarkt Paunsdorf",
+    "lon": 12.45988,
+    "lat": 51.35224
+  },
+  {
+    "location": "Torgauer Platz",
+    "opening_hours": "Th 09:00-14:00",
+    "title": "Wochenmarkt am Torgauer Platz",
+    "lon": 12.41489,
+    "lat": 51.34599
+  },
+  {
+    "location": "Hugo-Krone-Platz",
+    "opening_hours": "Th 09:00-12:00",
+    "title": "Wochenmarkt Wiederitzsch",
+    "lon": 12.37342,
+    "lat": 51.39332
+  },
+  {
+    "location": "Bayrischer Platz",
+    "opening_hours": "We, Fr 09:00-17:00",
+    "title": "Wochenmarkt am Bayrischer Platz",
+    "lon": 12.3800753,
+    "lat": 51.330633
+  },
+  {
+    "location": "Marktplatz oder Agustusplatz",
+    "opening_hours": "Tu, Fr 09:00-17:00",
+    "title": "Wochenmarkt in der Innenstadt",
+    "lon": 12.3747374,
+    "lat": 51.3405479
+  }
+]

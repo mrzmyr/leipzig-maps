@@ -1,0 +1,2450 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.9 76e5016d",
+  "osm3s": {
+    "timestamp_osm_base": "2021-09-29T22:21:58Z",
+    "timestamp_areas_base": "2021-09-29T21:15:13Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+    {
+      "type": "node",
+      "id": 26043425,
+      "lat": 51.3755265,
+      "lon": 12.4124078,
+      "tags": {
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "drink:MioMioMate": "retail",
+        "drink:club-mate": "retail",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 177223113,
+      "lat": 51.3689392,
+      "lon": 12.3389685,
+      "tags": {
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "brand:wikipedia": "de:Norma (Handelskette)",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 8:00-20:00",
+        "shop": "supermarket",
+        "website": "http://www.norma-online.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 203620166,
+      "lat": 51.3525241,
+      "lon": 12.4598443,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "04329",
+        "addr:street": "Waldzieststraße",
+        "check_date:opening_hours": "2021-03-26",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:phone": "+49 341 2519060",
+        "contact:website": "http://www.konsum-leipzig.de/",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Konsum Leipzig eG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 247865465,
+      "lat": 51.3189675,
+      "lon": 12.3995553,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "44",
+        "addr:postcode": "04103",
+        "addr:street": "Straße des 18. Oktober",
+        "brand": "HIT",
+        "brand:wikidata": "Q1548713",
+        "brand:wikipedia": "de:HIT Handelsgruppe",
+        "email": "kontakt@hit.de",
+        "name": "HIT",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su off",
+        "operator": "HIT Handelsgruppe GmbH & Co. KG",
+        "phone": "+49 341 224670",
+        "shop": "supermarket",
+        "website": "https://www.hit.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 248550909,
+      "lat": 51.3602308,
+      "lon": 12.3929661,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "04129",
+        "addr:street": "Hartzstraße",
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "brand:wikipedia": "de:Norma (Handelskette)",
+        "contact:email": "kon­takt-for­mu­lar-in­ter­ne­t@­nor­ma-on­line.com",
+        "contact:website": "http://www.norma-online.de",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+        "operator": "Nor­ma Le­bens­mit­tel­fi­li­al­be­trieb Stif­tung & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 252441137,
+      "lat": 51.3288439,
+      "lon": 12.3439898,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "04229",
+        "addr:street": "Nonnenstraße",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "contact:website": "https://www.aldi-nord.de/",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su,PH off",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 252662552,
+      "lat": 51.3190035,
+      "lon": 12.2877472,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "04209",
+        "addr:street": "Ludwigsburger Straße",
+        "contact:phone": "+49 341 41298719",
+        "level": "0",
+        "name": "Rewe Center",
+        "opening_hours": "Mo-Sa 07:00-22:00; PH off",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 254308723,
+      "lat": 51.3339895,
+      "lon": 12.3821197,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "3-5",
+        "addr:postcode": "04103",
+        "addr:street": "Bauhofstraße",
+        "brand": "Edeka",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "de:Edeka",
+        "check_date:opening_hours": "2020-09-30",
+        "name": "Edeka \"An der Uniklinik\"",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "payment:american_express": "no",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "payment:mastercard": "no",
+        "payment:visa": "no",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 256721319,
+      "lat": 51.3320070,
+      "lon": 12.4116812,
+      "tags": {
+        "brand": "ALDI Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "name": "ALDI Nord",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su off",
+        "operator": "Aldi Nord",
+        "organic": "yes",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 256834969,
+      "lat": 51.3470800,
+      "lon": 12.4193090,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "74",
+        "addr:postcode": "04318",
+        "addr:street": "Torgauer Straße",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket",
+        "website": "https://www.lidl.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 257017801,
+      "lat": 51.3370300,
+      "lon": 12.4042940,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "78-80",
+        "addr:postcode": "04317",
+        "addr:street": "Dresdner Straße",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "brand:wikipedia": "en:Kaufland",
+        "drink:club-mate": "retail",
+        "name": "Kaufland",
+        "name:ja": "カウフランド",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Kaufland Warenhandel GmbH & Co. KG",
+        "phone": "+49 341 68656970",
+        "ref": "79204",
+        "shop": "supermarket",
+        "website": "https://www.kaufland.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269418317,
+      "lat": 51.3758014,
+      "lon": 12.3598270,
+      "tags": {
+        "brand": "Edeka",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "de:Edeka",
+        "name": "Edeka",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269418319,
+      "lat": 51.3757618,
+      "lon": 12.3595825,
+      "tags": {
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269786786,
+      "lat": 51.3309808,
+      "lon": 12.3329000,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "77",
+        "addr:postcode": "04229",
+        "addr:street": "Karl-Heine-Straße",
+        "contact:facebook": "http://www.facebook.com/pages/Kostbar-Naturkost/152717514762546",
+        "drink:club-mate": "yes",
+        "name": "Kostbar Naturkost",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269856068,
+      "lat": 51.3623898,
+      "lon": 12.3706284,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housename": "Gohlis-Arkaden",
+        "addr:housenumber": "50",
+        "addr:postcode": "04155",
+        "addr:street": "Georg-Schumann-Straße",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "check_date:opening_hours": "2021-04-02",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Penny Markt GmbH",
+        "ref": "2755",
+        "shop": "supermarket",
+        "website": "https://www.penny.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293950983,
+      "lat": 51.3034967,
+      "lon": 12.3226093,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housename": "Südwest-Zentrum",
+        "addr:housenumber": "42",
+        "addr:postcode": "04249",
+        "addr:street": "Anton-Zickmantel-Straße",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "brand:wikipedia": "en:Kaufland",
+        "name": "Kaufland",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Kaufland Warenhandel GmbH & Co. KG",
+        "phone": "+49 341 490430",
+        "shop": "supermarket",
+        "website": "https://www.kaufland.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 301138723,
+      "lat": 51.3043963,
+      "lon": 12.4263499,
+      "tags": {
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "level": "0",
+        "name": "Aldi Nord",
+        "opening_hours": "Mo-Sa 07:00-21:00; PH closed",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 301556077,
+      "lat": 51.3083254,
+      "lon": 12.3714901,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "04277",
+        "addr:street": "Simildenstraße",
+        "addr:suburb": "Connewitz",
+        "contact:email": "info@bio-mare.com",
+        "contact:website": "https://bio-mare.com/unser-profil/unsere-standorte/",
+        "name": "biomare",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su,PH off",
+        "operator": "Biomare GmbH",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 308667745,
+      "lat": 51.3481164,
+      "lon": 12.3107063,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "139 - 142",
+        "addr:postcode": "04179",
+        "addr:street": "Georg-Schwarz-Straße",
+        "addr:suburb": "Leutzsch",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "contact:phone": "+49 341 4424487",
+        "contact:website": "https://www.rewe.de/",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "REWE Markt Daniel Reiche oHG",
+        "payment:Rechnung": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 310218384,
+      "lat": 51.3376255,
+      "lon": 12.3740063,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "36/44",
+        "addr:postcode": "04109",
+        "addr:street": "Petersstraße",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "level": "-1",
+        "name": "Lidl",
+        "name:ja": "リドル",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su off",
+        "operator:tax": "DE814100850",
+        "shop": "supermarket",
+        "website": "https://www.lidl.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 314078764,
+      "lat": 51.3240116,
+      "lon": 12.3435641,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "50",
+        "addr:postcode": "04229",
+        "addr:street": "Könneritzstraße",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Konsum Leipzig",
+        "ref": "3268",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 316522736,
+      "lat": 51.3419020,
+      "lon": 12.3797595,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "44-48",
+        "addr:postcode": "04109",
+        "addr:street": "Ritterstraße",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "description": "Supermarket and Restaurant",
+        "name": "Mekong Asia",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "operator": "Inhaber Loan",
+        "phone": "+49 341 9610438",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 316522813,
+      "lat": 51.3382459,
+      "lon": 12.3692264,
+      "tags": {
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "brand:wikipedia": "de:Norma (Handelskette)",
+        "check_date:opening_hours": "2021-03-08",
+        "man_made": "surveillance",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "surveillance": "indoor",
+        "website": "http://www.norma-online.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319677166,
+      "lat": 51.3720511,
+      "lon": 12.3631810,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "04157",
+        "addr:street": "Viertelsweg",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345277058,
+      "lat": 51.3570150,
+      "lon": 12.4254830,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "68",
+        "addr:postcode": "04347",
+        "addr:street": "Löbauer Straße",
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 345278421,
+      "lat": 51.3570068,
+      "lon": 12.4267172,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "68-70",
+        "addr:postcode": "04347",
+        "addr:street": "Löbauer Straße",
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi Nord",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 361105451,
+      "lat": 51.3350421,
+      "lon": 12.3293208,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:postcode": "04177",
+        "addr:street": "GutsMuthsstraße",
+        "brand": "Netto Marken-Discount",
+        "brand:wikidata": "Q879858",
+        "brand:wikipedia": "de:Netto Marken-Discount",
+        "name": "Netto Marken-Discount",
+        "note": "ehemals PLUS",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365867491,
+      "lat": 51.3264151,
+      "lon": 12.3706145,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "04107",
+        "addr:street": "Dufourstraße",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:facebook": "https://www.facebook.com/Konsum.Leipzig",
+        "contact:instagram": "https://www.instagram.com/konsumleipzig",
+        "contact:phone": "+49 341 2132761",
+        "contact:website": "http://www.konsum-leipzig.de",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su,PH off",
+        "operator": "Konsumgenossenschaft Leipzig eG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 371043624,
+      "lat": 51.3389751,
+      "lon": 12.4733212,
+      "tags": {
+        "name": "Rubel",
+        "note": "Osteuropäischer Discounter",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373164806,
+      "lat": 51.4100047,
+      "lon": 12.3068530,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "2",
+        "addr:postcode": "04158",
+        "addr:street": "Steinbachweg",
+        "alt_name": "Großhandel Floristenbedarf",
+        "name": "Siegfried Schuster Floristenbedarf",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 386028187,
+      "lat": 51.3008394,
+      "lon": 12.3973282,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "04279",
+        "addr:street": "Johannes-R.-Becher-Straße",
+        "drink:club-mate": "yes",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:30-21:00; Su off",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 386028222,
+      "lat": 51.3161160,
+      "lon": 12.3668595,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "76",
+        "addr:postcode": "04275",
+        "addr:street": "Brandvorwerkstraße",
+        "name": "Bio am Fockeberg",
+        "opening_hours": "Tu-Fr 14:00-20:00; Sa 10:00-14:00",
+        "operator": "Heiko Höhne",
+        "organic": "only",
+        "shop": "supermarket",
+        "website": "https://bio-am-fockeberg.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 401494712,
+      "lat": 51.3556245,
+      "lon": 12.3732917,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "04105",
+        "addr:street": "Springerstraße",
+        "drink:club-mate": "yes",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 412415566,
+      "lat": 51.3394055,
+      "lon": 12.3912694,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "04103",
+        "addr:street": "Inselstraße",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 412416510,
+      "lat": 51.3450581,
+      "lon": 12.4046572,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "04315",
+        "addr:street": "Konradstraße",
+        "addr:suburb": "Neustadt-Neuschönefeld",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "contact:instagram": "https://www.instagram.com/aldinord/",
+        "contact:website": "https://www.aldi-nord.de/",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 412416511,
+      "lat": 51.3425581,
+      "lon": 12.4081832,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "04315",
+        "addr:street": "Dornbergerstraße",
+        "addr:suburb": "Volkmarsdorf",
+        "brand": "Netto Marken-Discount",
+        "brand:wikidata": "Q879858",
+        "brand:wikipedia": "de:Netto Marken-Discount",
+        "contact:email": "info@netto-online.de",
+        "contact:facebook": "https://de-de.facebook.com/nettomarkendiscount/",
+        "contact:instagram": "https://www.instagram.com/netto_marken_discount/",
+        "contact:website": "http://www.netto-online.de",
+        "name": "Netto Marken-Discount",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su,PH off",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 639299270,
+      "lat": 51.3485429,
+      "lon": 12.3109516,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "131",
+        "addr:postcode": "04179",
+        "addr:street": "Georg-Schwarz-Straße",
+        "addr:suburb": "Leutzsch",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "contact:email": "kontakt@penny.de",
+        "contact:website": "https://www.penny.de/",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "PENNY Markt GmbH",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 639547711,
+      "lat": 51.3459936,
+      "lon": 12.3182549,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "92 - 96",
+        "addr:postcode": "04179",
+        "addr:street": "Georg-Schwarz-Straße",
+        "addr:suburb": "Leutzsch",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "contact:website": "https://www.aldi-nord.de/",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663244098,
+      "lat": 51.3415186,
+      "lon": 12.3608515,
+      "tags": {
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 664037350,
+      "lat": 51.3924435,
+      "lon": 12.3401290,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "1",
+        "addr:postcode": "04158",
+        "addr:street": "Zur Lindenhöhe",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 775914782,
+      "lat": 51.3438531,
+      "lon": 12.3664139,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "04109",
+        "addr:street": "Ranstädter Steinweg",
+        "brand": "Netto",
+        "brand:wikidata": "Q552652",
+        "brand:wikipedia": "da:Netto (supermarkedskæde)",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "shop": "supermarket",
+        "website": "https://www.netto-online.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 870910179,
+      "lat": 51.3456653,
+      "lon": 12.4055061,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "51",
+        "addr:postcode": "04315",
+        "addr:street": "Eisenbahnstraße",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:30-21:00",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 877182196,
+      "lat": 51.3522846,
+      "lon": 12.4232566,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "55",
+        "addr:postcode": "04347",
+        "addr:street": "Volksgartenstraße",
+        "brand": "Edeka",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "de:Edeka",
+        "contact:phone": "+49 341 23159339",
+        "drink:club-mate": "retail",
+        "name": "Edeka",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Edeka Schwarm",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 878870305,
+      "lat": 51.3634529,
+      "lon": 12.3640895,
+      "tags": {
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 974418997,
+      "lat": 51.3509413,
+      "lon": 12.4078543,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "04347",
+        "addr:street": "Waldbaurstraße",
+        "check_date:opening_hours": "2021-07-05",
+        "name": "Netto",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "shop": "supermarket",
+        "website": "http://www.netto-online.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 974419002,
+      "lat": 51.3503713,
+      "lon": 12.4094462,
+      "tags": {
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "PENNY Markt GmbH",
+        "shop": "supermarket",
+        "website": "https://www.penny.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 996194624,
+      "lat": 51.3445294,
+      "lon": 12.2664601,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "04178",
+        "addr:street": "Großer Marktweg",
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "brand:wikipedia": "de:Norma (Handelskette)",
+        "contact:email": "kon­takt-for­mu­lar-in­ter­ne­t@­nor­ma-on­line.com",
+        "contact:website": "https://www.norma-online.de/",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Nor­ma Le­bens­mit­tel­fi­li­al­be­trieb Stif­tung & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1102784571,
+      "lat": 51.3452026,
+      "lon": 12.3801469,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housename": "Hauptbahnhof Leipzig Promenaden",
+        "addr:housenumber": "7",
+        "addr:postcode": "04109",
+        "addr:street": "Willy-Brandt-Platz",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "level": "-1",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 12:00-18:00",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1144884977,
+      "lat": 51.3209141,
+      "lon": 12.4180515,
+      "tags": {
+        "name": "Naturkost Sommerstrauss",
+        "opening_hours": "Mo-Th 09:00-12:30,14:00-18:00; Fr 09:00-18:00; Sa 09:00-12:00",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1149629895,
+      "lat": 51.3036880,
+      "lon": 12.2691964,
+      "tags": {
+        "name": "Netto",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1184524680,
+      "lat": 51.3280819,
+      "lon": 12.3741619,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "27",
+        "addr:postcode": "04107",
+        "addr:street": "Karl-Liebknecht-Straße",
+        "email": "info@bio-mare.com",
+        "fax": "+49 341 14909979",
+        "name": "Biomare II",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "opening_hours:covid19": "same",
+        "organic": "only",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:girocard": "yes",
+        "phone": "+49 341 14909977",
+        "shop": "supermarket",
+        "website": "https://bio-mare.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1226029857,
+      "lat": 51.3443984,
+      "lon": 12.3822446,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "04109",
+        "addr:street": "Willy-Brandt-Platz",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "check_date:opening_hours": "2020-10-21",
+        "drink:club-mate": "yes",
+        "level": "-1",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 12:00-18:00",
+        "operator": "REWE Markt GmbH",
+        "operator:ref": "0174",
+        "operator:tax": "DE812706034;215/5940/2539",
+        "shop": "supermarket",
+        "website": "https://www.rewe.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1315463668,
+      "lat": 51.3295507,
+      "lon": 12.3362918,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "04229",
+        "addr:street": "Zschochersche Straße",
+        "email": "nst-kundenservice@edeka.de",
+        "name": "EDEKA Voigt",
+        "opening_hours": "Mo-Sa 07:00-20:00; Fr 07:00-21:00",
+        "phone": "+49 341 4802484",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/eh/nordbayern-sachsen-thüringen/edeka-voigt-zschochersche-straße-48/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1342645865,
+      "lat": 51.3563695,
+      "lon": 12.4080466,
+      "tags": {
+        "name": "KONSUM",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-16:00",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1401746088,
+      "lat": 51.3306164,
+      "lon": 12.3968828,
+      "tags": {
+        "check_date:opening_hours": "2020-11-11",
+        "name": "Bioflair",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-16:00",
+        "organic": "only",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1431466507,
+      "lat": 51.2852451,
+      "lon": 12.4564976,
+      "tags": {
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1455070983,
+      "lat": 51.3506963,
+      "lon": 12.4765845,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "04329",
+        "addr:street": "Paunsdorfer Allee",
+        "addr:suburb": "Paunsdorf",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "brand:wikipedia": "en:Kaufland",
+        "contact:email": "service@kaufland.de",
+        "contact:facebook": "https://www.facebook.com/kaufland/",
+        "contact:phone": "+49 341 3320850",
+        "contact:website": "https://www.kaufland.de/",
+        "description": "Bezahlstation besteht größtenteils aus Automaten",
+        "name": "Kaufland",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Kaufland Warenhandel GmbH & Co. KG",
+        "ref": "31400",
+        "shop": "supermarket",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1518237732,
+      "lat": 51.4017516,
+      "lon": 12.3984666,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:street": "Handelsstraße",
+        "brand": "Aldi Nord",
+        "brand:wikidata": "Q41171373",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi Nord",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1710092579,
+      "lat": 51.3307019,
+      "lon": 12.3733784,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "6b",
+        "addr:postcode": "04107",
+        "addr:street": "Karl-Liebknecht-Straße",
+        "drink:club-mate": "yes",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Konsum Leipzig",
+        "operator:tax": "232/136/00044",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1840708114,
+      "lat": 51.3194720,
+      "lon": 12.4252363,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "110",
+        "addr:postcode": "04299",
+        "addr:street": "Holzhäuser Straße",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "check_date": "2019-05-04",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "REWE Group",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1933875331,
+      "lat": 51.3433847,
+      "lon": 12.3761663,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "1",
+        "addr:postcode": "04109",
+        "addr:street": "Brühl",
+        "brand": "Edeka",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "de:Edeka",
+        "drink:club-mate": "retail",
+        "drink:club-mate-icetea": "yes",
+        "drink:club-mate_granat": "yes",
+        "drink:fritz-kola": "retail",
+        "drink:makimate": "yes",
+        "fax": "+49 341 12457163",
+        "level": "-1",
+        "name": "Edeka",
+        "name:ja": "エデカ",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "operator": "Potrzebski e.K.",
+        "phone": "+49 341 12457162",
+        "shop": "supermarket",
+        "website": "https://www.edeka.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2012022018,
+      "lat": 51.3325740,
+      "lon": 12.3784992,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "31",
+        "addr:postcode": "04107",
+        "addr:street": "Windmühlenstraße",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "website": "https://aldi-nord.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2129894053,
+      "lat": 51.3195220,
+      "lon": 12.2918414,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "04209",
+        "addr:street": "Ludwigsburger Straße",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "contact:website": "https://www.aldi-nord.de/tools/filialen-und-oeffnungszeiten/sachsen/leipzig/ludwigsburger-strasse-9.html",
+        "level": "0",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+        "operator": "Aldi Nord",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2267278517,
+      "lat": 51.3568930,
+      "lon": 12.4260839,
+      "tags": {
+        "brand": "Simply Market",
+        "brand:wikidata": "Q3484790",
+        "brand:wikipedia": "en:Simply Market",
+        "name": "Simply Market",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2289720702,
+      "lat": 51.3504704,
+      "lon": 12.4403705,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "operator": "PENNY Markt GmbH",
+        "shop": "supermarket",
+        "website": "https://www.penny.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2320997967,
+      "lat": 51.3423763,
+      "lon": 12.3609187,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "10-12",
+        "addr:postcode": "04109",
+        "addr:street": "Jahnallee",
+        "brand": "Konsum",
+        "name": "Konsum",
+        "operator": "Konsum Leipzig",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2389896457,
+      "lat": 51.3018218,
+      "lon": 12.3970269,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "125",
+        "addr:postcode": "04279",
+        "addr:street": "Zwickauer Straße",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "note": "Beim Einkauf gebührenfrei abheben, bis zu 200 Euro Bargeld auf die girocard. Diesen Service bietet PENNY ab einem Einkaufswert von 20 Euro. ",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "operator": "PENNY Markt Gesellschaft mit beschränkter Haftung",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "website": "https://www.penny.de/unternehmen/ueber-uns/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2413048673,
+      "lat": 51.3445558,
+      "lon": 12.3820666,
+      "tags": {
+        "level": "0",
+        "name": "Vitalia Reformhaus",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2413089079,
+      "lat": 51.3436389,
+      "lon": 12.3742003,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "04109",
+        "addr:street": "Brühl",
+        "brand": "denn's Biomarkt",
+        "brand:wikidata": "Q48883773",
+        "brand:wikipedia": "de:Dennree",
+        "internet_access": "wlan",
+        "level": "-1",
+        "name": "denn's Biomarkt",
+        "opening_hours": "Mo-Sa 09:00-21:00; PH off",
+        "organic": "only",
+        "phone": "+4934130863190",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2456689776,
+      "lat": 51.3133990,
+      "lon": 12.4551709,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:postcode": "04288",
+        "addr:street": "Kärrnerstraße",
+        "name": "Konsum",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2475205862,
+      "lat": 51.3493799,
+      "lon": 12.3525454,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "04105",
+        "addr:street": "Goyastraße",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:30-22:00",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "http://www.konsum-leipzig.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2575121788,
+      "lat": 51.3405411,
+      "lon": 12.3648068,
+      "tags": {
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "check_date:opening_hours": "2021-05-26",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2641640240,
+      "lat": 51.3667726,
+      "lon": 12.3991394,
+      "tags": {
+        "name": "Asia-Markt",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2705499015,
+      "lat": 51.2821627,
+      "lon": 12.4618809,
+      "tags": {
+        "name": "Konsum",
+        "name:ja": "コンズーム",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2712686405,
+      "lat": 51.3358857,
+      "lon": 12.3301746,
+      "tags": {
+        "name": "Im Angebot",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-16:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2773553527,
+      "lat": 51.3453541,
+      "lon": 12.4071019,
+      "tags": {
+        "name": "Orientalische Spezialitäten",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2773828895,
+      "lat": 51.3384240,
+      "lon": 12.3351473,
+      "tags": {
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2791970399,
+      "lat": 51.4018972,
+      "lon": 12.3979976,
+      "tags": {
+        "addr:city": "Leipzig",
+        "brand": "denn's Biomarkt",
+        "brand:wikidata": "Q48883773",
+        "name": "denn's Biomarkt",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2935220898,
+      "lat": 51.3390477,
+      "lon": 12.3270768,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "65",
+        "addr:postcode": "04177",
+        "addr:street": "Erich-Köhn-Straße",
+        "contact:website": "http://schwarzwurzel.org/",
+        "drink": "club-mate",
+        "name": "Schwarzwurzel",
+        "opening_hours": "Mo,Tu,Th,Fr 09:00-19:00, We 12:00-19:00, Sa 09:00-14:00",
+        "opening_hours:covid19": "same",
+        "operator": "Schwarzwurzel OHG",
+        "organic": "only",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3105379034,
+      "lat": 51.3353152,
+      "lon": 12.3060287,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "04179",
+        "addr:street": "Bienerstraße",
+        "addr:suburb": "Neulindenau",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "check_date": "2020-09-25",
+        "contact:email": "kontakt@penny.de",
+        "contact:facebook": "https://www.facebook.com/PennyDeutschland",
+        "contact:website": "https://www.penny.de/",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su,PH off",
+        "operator": "Penny Markt GmbH",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3312064173,
+      "lat": 51.3153085,
+      "lon": 12.3084549,
+      "tags": {
+        "name": "Konsum",
+        "operator": "Konsum Leipzig",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3342042179,
+      "lat": 51.3532419,
+      "lon": 12.3057443,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "80",
+        "addr:postcode": "04179",
+        "addr:street": "Philipp-Reis-Straße",
+        "addr:suburb": "Leutzsch",
+        "name": "NETTO",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3381699376,
+      "lat": 51.3566323,
+      "lon": 12.4594088,
+      "tags": {
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "operator": "Aldi Nord",
+        "phone": "+49 342927510",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3382794726,
+      "lat": 51.3579715,
+      "lon": 12.4579071,
+      "tags": {
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "level": "0",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3470964363,
+      "lat": 51.3356787,
+      "lon": 12.3894291,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "12a",
+        "addr:postcode": "04103",
+        "addr:street": "Prager Straße",
+        "check_date:opening_hours": "2021-07-29",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "opening_hours:covid19": "open",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3530851650,
+      "lat": 51.3321024,
+      "lon": 12.3369905,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "43",
+        "addr:postcode": "04229",
+        "addr:street": "Karl-Heine-Straße",
+        "email": "info@bio-mare.com",
+        "name": "Biomare",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00",
+        "opening_hours:covid19": "same",
+        "organic": "only",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:maestro": "yes",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "https://bio-mare.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3587737469,
+      "lat": 51.3138432,
+      "lon": 12.2640837,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housename": "Selliner Passage",
+        "addr:housenumber": "1B",
+        "addr:postcode": "04207",
+        "addr:state": "Sachsen",
+        "addr:street": "Selliner Straße",
+        "addr:subdistrict": "Grünau-Lausen",
+        "addr:suburb": "West",
+        "name": "Netto City",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "operator": "Netto Marken-Discount AG & Co. KG",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "shop": "supermarket",
+        "website": "https://www.netto-online.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3658926365,
+      "lat": 51.3533125,
+      "lon": 12.4223607,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "04347",
+        "addr:street": "Poserstraße",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3669324336,
+      "lat": 51.3562755,
+      "lon": 12.4161744,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "44",
+        "addr:postcode": "04347",
+        "addr:street": "Löbauer Straße",
+        "brand": "REWE",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "de:Rewe (Markt)",
+        "check_date:opening_hours": "2021-04-06",
+        "name": "REWE",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Heike Winter",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3700233722,
+      "lat": 51.3418924,
+      "lon": 12.3791379,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "23-25",
+        "addr:postcode": "04109",
+        "addr:street": "Ritterstraße",
+        "brand": "Penny",
+        "brand:wikidata": "Q284688",
+        "brand:wikipedia": "en:Penny (supermarket)",
+        "name": "Penny",
+        "opening_hours": "Mo-Sa 07:00-22:00; PH off",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3874602875,
+      "lat": 51.3243150,
+      "lon": 12.4133018,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "78",
+        "addr:postcode": "04299",
+        "addr:street": "Schönbachstraße",
+        "brand": "Konsum",
+        "check_date": "2019-10-07",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "operator": "Konsumgenossenschaft Leipzig eG",
+        "shop": "supermarket",
+        "website": "http://www.konsum-leipzig.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3936273864,
+      "lat": 51.3426726,
+      "lon": 12.3730678,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "21-29",
+        "addr:postcode": "04109",
+        "addr:street": "Hainstraße",
+        "brand": "Rewe City",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "contact:phone": "+49 341 91046942",
+        "contact:website": "https://www.rewe.de/marktseite/leipzig/4040503/rewe-city-hainstrasse-21-29/",
+        "name": "Rewe City",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Regiemarkt GmbH Ost",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3964874081,
+      "lat": 51.3310800,
+      "lon": 12.3381484,
+      "tags": {
+        "name": "lieber lose",
+        "opening_hours": "Sa 09:30-16:00; Mo-Fr 09:30-19:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3964874083,
+      "lat": 51.3311886,
+      "lon": 12.3382265,
+      "tags": {
+        "name": "Bagdad Markt",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4007606434,
+      "lat": 51.3465670,
+      "lon": 12.4766718,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "04329",
+        "addr:street": "Paunsdorfer Allee",
+        "addr:suburb": "Paunsdorf",
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "contact:phone": "+49 341 25367953",
+        "contact:website": "https://www.rewe.de/",
+        "name": "Rewe",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su,PH off",
+        "operator": "Rewe Regiemarkt GmbH Ost",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4060259591,
+      "lat": 51.2729842,
+      "lon": 12.3100454,
+      "tags": {
+        "operator": "Penny",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4271724130,
+      "lat": 51.3114797,
+      "lon": 12.3795616,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "175",
+        "addr:postcode": "04277",
+        "addr:street": "Arthur-Hoffmann-Straße",
+        "brand": "Konsum",
+        "check_date:opening_hours": "2021-08-21",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Konsum-Genossenschaft",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4332408838,
+      "lat": 51.3455354,
+      "lon": 12.3187692,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1A",
+        "addr:postcode": "04179",
+        "addr:street": "Ellernweg",
+        "addr:suburb": "Leutzsch",
+        "check_date:opening_hours": "2021-04-18",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:phone": "+49 341 44254410",
+        "contact:website": "https://www.konsum-leipzig.de/",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Konsum Leipzig eG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4359086999,
+      "lat": 51.3587038,
+      "lon": 12.4731288,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "2",
+        "addr:postcode": "04329",
+        "addr:street": "Hermelinstraße",
+        "contact:facebook": "https://de-de.facebook.com/Lentaladen/",
+        "email": "alika@lenta24.de",
+        "name": "Lenta Lebensmittel",
+        "note": "Russische & osteuropäische Spezialitäten",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+        "operator": "Alika GmbH",
+        "phone": "+49 341 27109188",
+        "shop": "supermarket",
+        "website": "http://lentaladen.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4366628162,
+      "lat": 51.3444062,
+      "lon": 12.4172642,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "6-8",
+        "addr:postcode": "04315",
+        "addr:street": "Bautzmannstraße",
+        "drink:club-mate": "yes",
+        "name": "Konsum Leipzig",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4436021034,
+      "lat": 51.3401643,
+      "lon": 12.3660268,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "16 - 18",
+        "addr:postcode": "04109",
+        "addr:street": "Käthe-Kollwitz-Straße",
+        "addr:suburb": "Zentrum-West",
+        "brand": "Konsum",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:facebook": "https://www.facebook.com/Konsum.Leipzig",
+        "contact:instagram": "https://www.instagram.com/konsumleipzig",
+        "contact:phone": "+49 341 30865504",
+        "contact:website": "https://www.konsum-leipzig.de",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Konsum Leipzig eG",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4615760742,
+      "lat": 51.3201921,
+      "lon": 12.3044729,
+      "tags": {
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "name": "Rewe",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4626606048,
+      "lat": 51.3443237,
+      "lon": 12.3572219,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "23",
+        "addr:postcode": "04105",
+        "addr:street": "Waldstraße",
+        "entrance": "main",
+        "name": "Natur & Fein",
+        "opening_hours": "Mo-Fr 09:00-20:00, Sa 09:00-16:00",
+        "organic": "only",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4705748857,
+      "lat": 51.2753673,
+      "lon": 12.4699127,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "1",
+        "addr:postcode": "04288",
+        "addr:street": "Zum Rosengarten",
+        "brand": "Diska",
+        "brand:wikidata": "Q62390177",
+        "name": "Diska",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4795336194,
+      "lat": 51.3454007,
+      "lon": 12.2654189,
+      "tags": {
+        "name": "Frostkauf",
+        "shop": "supermarket",
+        "website": "https://frostkauf.de/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4826554948,
+      "lat": 51.3669406,
+      "lon": 12.3700723,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "81",
+        "addr:postcode": "04157",
+        "addr:street": "Coppistraße",
+        "contact:website": "http://www.kern-und-stein.de",
+        "name": "Kern & Stein",
+        "opening_hours": "Mo 14:00-18:00; Tu-Th 10:00-18:00; Fr 10:00-15:00",
+        "operator": "Ralf Bitzer",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4882880097,
+      "lat": 51.3767341,
+      "lon": 12.3915397,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "04129",
+        "addr:street": "Essener Straße",
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "brand:wikipedia": "de:Norma (Handelskette)",
+        "contact:email": "kon­takt-for­mu­lar-in­ter­ne­t@­nor­ma-on­line.com",
+        "contact:website": "https://www.norma-online.de/",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Nor­ma Le­bens­mit­tel­fi­li­al­be­trieb Stif­tung & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4937956323,
+      "lat": 51.3217116,
+      "lon": 12.2717087,
+      "tags": {
+        "name": "PENNY",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5014959476,
+      "lat": 51.3321252,
+      "lon": 12.3190918,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "162",
+        "addr:postcode": "04179",
+        "addr:street": "Lützner Straße",
+        "addr:suburb": "Lindenau",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:phone": "+49 341 4773283",
+        "contact:website": "https://www.konsum-leipzig.de/",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su,PH off",
+        "operator": "Konsum Leipzig eG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5120361322,
+      "lat": 51.3453705,
+      "lon": 12.4057583,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "79",
+        "addr:postcode": "04315",
+        "addr:street": "Hermann-Liebmann-Straße",
+        "addr:suburb": "Neustadt-Neuschönefeld",
+        "contact:email": "info@imangebot.com",
+        "contact:website": "https://www.imangebot.com/",
+        "name": "im Angebot",
+        "opening_hours": "Mo-Fr 07:30-19:00, Sa 07:30-16:00; Su,PH off",
+        "operator": "Im Angebot e.K.",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5233579328,
+      "lat": 51.3387850,
+      "lon": 12.3904159,
+      "tags": {
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5246272652,
+      "lat": 51.3068835,
+      "lon": 12.3766948,
+      "tags": {
+        "name": "Ankes Kaufladen",
+        "opening_hours": "Mo-Fr 08:00-19:30; Sa 08:00-12:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5300706326,
+      "lat": 51.3312976,
+      "lon": 12.3968479,
+      "tags": {
+        "name": "Tonis markt",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:30",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5391027146,
+      "lat": 51.3822521,
+      "lon": 12.4515608,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "260",
+        "addr:postcode": "04349",
+        "addr:street": "Tauchaer Straße",
+        "name": "Mere",
+        "old_name": "Aldi",
+        "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
+        "operator": "TS Markt",
+        "payment:cash": "yes",
+        "shop": "supermarket",
+        "start_date": "29.01.2019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5475990109,
+      "lat": 51.3452507,
+      "lon": 12.4142947,
+      "tags": {
+        "drink:club-mate": "yes",
+        "name": "Anto Supermarkt",
+        "opening_hours": "Mo-Fr 09:00-19:30; Sa 10:00-18:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5793292324,
+      "lat": 51.3223929,
+      "lon": 12.2883818,
+      "tags": {
+        "brand": "Rewe",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "name": "Rewe",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5836670188,
+      "lat": 51.3452900,
+      "lon": 12.3798233,
+      "tags": {
+        "air_conditioning": "yes",
+        "level": "0",
+        "name": "Alnatura Express",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 11:00-19:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5876275563,
+      "lat": 51.3209640,
+      "lon": 12.3713595,
+      "tags": {
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "opening_hours:covid19": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6015417815,
+      "lat": 51.3388487,
+      "lon": 12.3830393,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "5",
+        "addr:postcode": "04103",
+        "addr:street": "Grimmaischer Steinweg",
+        "brand": "Edeka",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "en:Edeka",
+        "check_date:opening_hours": "2020-10-02",
+        "contact:fax": "+49 341 993812727",
+        "contact:phone": "+49 341 993812710",
+        "contact:website": "https://www.edeka.de/eh/nordbayern-sachsen-th%C3%BCringen/edeka-schwarm-grimmaischer-steinweg-5/index.jsp",
+        "level": "0",
+        "name": "Edeka Schwarm",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "operator": "Nancy Schwarm e. Kfr",
+        "payment:cash": "yes",
+        "payment:girocard": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6400452787,
+      "lat": 51.3303566,
+      "lon": 12.3313994,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "85",
+        "addr:postcode": "04229",
+        "addr:street": "Karl-Heine-Straße",
+        "check_date:opening_hours": "2021-06-23",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6436076453,
+      "lat": 51.4096578,
+      "lon": 12.3070434,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "2",
+        "addr:postcode": "04158",
+        "addr:street": "Steinbachweg",
+        "name": "Floristenbedarf Bettin",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6531977967,
+      "lat": 51.3599887,
+      "lon": 12.2836556,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "72",
+        "addr:postcode": "04178",
+        "addr:street": "Pestalozzistraße",
+        "brand": "EDEKA",
+        "brand:wikidata": "Q701755",
+        "brand:wikipedia": "en:Edeka",
+        "name": "EDEKA Voßler",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534429231,
+      "lat": 51.3683091,
+      "lon": 12.3732340,
+      "tags": {
+        "name": "Speck Markt und Café",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6801282228,
+      "lat": 51.3368634,
+      "lon": 12.3749142,
+      "tags": {
+        "brand": "Rewe City",
+        "brand:wikidata": "Q16968817",
+        "brand:wikipedia": "en:REWE",
+        "name": "Rewe City",
+        "opening_hours": "Mo-Sa 07:00-22:00",
+        "shop": "supermarket",
+        "start_date": "2019-09-13",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7565339484,
+      "lat": 51.3464441,
+      "lon": 12.3943159,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "35",
+        "addr:postcode": "04315",
+        "addr:street": "Rosa-Luxemburg-Straße",
+        "brand": "Konsum",
+        "contact:email": "konsum@konsum-leipzig.de",
+        "contact:facebook": "https://www.facebook.com/Konsum.Leipzig",
+        "contact:phone": "+49 341 69938824",
+        "contact:website": "https://www.konsum-leipzig.de",
+        "name": "Konsum",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su,PH off",
+        "operator": "Konsum Leipzig eG",
+        "shop": "supermarket",
+        "survey:date": "2021-05-20",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7804390256,
+      "lat": 51.3391209,
+      "lon": 12.3769213,
+      "tags": {
+        "air_conditioning": "yes",
+        "level": "-1",
+        "name": "Galeria Markthalle",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7941367868,
+      "lat": 51.3782167,
+      "lon": 12.3029361,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "04159",
+        "addr:street": "Mühlenstraße",
+        "addr:suburb": "Lützschena-Stahmeln",
+        "brand": "Netto Marken-Discount",
+        "brand:wikidata": "Q879858",
+        "brand:wikipedia": "de:Netto Marken-Discount",
+        "contact:email": "info@netto-online.de",
+        "contact:facebook": "https://de-de.facebook.com/nettomarkendiscount",
+        "contact:instagram": "https://www.instagram.com/netto_marken_discount",
+        "contact:website": "https://www.netto-online.de",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Netto Marken-Discount",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su,PH off",
+        "operator": "Netto Marken-Discount Stiftung & Co. KG",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7947916977,
+      "lat": 51.3462173,
+      "lon": 12.4004705,
+      "tags": {
+        "addr:city": "Leipzig",
+        "addr:housenumber": "20",
+        "addr:postcode": "04315",
+        "addr:street": "Neustädter Straße",
+        "name": "Fairteiler am Querbeet (foodsharing)",
+        "opening_hours": "24/7",
+        "shop": "supermarket"
+      }
+    }
+
+  ]
+}

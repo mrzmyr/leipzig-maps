@@ -1,0 +1,838 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.9 76e5016d",
+  "osm3s": {
+    "timestamp_osm_base": "2021-09-29T21:09:08Z",
+    "timestamp_areas_base": "2021-09-29T20:06:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 26023348,
+      "lat": 51.3333676,
+      "lon": 12.3217349,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig-Lindenau",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLIN",
+        "station": "light_rail",
+        "uic_ref": "8012236",
+        "url": "https://www.leipzig-lexikon.de/LeipzigLindenau",
+        "wheelchair": "yes",
+        "wikidata": "Q16894088"
+      }
+    },
+    {
+      "type": "node",
+      "id": 243469137,
+      "lat": 51.3673208,
+      "lon": 12.3221554,
+      "tags": {
+        "name": "Hp Haus am See",
+        "operator": "Parkeisenbahn Auensee e.V.",
+        "railway": "halt",
+        "usage": "leisure",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 243469149,
+      "lat": 51.3683503,
+      "lon": 12.3149917,
+      "tags": {
+        "name": "Hp Gustav-Esche-Straße",
+        "operator": "Parkeisenbahn Auensee e.V.",
+        "railway": "halt",
+        "usage": "leisure",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 246805219,
+      "lat": 51.3694181,
+      "lon": 12.3246365,
+      "tags": {
+        "name": "Hp Elsteraue",
+        "railway": "halt",
+        "usage": "leisure"
+      }
+    },
+    {
+      "type": "node",
+      "id": 376142577,
+      "lat": 51.3465518,
+      "lon": 12.3830858,
+      "tags": {
+        "name": "Leipzig Hauptbahnhof",
+        "name:fr": "Gare centrale de Leipzig",
+        "name:ja": "ライプツィヒ中央駅",
+        "network": "MDV",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LL",
+        "railway:station_category": "1",
+        "short_name": "Leipzig Hbf",
+        "train": "yes",
+        "uic_ref": "8010205",
+        "wheelchair": "yes",
+        "wikidata": "Q703916",
+        "wikipedia": "de:Leipzig Hauptbahnhof"
+      }
+    },
+    {
+      "type": "node",
+      "id": 415265417,
+      "lat": 51.3702911,
+      "lon": 12.3196723,
+      "tags": {
+        "building": "yes",
+        "internet_access": "no",
+        "name": "Bf Auensee",
+        "operator": "Parkeisenbahn Auensee e.V.",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "usage": "leisure",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 713096489,
+      "lat": 51.3372894,
+      "lon": 12.2967477,
+      "tags": {
+        "name": "Schomburgkstraße",
+        "operator": "Museumsfeldbahn Leipzig Lindenau e.V.",
+        "railway": "halt",
+        "usage": "tourism",
+        "website": "https://www.museumsfeldbahn.de",
+        "wheelchair": "no",
+        "wikidata": "Q1954818",
+        "wikipedia": "de:Museumsfeldbahn Leipzig-Lindenau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 713096502,
+      "lat": 51.3350932,
+      "lon": 12.300442,
+      "tags": {
+        "name": "Museumsbahnhof (Feldbahnmuseum)",
+        "operator": "Museumsfeldbahn Leipzig Lindenau e.V.",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "usage": "tourism",
+        "website": "https://www.museumsfeldbahn.de",
+        "wheelchair": "no",
+        "wikidata": "Q1954818",
+        "wikipedia": "de:Museumsfeldbahn Leipzig-Lindenau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1487072712,
+      "lat": 51.3760243,
+      "lon": 12.3970531,
+      "tags": {
+        "name": "Leipzig Essener Straße",
+        "operator": "DB Netz AG;DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "source": "https://www.youtube.com/watch?v=6FD43f2CiJM",
+        "start_date": "2018-12-09",
+        "train": "yes",
+        "url": "https://www.leipzig-lexikon.de/LeipzigEssenerStrasse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1741830094,
+      "lat": 51.3405593,
+      "lon": 12.4563682,
+      "tags": {
+        "name": "Leipzig Werkstättenstraße",
+        "old_name": "Engelsdorf Werkstätten",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LEW",
+        "railway:ref:count": "1/2",
+        "railway:station_category": "6",
+        "uic_name": "Engelsdorf Werkstätten",
+        "uic_ref": "8011495",
+        "url": "https://www.leipzig-lexikon.de/LeipzigWerkstaettenstrasse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1833012955,
+      "lat": 51.3806371,
+      "lon": 12.3216603,
+      "tags": {
+        "name": "Leipzig-Wahren",
+        "operator": "Deutsche Bahn",
+        "railway": "halt",
+        "railway:ref": "LLW",
+        "wheelchair": "yes",
+        "wikidata": "Q801077"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1833107718,
+      "lat": 51.3698862,
+      "lon": 12.3534876,
+      "tags": {
+        "name": "Leipzig Olbrichtstraße",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LSEL",
+        "railway:ref:count": "1/2",
+        "railway:station_category": "6",
+        "uic_ref": "8012181",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1833107721,
+      "lat": 51.3729871,
+      "lon": 12.3442686,
+      "tags": {
+        "name": "Leipzig Slevogtstraße",
+        "operator": "Deutsche Bahn",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LSVS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1946583016,
+      "lat": 51.3009323,
+      "lon": 12.3865233,
+      "tags": {
+        "name": "Leipzig-Connewitz",
+        "operator": "Deutsche Bahn",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLC",
+        "url": "https://www.leipzig-lexikon.de/LeipzigConnewitz",
+        "wheelchair": "yes",
+        "wikidata": "Q15730001"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1992533335,
+      "lat": 51.3441994,
+      "lon": 12.4438271,
+      "tags": {
+        "name": "Leipzig-Paunsdorf",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLPD",
+        "railway:ref:count": "1/2",
+        "railway:station_category": "5",
+        "uic_ref": "8010208",
+        "url": "https://www.leipzig-lexikon.de/LeipzigPaunsdorf",
+        "wheelchair": "yes",
+        "wikidata": "Q11753830"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1993610395,
+      "lat": 51.340615,
+      "lon": 12.3745806,
+      "tags": {
+        "layer": "-2",
+        "level": "-2",
+        "light_rail": "yes",
+        "name": "Leipzig Markt",
+        "name:ja": "ライプツィヒ マルクト",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLMK",
+        "station": "light_rail",
+        "train": "yes",
+        "uic_ref": "8012186",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMarkt",
+        "wheelchair": "yes",
+        "wikidata": "Q15140168"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2094952020,
+      "lat": 51.389972,
+      "lon": 12.293372,
+      "tags": {
+        "name": "Leipzig-Lützschena",
+        "railway": "halt",
+        "railway:ref": "LLA",
+        "wikidata": "Q67151588"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2166971093,
+      "lat": 51.3694193,
+      "lon": 12.4601666,
+      "tags": {
+        "name": "Leipzig-Heiterblick",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLH",
+        "railway:ref:count": "1/2",
+        "railway:station_category": "6",
+        "uic_ref": "8012190"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2197441090,
+      "lat": 51.338377,
+      "lon": 12.2846936,
+      "tags": {
+        "name": "Schönauer Lachen",
+        "operator": "Museumsfeldbahn Leipzig Lindenau e.V.",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "usage": "tourism",
+        "website": "https://www.museumsfeldbahn.de",
+        "wheelchair": "no",
+        "wikidata": "Q1954818",
+        "wikipedia": "de:Museumsfeldbahn Leipzig-Lindenau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2197441433,
+      "lat": 51.3371425,
+      "lon": 12.2900905,
+      "tags": {
+        "name": "Schwarzer Weg",
+        "operator": "Museumsfeldbahn Leipzig Lindenau e.V.",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "usage": "tourism",
+        "usage_1": "tourism",
+        "website": "https://www.museumsfeldbahn.de",
+        "wheelchair": "no",
+        "wikidata": "Q1954818",
+        "wikipedia": "de:Museumsfeldbahn Leipzig-Lindenau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2288857437,
+      "lat": 51.372106,
+      "lon": 12.4285198,
+      "tags": {
+        "name": "Leipzig-Thekla",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLT",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q11753826"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2299420248,
+      "lat": 51.3324325,
+      "lon": 12.4205194,
+      "tags": {
+        "alt_name": "Leipzig Anger-Crottendorf",
+        "name": "Leipzig-Anger-Crottendorf",
+        "name:ja": "ライプツィヒ アンガークロッテンドルフ",
+        "note": "In Fahrplanmedien wird der Haltepunkt als \"Leipzig Anger-Crottendorf\" bezeichnet, im Betriebsstellenverzeichnis als \"Anger-Crottendorf\" In der Richtlinie 100 der DB als \"Leipzig-Anger-Crottendorf\"",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LACF",
+        "train": "yes",
+        "url": "https://www.leipzig-lexikon.de/LeipzigAngerCrottendorf",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2299420249,
+      "lat": 51.3237401,
+      "lon": 12.4107603,
+      "tags": {
+        "level": "1",
+        "name": "Leipzig-Stötteritz",
+        "operator": "DB Netz AG;DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLST",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q801076"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2444462932,
+      "lat": 51.3452705,
+      "lon": 12.4242714,
+      "tags": {
+        "alt_name": "Sellerhausen",
+        "name": "Leipzig-Sellerhausen",
+        "network": "MDV",
+        "note": "Der Name ist die offizielle Betriebsstellenbezeichnung",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LSEH",
+        "railway:station_category": "5",
+        "url": "https://www.leipzig-lexikon.de/LeipzigSellerhausen",
+        "wheelchair": "yes",
+        "wikidata": "Q99017593"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2536347483,
+      "lat": 51.3539868,
+      "lon": 12.3048679,
+      "tags": {
+        "name": "Leipzig-Leutzsch",
+        "on_demand": "no",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLEL",
+        "railway:station_category": "5",
+        "request_stop": "yes",
+        "uic_ref": "8010207",
+        "url": "https://www.leipzig-lexikon.de/LeipzigLeutzsch",
+        "wikidata": "Q801074",
+        "wikipedia": "de:Bahnhof Leipzig-Leutzsch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2729294292,
+      "lat": 51.3439212,
+      "lon": 12.4776692,
+      "tags": {
+        "alt_name": "Engelsdorf (b Leipzig)",
+        "name": "Leipzig-Engelsdorf",
+        "name:note": "\"Engelsdorf (b Leipzig)\" ist die offizielle Betriebsstellenbezeichnung, in Fahrplänen wird dagegen nur \"Leipzig-Engelsdorf\" genannt",
+        "network": "MDV",
+        "official_name": "Engelsdorf Hp",
+        "old_name": "Engelsdorf",
+        "operator": "DB Station&Service AG",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LE H",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3493054183,
+      "lat": 51.364453,
+      "lon": 12.4011213,
+      "tags": {
+        "name": "Leipzig Nord",
+        "operator": "DB Netz AG;DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLN",
+        "railway:station_category": "6",
+        "uic_name": "Leipzig Nord",
+        "uic_ref": "8012196",
+        "url": "https://www.leipzig-lexikon.de/LeipzigNord",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3620655545,
+      "lat": 51.3670174,
+      "lon": 12.3662685,
+      "tags": {
+        "name": "Leipzig Coppiplatz",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LCZ",
+        "train": "yes",
+        "url": "https://www.leipzig-lexikon.de/LeipzigCoppiplatz",
+        "wheelchair": "yes",
+        "wikidata": "Q15858211"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3620655546,
+      "lat": 51.3645414,
+      "lon": 12.3525927,
+      "tags": {
+        "internet_access": "no",
+        "light_rail": "yes",
+        "name": "Leipzig-Möckern",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLMH",
+        "station": "light_rail",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMoeckern",
+        "wikidata": "Q15858421"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3682895807,
+      "lat": 51.3512182,
+      "lon": 12.3668214,
+      "tags": {
+        "name": "Safari-Train Zoo Leipzig",
+        "railway": "halt",
+        "station": "miniature",
+        "usage": "tourism",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3718879892,
+      "lat": 51.3959952,
+      "lon": 12.3893176,
+      "tags": {
+        "name": "Leipzig Messe",
+        "network": "MDV",
+        "official_name": "Leipzig Messe Haltepunkt",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LNW H",
+        "railway:station_category": "4",
+        "wheelchair": "yes",
+        "wikidata": "Q11753827",
+        "wikipedia": "de:Bahnhof Leipzig Messe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3847277005,
+      "lat": 51.3191044,
+      "lon": 12.2916105,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig-Allee-Center",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LSTG",
+        "station": "light_rail",
+        "toilets:wheelchair": "yes",
+        "uic_ref": "8013070",
+        "url": "https://www.leipzig-lexikon.de/LeipzigAlleeCenter",
+        "wheelchair": "yes",
+        "wikidata": "Q16894086"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3847801811,
+      "lat": 51.317189,
+      "lon": 12.2789668,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig-Karlsruher Straße",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LKRS",
+        "station": "light_rail",
+        "uic_ref": "8010186",
+        "url": "https://www.leipzig-lexikon.de/LeipzigKarlsruherStrasse",
+        "wheelchair": "yes",
+        "wikidata": "Q16894085"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3847801813,
+      "lat": 51.3208962,
+      "lon": 12.303072,
+      "tags": {
+        "name": "Leipzig-Grünauer Allee",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LGRA",
+        "railway:station_category": "6",
+        "train": "yes",
+        "uic_ref": "8011771",
+        "url": "https://www.leipzig-lexikon.de/LeipzigGruenauerAllee",
+        "wikidata": "Q16894087"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3911497596,
+      "lat": 51.3059723,
+      "lon": 12.461466,
+      "tags": {
+        "name": "Leipzig-Holzhausen",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LHSN",
+        "url": "https://www.leipzig-lexikon.de/LeipzigHolzhausen",
+        "wheelchair": "yes",
+        "wikidata": "Q108673517"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3911497597,
+      "lat": 51.28377,
+      "lon": 12.4693871,
+      "tags": {
+        "name": "Leipzig-Liebertwolkwitz",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLWZ",
+        "url": "https://www.leipzig-lexikon.de/LeipzigLiebertwolkwitz",
+        "wheelchair": "no",
+        "wikidata": "Q108673554"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3911497599,
+      "lat": 51.3254968,
+      "lon": 12.4597573,
+      "tags": {
+        "name": "Leipzig-Mölkau",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LMLK",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMoelkau",
+        "website": "https://www.fahrplan.guru/moelkau-bahnhof-leipzig--leipzig",
+        "wikidata": "Q108669396"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3997898906,
+      "lat": 51.3280545,
+      "lon": 12.3220542,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig-Plagwitz",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLP",
+        "railway:station_category": "5",
+        "station": "light_rail",
+        "train": "yes",
+        "uic_ref": "8010209",
+        "url": "https://www.leipzig-lexikon.de/LeipzigPlagwitz.htm",
+        "wheelchair": "yes",
+        "wikidata": "Q801073",
+        "wikipedia": "de:Bahnhof Leipzig-Plagwitz"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4877849763,
+      "lat": 51.3154289,
+      "lon": 12.2681598,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig Miltitzer Allee",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LMIA",
+        "railway:station_category": "5",
+        "station": "light_rail",
+        "uic_ref": "8012344",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMiltitzerAllee",
+        "wheelchair": "yes",
+        "wikidata": "Q16894084"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4877865246,
+      "lat": 51.3253238,
+      "lon": 12.2550787,
+      "tags": {
+        "name": "Leipzig-Miltitz",
+        "railway": "station",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMiltitz"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4877881361,
+      "lat": 51.3419727,
+      "lon": 12.2828179,
+      "tags": {
+        "name": "Leipzig-Rückmarsdorf",
+        "railway": "halt",
+        "url": "https://www.leipzig-lexikon.de/LeipzigRueckmarsdorf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4878038057,
+      "lat": 51.3629334,
+      "lon": 12.3743559,
+      "tags": {
+        "name": "Leipzig-Gohlis",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLG",
+        "train": "yes",
+        "uic_ref": "DE16250",
+        "url": "https://www.leipzig-lexikon.de/LeipzigGohlis",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4882974564,
+      "lat": 51.3200934,
+      "lon": 12.3862522,
+      "tags": {
+        "alt_name": "Leipzig-MDR",
+        "name": "Leipzig MDR",
+        "note": "\"Leipzig-MDR\" laut Stationsschildern",
+        "operator": "DB Netz AG;DB Station&Service AG",
+        "railway": "halt",
+        "railway:ref": "LMDR",
+        "ref": "2",
+        "url": "https://www.leipzig-lexikon.de/LeipzigMDR",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5619497135,
+      "lat": 51.3354384,
+      "lon": 12.3753366,
+      "tags": {
+        "light_rail": "yes",
+        "name": "Leipzig Wilhelm-Leuschner-Platz",
+        "operator": "DB Netz AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLWP",
+        "station": "light_rail",
+        "uic_ref": "8012202",
+        "url": "https://www.leipzig-lexikon.de/LeipzigWilhelmLeuschnerPlatz",
+        "wheelchair": "yes",
+        "wikidata": "Q15629531"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5621640643,
+      "lat": 51.3454299,
+      "lon": 12.3801267,
+      "tags": {
+        "name": "Leipzig Hauptbahnhof (tief)",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LL T",
+        "railway:station_category": "1",
+        "short_name": "Leipzig Hbf (tief)",
+        "start_date": "2013-12",
+        "uic_ref": "8010205",
+        "url": "https://www.leipzig-lexikon.de/LeipzigHbfTief",
+        "wheelchair": "yes",
+        "wikidata": "Q703916",
+        "wikipedia": "de:Leipzig Hauptbahnhof"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5647138907,
+      "lat": 51.3295165,
+      "lon": 12.3815184,
+      "tags": {
+        "name": "Leipzig Bayerischer Bahnhof",
+        "operator": "DB Netz AG;DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLB",
+        "url": "https://www.leipzig-lexikon.de/LeipzigBayerischerBahnhof",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6771826398,
+      "lat": 51.2781222,
+      "lon": 12.3093519,
+      "tags": {
+        "name": "Leipzig Knauthain",
+        "official_name": "Leipzig-Knauthain",
+        "operator": "DB Station&Service AG",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LLK",
+        "railway:ref:DB": "LLK",
+        "ref:IFOPT": "de:14713:8012192",
+        "ref:IFOPT:DB": "de:14713:8012192",
+        "uic_ref": "8012192",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7057080315,
+      "lat": 51.3738161,
+      "lon": 12.4128041,
+      "tags": {
+        "name": "Leipzig Mockauer Straße",
+        "operator": "Deutsche Bahn",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "LLMS",
+        "source:name": "https://data.deutschebahn.com/dataset/data-betriebsstellen/resource/0a833220-a3e5-4056-8c5e-64dc575c71fa",
+        "source:railway:ref": "https://data.deutschebahn.com/dataset/data-betriebsstellen/resource/0a833220-a3e5-4056-8c5e-64dc575c71fa",
+        "start_date": "2019-12-15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7931651159,
+      "lat": 51.3186765,
+      "lon": 12.4061884,
+      "tags": {
+        "name": "Leipzig Völkerschlachtdenkmal",
+        "operator": "DB Station&Service AG",
+        "railway": "halt",
+        "railway:ref": "LLVD",
+        "train": "yes",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}

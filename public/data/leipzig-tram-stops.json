@@ -1,0 +1,8119 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.9 76e5016d",
+  "osm3s": {
+    "timestamp_osm_base": "2021-09-29T21:22:18Z",
+    "timestamp_areas_base": "2021-09-29T21:15:13Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 26080888,
+  "lat": 51.3401739,
+  "lon": 12.3495870,
+  "tags": {
+    "name": "Sportforum Süd",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0246",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 26080893,
+  "lat": 51.3378034,
+  "lon": 12.3408175,
+  "tags": {
+    "name": "Angerbrücke, Straßenbahnhof",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0247",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 26819468,
+  "lat": 51.3427477,
+  "lon": 12.4142629,
+  "tags": {
+    "name": "Edlichstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0074",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 29862550,
+  "lat": 51.3482865,
+  "lon": 12.4199003,
+  "tags": {
+    "name": "Volksgarten",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0051",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 59843729,
+  "lat": 51.3498896,
+  "lon": 12.3776953,
+  "tags": {
+    "name": "Wilhelm-Liebknecht-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0013",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 59958337,
+  "lat": 51.3246955,
+  "lon": 12.2947590,
+  "tags": {
+    "name": "Parkallee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0285",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 59958382,
+  "lat": 51.3231334,
+  "lon": 12.2888010,
+  "tags": {
+    "name": "Schönauer Ring",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 59962958,
+  "lat": 51.3795866,
+  "lon": 12.4254736,
+  "tags": {
+    "name": "Thekla",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0026",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 60822530,
+  "lat": 51.3749098,
+  "lon": 12.4129174,
+  "tags": {
+    "name": "Mockau, Post",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0023",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 73861915,
+  "lat": 51.3191221,
+  "lon": 12.4299973,
+  "tags": {
+    "name": "Stötteritz, Holzhäuser Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0711",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 75477679,
+  "lat": 51.3238279,
+  "lon": 12.4161114,
+  "tags": {
+    "name": "Breslauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0109",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 105897405,
+  "lat": 51.3233481,
+  "lon": 12.3963082,
+  "tags": {
+    "name": "Deutsche Nationalbibliothek",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0141",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 117167856,
+  "lat": 51.2957083,
+  "lon": 12.3965163,
+  "tags": {
+    "name": "Lößnig",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0159",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 118087121,
+  "lat": 51.3248322,
+  "lon": 12.3736515,
+  "tags": {
+    "name": "Südplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0169",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 123900738,
+  "lat": 51.3439179,
+  "lon": 12.3801743,
+  "tags": {
+    "bus": "yes",
+    "departures_board": "realtime",
+    "description": "Hauptbahnhof, Steig D",
+    "highway": "bus_stop",
+    "name": "Hauptbahnhof, Steig D",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "D",
+    "toilets:wheelchair": "yes",
+    "tram": "yes",
+    "uic_ref": "956291",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 130106007,
+  "lat": 51.3538059,
+  "lon": 12.4302822,
+  "tags": {
+    "name": "Schwantesstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0164",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 175939899,
+  "lat": 51.3358511,
+  "lon": 12.3755928,
+  "tags": {
+    "bus": "yes",
+    "name": "Wilhelm-Leuschner-Platz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0007",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 178505962,
+  "lat": 51.3356208,
+  "lon": 12.3785646,
+  "tags": {
+    "name": "Roßplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0008",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 178856492,
+  "lat": 51.3748803,
+  "lon": 12.3784417,
+  "tags": {
+    "name": "Gohlis-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0361",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 178860143,
+  "lat": 51.3683126,
+  "lon": 12.3860801,
+  "tags": {
+    "name": "Eutritzscher Markt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0407",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 195300761,
+  "lat": 51.3862444,
+  "lon": 12.2674722,
+  "tags": {
+    "name": "Hänichen, Bismarckturm",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0387",
+    "shelter": "yes",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 195301118,
+  "lat": 51.3857611,
+  "lon": 12.2740211,
+  "tags": {
+    "name": "Freirodaer Weg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0386",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 203474049,
+  "lat": 51.3604067,
+  "lon": 12.4691148,
+  "tags": {
+    "name": "Paunsdorf-Nord",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0087",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 203479458,
+  "lat": 51.3646416,
+  "lon": 12.4647039,
+  "tags": {
+    "name": "Heisenbergstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0058",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 205292202,
+  "lat": 51.3464532,
+  "lon": 12.4579154,
+  "tags": {
+    "name": "Paunsdorf, Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0083",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 205293551,
+  "lat": 51.3524037,
+  "lon": 12.4589645,
+  "tags": {
+    "name": "Am Vorwerk",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0085",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 206251443,
+  "lat": 51.3229983,
+  "lon": 12.3937994,
+  "tags": {
+    "name": "Deutsche Nationalbibliothek",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0141",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 206251460,
+  "lat": 51.3179074,
+  "lon": 12.3947459,
+  "tags": {
+    "name": "An den Tierkliniken",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0155",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 206335432,
+  "lat": 51.3147963,
+  "lon": 12.3744720,
+  "tags": {
+    "bus": "yes",
+    "name": "Richard-Lehmann-Straße, HTWK",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0171",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 211244023,
+  "lat": 51.3390985,
+  "lon": 12.3629202,
+  "tags": {
+    "name": "Westplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0205",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 211253842,
+  "lat": 51.3649524,
+  "lon": 12.3844470,
+  "tags": {
+    "name": "Eutritzscher Zentrum",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0396",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 243451728,
+  "lat": 51.3613154,
+  "lon": 12.2719855,
+  "tags": {
+    "name": "Böhlitz-Ehrenberg, Burghausener Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0330",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 243452661,
+  "lat": 51.3617249,
+  "lon": 12.2721642,
+  "tags": {
+    "name": "Böhlitz-Ehrenberg, Burghausener Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0330",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 243463463,
+  "lat": 51.3612805,
+  "lon": 12.2768986,
+  "tags": {
+    "name": "Forstweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0329",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 243879340,
+  "lat": 51.3318794,
+  "lon": 12.3955445,
+  "tags": {
+    "name": "Ostplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0121",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248036131,
+  "lat": 51.3271497,
+  "lon": 12.3890812,
+  "tags": {
+    "name": "Johannisallee",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248048202,
+  "lat": 51.3347018,
+  "lon": 12.3915172,
+  "tags": {
+    "name": "Gutenbergplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0120",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248052214,
+  "lat": 51.3450194,
+  "lon": 12.3787250,
+  "tags": {
+    "alt_name": "Hauptbahnhof Gleis 6",
+    "description": "Hauptbahnhof (Westseite), Gleis 6",
+    "name": "Hauptbahnhof, Westseite",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "6",
+    "source:ref": "survey",
+    "tram": "yes",
+    "uic_ref": "958957",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248052217,
+  "lat": 51.3433473,
+  "lon": 12.3656142,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Leibnizstraße",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0244",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248455299,
+  "lat": 51.3433853,
+  "lon": 12.3839231,
+  "tags": {
+    "alt_name": "Wintergartenstraße/Hauptbahnhof Gleis 7",
+    "name": "Hauptbahnhof, Wintergartenstraße",
+    "network": "MDV",
+    "old_name": "Wintergartenstraße/Hauptbahnhof",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0010",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 248550915,
+  "lat": 51.3498579,
+  "lon": 12.3769014,
+  "tags": {
+    "name": "Wilhelm-Liebknecht-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0013",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 249279868,
+  "lat": 51.3278677,
+  "lon": 12.3085065,
+  "tags": {
+    "name": "Saarländer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0502",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250534982,
+  "lat": 51.3013824,
+  "lon": 12.3962741,
+  "tags": {
+    "name": "Moritz-Hof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0158",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250535860,
+  "lat": 51.3141499,
+  "lon": 12.3944744,
+  "tags": {
+    "name": "Richard-Lehmann-/Zwickauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0144",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250544028,
+  "lat": 51.3356302,
+  "lon": 12.3709363,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Neues Rathaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0005",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250566446,
+  "lat": 51.3087675,
+  "lon": 12.2710293,
+  "tags": {
+    "name": "Krakauer Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0220",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250566452,
+  "lat": 51.3115521,
+  "lon": 12.2819565,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Ratzelbogen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0218",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250566457,
+  "lat": 51.3133065,
+  "lon": 12.2933519,
+  "tags": {
+    "name": "Stuttgarter Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0217",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250734121,
+  "lat": 51.3093438,
+  "lon": 12.3962959,
+  "tags": {
+    "name": "Triftweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0156",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 250734125,
+  "lat": 51.3057206,
+  "lon": 12.3963446,
+  "tags": {
+    "name": "An der Märchenwiese",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0157",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 251009612,
+  "lat": 51.3203206,
+  "lon": 12.3296178,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Adler",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0211",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 251427519,
+  "lat": 51.3140770,
+  "lon": 12.3014677,
+  "tags": {
+    "name": "Schönauer/Ratzelstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0216",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 256534730,
+  "lat": 51.3391362,
+  "lon": 12.3956671,
+  "tags": {
+    "name": "Gerichtsweg",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0071",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 261705980,
+  "lat": 51.3462282,
+  "lon": 12.4447223,
+  "tags": {
+    "name": "Theodor-Heuss-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0081",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 266201270,
+  "lat": 51.3456312,
+  "lon": 12.3929688,
+  "tags": {
+    "name": "Friedrich-List-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0031",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 266201683,
+  "lat": 51.3391909,
+  "lon": 12.3821455,
+  "tags": {
+    "name": "Augustusplatz",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 268638888,
+  "lat": 51.3209107,
+  "lon": 12.3734857,
+  "tags": {
+    "bench": "yes",
+    "name": "Karl-Liebknecht-/Kurt-Eisner-Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0170",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 269064951,
+  "lat": 51.2869294,
+  "lon": 12.3137914,
+  "tags": {
+    "name": "Seumestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0259",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 269189409,
+  "lat": 51.3349264,
+  "lon": 12.3691389,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Neues Rathaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0005",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 269328294,
+  "lat": 51.3152730,
+  "lon": 12.3782928,
+  "tags": {
+    "name": "Arthur-Hoffmann-/Richard-Lehmann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0152",
+    "route_ref": "9;N9",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 269594494,
+  "lat": 51.3400678,
+  "lon": 12.3712347,
+  "tags": {
+    "name": "Thomaskirche",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0004",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 269599544,
+  "lat": 51.3549005,
+  "lon": 12.3908316,
+  "tags": {
+    "name": "Apelstr./Historischer Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0015",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 269600058,
+  "lat": 51.3591813,
+  "lon": 12.3962507,
+  "tags": {
+    "name": "Hamburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0016",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270948901,
+  "lat": 51.3783894,
+  "lon": 12.3046727,
+  "tags": {
+    "name": "Stahmeln",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0384",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270952023,
+  "lat": 51.3611134,
+  "lon": 12.3714531,
+  "tags": {
+    "name": "Georg-Schumann-/Lützowstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0365",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270952456,
+  "lat": 51.3559362,
+  "lon": 12.3767669,
+  "tags": {
+    "name": "Chausseehaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0364",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270952931,
+  "lat": 51.3612648,
+  "lon": 12.3808781,
+  "tags": {
+    "name": "Wilhelminenstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0405",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270955283,
+  "lat": 51.3723830,
+  "lon": 12.3857331,
+  "tags": {
+    "name": "Mosenthinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0408",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270955451,
+  "lat": 51.3766488,
+  "lon": 12.3853586,
+  "tags": {
+    "name": "Delitzscher/Essener Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0409",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270956345,
+  "lat": 51.3841202,
+  "lon": 12.3812337,
+  "tags": {
+    "name": "Klinikum St. Georg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0411",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270958870,
+  "lat": 51.3899511,
+  "lon": 12.3773449,
+  "tags": {
+    "bus": "yes",
+    "local_ref": "0413",
+    "name": "Dachauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270960853,
+  "lat": 51.3935070,
+  "lon": 12.3764961,
+  "tags": {
+    "name": "Wiederitzsch-Mitte",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0414",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270960971,
+  "lat": 51.3961328,
+  "lon": 12.3893384,
+  "tags": {
+    "bin": "yes",
+    "name": "S-Bahnhof Messe",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0416",
+    "ref_name": "Leipzig, S-Bahnhof Messe (Tram/Bus)",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270961025,
+  "lat": 51.3976287,
+  "lon": 12.3953549,
+  "tags": {
+    "name": "Messegelände",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0417",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270966482,
+  "lat": 51.3598253,
+  "lon": 12.4429723,
+  "tags": {
+    "name": "Hohentichelnstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0066",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270966785,
+  "lat": 51.3616767,
+  "lon": 12.4468523,
+  "tags": {
+    "name": "Arcus Park",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0055",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 270966893,
+  "lat": 51.3642788,
+  "lon": 12.4523093,
+  "tags": {
+    "name": "Heiterblick, Teslastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0056",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270967243,
+  "lat": 51.3671269,
+  "lon": 12.4599156,
+  "tags": {
+    "alt_name": "Portitzer Allee/Bf. Heiterblick",
+    "name": "Portitzer Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0057",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270970773,
+  "lat": 51.3589701,
+  "lon": 12.4733332,
+  "tags": {
+    "name": "Hermelinstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0088",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270971169,
+  "lat": 51.3488140,
+  "lon": 12.4790876,
+  "tags": {
+    "name": "Paunsdorf-Center",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0091",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 270971266,
+  "lat": 51.3466777,
+  "lon": 12.4789601,
+  "tags": {
+    "name": "Sommerfeld",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 272781982,
+  "lat": 51.3279266,
+  "lon": 12.3996746,
+  "tags": {
+    "name": "Witzgallstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0122",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276021506,
+  "lat": 51.3142790,
+  "lon": 12.3154909,
+  "tags": {
+    "name": "Kurt-Kresse-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0214",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276022917,
+  "lat": 51.3070901,
+  "lon": 12.2652832,
+  "tags": {
+    "name": "Zschampertaue",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0221",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276027981,
+  "lat": 51.3177771,
+  "lon": 12.4081268,
+  "tags": {
+    "name": "Naunhofer Straße",
+    "name:ja": "ナウンホーファー通り",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0125",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276038047,
+  "lat": 51.3143561,
+  "lon": 12.4122368,
+  "tags": {
+    "name": "Völkerschlachtdenkmal",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0126",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276038355,
+  "lat": 51.3114015,
+  "lon": 12.4168233,
+  "tags": {
+    "name": "Südfriedhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0127",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276049863,
+  "lat": 51.2974996,
+  "lon": 12.4354811,
+  "tags": {
+    "name": "Roseggerstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0131",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276053918,
+  "lat": 51.3005038,
+  "lon": 12.4311594,
+  "tags": {
+    "name": "Franzosenallee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0130",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276070314,
+  "lat": 51.2996077,
+  "lon": 12.3213003,
+  "tags": {
+    "name": "Großzschocher, Gerhard-Ellrodt-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0257",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 276256147,
+  "lat": 51.3816609,
+  "lon": 12.3555149,
+  "tags": {
+    "name": "Gohlis, Landsberger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276256236,
+  "lat": 51.3815326,
+  "lon": 12.3550262,
+  "tags": {
+    "bus": "yes",
+    "name": "Gohlis, Landsberger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0345",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 276256651,
+  "lat": 51.3788682,
+  "lon": 12.3587028,
+  "tags": {
+    "name": "Beyerleinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0344",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276266875,
+  "lat": 51.3462609,
+  "lon": 12.3567982,
+  "tags": {
+    "bus": "yes",
+    "name": "Feuerbachstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0336",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 276281920,
+  "lat": 51.3671433,
+  "lon": 12.3758701,
+  "tags": {
+    "name": "Virchow-/Coppistraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0603",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 276282220,
+  "lat": 51.3691161,
+  "lon": 12.3764755,
+  "tags": {
+    "name": "Gottschallstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0360",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 276290891,
+  "lat": 51.3603330,
+  "lon": 12.2849460,
+  "tags": {
+    "name": "Ludwig-Jahn-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0328",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276292568,
+  "lat": 51.3244440,
+  "lon": 12.2624248,
+  "tags": {
+    "bench": "yes",
+    "name": "Miltitz",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0302",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276292922,
+  "lat": 51.3232444,
+  "lon": 12.2647354,
+  "tags": {
+    "bench": "yes",
+    "name": "Saturnstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0301",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276293241,
+  "lat": 51.3215423,
+  "lon": 12.2675396,
+  "tags": {
+    "name": "Jupiterstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0300",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276293558,
+  "lat": 51.3176137,
+  "lon": 12.2679158,
+  "tags": {
+    "name": "Plovdiver Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0299",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276293866,
+  "lat": 51.3186074,
+  "lon": 12.2752773,
+  "tags": {
+    "name": "Kiewer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0298",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276294711,
+  "lat": 51.3203495,
+  "lon": 12.2824878,
+  "tags": {
+    "name": "Am Kirschberg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0297",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276295716,
+  "lat": 51.3257126,
+  "lon": 12.3017781,
+  "tags": {
+    "name": "Grünauer Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0284",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276302617,
+  "lat": 51.3253722,
+  "lon": 12.4008905,
+  "tags": {
+    "name": "Technisches Rathaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0123",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276361157,
+  "lat": 51.3800736,
+  "lon": 12.3842845,
+  "tags": {
+    "name": "Hornbach Baumarkt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0410",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 276364851,
+  "lat": 51.3282171,
+  "lon": 12.3228224,
+  "tags": {
+    "name": "S-Bahnhof Plagwitz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0231",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 277529705,
+  "lat": 51.3321634,
+  "lon": 12.3506896,
+  "tags": {
+    "name": "Klingerweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0207",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 307720580,
+  "lat": 51.2965049,
+  "lon": 12.3961557,
+  "tags": {
+    "name": "Lößnig",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0159",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 308838803,
+  "lat": 51.3105775,
+  "lon": 12.3743448,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Arno-Nitzsche-Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0183",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 310579664,
+  "lat": 51.3219003,
+  "lon": 12.4176897,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Weißestraße",
+    "network": "MDV",
+    "network:wikidata": "Q1742463",
+    "network:wikipedia": "de:Mitteldeutscher Verkehrsverbund",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0110",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 318227395,
+  "lat": 51.3807963,
+  "lon": 12.2930965,
+  "tags": {
+    "name": "Stahmelner Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0380",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 332297670,
+  "lat": 51.3462051,
+  "lon": 12.4458408,
+  "tags": {
+    "name": "Theodor-Heuss-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0081",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 335982937,
+  "lat": 51.3234569,
+  "lon": 12.4147053,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Breslauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0109",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 344269614,
+  "lat": 51.3383756,
+  "lon": 12.3817400,
+  "tags": {
+    "name": "Augustusplatz",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 355363380,
+  "lat": 51.3858948,
+  "lon": 12.3812877,
+  "tags": {
+    "name": "Eutritzsch, Krankenhaus",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0412",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 355363381,
+  "lat": 51.3858470,
+  "lon": 12.3813161,
+  "tags": {
+    "name": "Eutritzsch, Krankenhaus",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0412",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 412129945,
+  "lat": 51.3435270,
+  "lon": 12.3857747,
+  "tags": {
+    "name": "Hofmeisterstraße",
+    "network": "MDV",
+    "note": "weiterhin keine Bedienung durch Linie 8",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0030",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 412133577,
+  "lat": 51.3513127,
+  "lon": 12.3753194,
+  "tags": {
+    "name": "Michaelisstraße",
+    "network": "MDV",
+    "note": "wird nur bei Umleitung bedient",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0028",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 417308205,
+  "lat": 51.3274464,
+  "lon": 12.3887179,
+  "tags": {
+    "name": "Johannisallee",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 430703621,
+  "lat": 51.3277522,
+  "lon": 12.3224556,
+  "tags": {
+    "name": "S-Bahnhof Plagwitz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0231",
+    "tram": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q801073"
+  }
+},
+{
+  "type": "node",
+  "id": 470327462,
+  "lat": 51.3424045,
+  "lon": 12.3594032,
+  "tags": {
+    "name": "Waldplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0245",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 470327463,
+  "lat": 51.3417955,
+  "lon": 12.3567422,
+  "tags": {
+    "name": "Waldplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0245",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 470327468,
+  "lat": 51.3389107,
+  "lon": 12.3812809,
+  "tags": {
+    "bus": "yes",
+    "name": "Augustusplatz",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 470327476,
+  "lat": 51.3379537,
+  "lon": 12.3852765,
+  "tags": {
+    "name": "Johannisplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0070",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 470327503,
+  "lat": 51.3386504,
+  "lon": 12.4033630,
+  "tags": {
+    "name": "Reudnitz, Koehlerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0072",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 470466075,
+  "lat": 51.3251422,
+  "lon": 12.4108936,
+  "tags": {
+    "name": "S-Bahnhof Stötteritz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0108",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 503704817,
+  "lat": 51.3041888,
+  "lon": 12.4255256,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Probstheida",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0129",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 622597389,
+  "lat": 51.3151057,
+  "lon": 12.3078917,
+  "tags": {
+    "name": "Herrmann-Meyer-Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0215",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 627575135,
+  "lat": 51.3174623,
+  "lon": 12.3783770,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Steinplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0167",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 628655042,
+  "lat": 51.3200658,
+  "lon": 12.3784703,
+  "tags": {
+    "bus": "yes",
+    "name": "Kurt-Eisner-/Arthur-Hoffmann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0151",
+    "route_ref": "9;N9",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 857693314,
+  "lat": 51.3394457,
+  "lon": 12.3711747,
+  "tags": {
+    "name": "Thomaskirche",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0004",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 880386657,
+  "lat": 51.3556690,
+  "lon": 12.4342590,
+  "tags": {
+    "name": "Bautzner Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0053",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 880386676,
+  "lat": 51.3554660,
+  "lon": 12.4337579,
+  "tags": {
+    "name": "Bautzner Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0053",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 914652682,
+  "lat": 51.3439278,
+  "lon": 12.4215414,
+  "tags": {
+    "name": "Annenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0078",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 915371931,
+  "lat": 51.3149476,
+  "lon": 12.3739798,
+  "tags": {
+    "bus": "yes",
+    "name": "Richard-Lehmann-Straße, HTWK",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0171",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 942275067,
+  "lat": 51.3516793,
+  "lon": 12.4258996,
+  "tags": {
+    "name": "Permoser-/Torgauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0052",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 942275077,
+  "lat": 51.3539366,
+  "lon": 12.4306282,
+  "tags": {
+    "name": "Schwantesstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0164",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 942701989,
+  "lat": 51.3148082,
+  "lon": 12.3778749,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Arthur-Hoffmann-/Richard-Lehmann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0146",
+    "route_ref": "9;70;N9",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 943248028,
+  "lat": 51.3387438,
+  "lon": 12.3629055,
+  "tags": {
+    "name": "Westplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0205",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 945163727,
+  "lat": 51.3440145,
+  "lon": 12.3802727,
+  "tags": {
+    "bus": "yes",
+    "departures_board": "realtime",
+    "description": "Hauptbahnhof, Steig B",
+    "highway": "bus_stop",
+    "name": "Hauptbahnhof, Steig B",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "B",
+    "tram": "yes",
+    "uic_ref": "956291",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 966225395,
+  "lat": 51.3203180,
+  "lon": 12.3735152,
+  "tags": {
+    "name": "Karl-Liebknecht-/Kurt-Eisner-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0170",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 995749893,
+  "lat": 51.3152170,
+  "lon": 12.3733189,
+  "tags": {
+    "name": "Richard-Lehmann-Straße, HTWK",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0171",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 995771853,
+  "lat": 51.3428156,
+  "lon": 12.3830863,
+  "tags": {
+    "alt_name": "Wintergartenstraße/Hauptbahnhof Gleis 8",
+    "name": "Hauptbahnhof, Wintergartenstraße",
+    "network": "MDV",
+    "old_name": "Wintergartenstraße/Hauptbahnhof",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0010",
+    "source:ref": "survey",
+    "tram": "yes",
+    "uic_ref": "955524",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1014465989,
+  "lat": 51.3667057,
+  "lon": 12.3757851,
+  "tags": {
+    "name": "Virchow-/Coppistraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0603",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1014595303,
+  "lat": 51.3652252,
+  "lon": 12.3856058,
+  "tags": {
+    "bus": "yes",
+    "name": "Eutritzscher Zentrum",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0396",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1101764146,
+  "lat": 51.3448527,
+  "lon": 12.4196192,
+  "tags": {
+    "name": "Geißlerstraße, Bülowviertel",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0077",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1101764148,
+  "lat": 51.3448510,
+  "lon": 12.4187958,
+  "tags": {
+    "name": "Geißlerstraße, Bülowviertel",
+    "name:ja": "グライスラー通り, ビューローフィアテル",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0077",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1325546362,
+  "lat": 51.3463897,
+  "lon": 12.4781921,
+  "tags": {
+    "name": "Sommerfeld",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1326934856,
+  "lat": 51.3466789,
+  "lon": 12.4790375,
+  "tags": {
+    "name": "Sommerfeld",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1371242236,
+  "lat": 51.3041142,
+  "lon": 12.4257336,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Probstheida",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0129",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1373794006,
+  "lat": 51.3514010,
+  "lon": 12.4791563,
+  "tags": {
+    "name": "Paunsdorfer Allee/Permoserstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0090",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1380455365,
+  "lat": 51.3500806,
+  "lon": 12.3767071,
+  "tags": {
+    "name": "Wilhelm-Liebknecht-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0013",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1395169568,
+  "lat": 51.3439474,
+  "lon": 12.3802043,
+  "tags": {
+    "bus": "yes",
+    "departures_board": "realtime",
+    "description": "Hauptbahnhof, Steig C",
+    "highway": "bus_stop",
+    "name": "Hauptbahnhof, Steig C",
+    "name:ja": "中央駅",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "C",
+    "tram": "yes",
+    "uic_ref": "956291",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1395169569,
+  "lat": 51.3440444,
+  "lon": 12.3803031,
+  "tags": {
+    "bus": "yes",
+    "departures_board": "realtime",
+    "description": "Hauptbahnhof, Steig A",
+    "highway": "bus_stop",
+    "name": "Hauptbahnhof, Steig A",
+    "name:en": "Main Station",
+    "name:ja": "中央駅",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "A",
+    "tram": "yes",
+    "uic_ref": "956291",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1395246509,
+  "lat": 51.3540071,
+  "lon": 12.3887563,
+  "tags": {
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tactile_paving": "no",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1395246566,
+  "lat": 51.3549507,
+  "lon": 12.3909496,
+  "tags": {
+    "name": "Apelstr./Historischer Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0015",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379270,
+  "lat": 51.3205101,
+  "lon": 12.2827873,
+  "tags": {
+    "name": "Am Kirschberg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0297",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379271,
+  "lat": 51.3258309,
+  "lon": 12.3020320,
+  "tags": {
+    "name": "Grünauer Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0284",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379275,
+  "lat": 51.3219202,
+  "lon": 12.2674368,
+  "tags": {
+    "name": "Jupiterstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0300",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379284,
+  "lat": 51.3185497,
+  "lon": 12.2747807,
+  "tags": {
+    "name": "Kiewer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0298",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379289,
+  "lat": 51.3247728,
+  "lon": 12.2628130,
+  "tags": {
+    "name": "Miltitz",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0302",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379292,
+  "lat": 51.3247696,
+  "lon": 12.2953470,
+  "tags": {
+    "name": "Parkallee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0285",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379301,
+  "lat": 51.3179948,
+  "lon": 12.2678050,
+  "tags": {
+    "name": "Plovdiver Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0299",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379463,
+  "lat": 51.3233399,
+  "lon": 12.2641732,
+  "tags": {
+    "name": "Saturnstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0301",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379573,
+  "lat": 51.3278852,
+  "lon": 12.3084414,
+  "tags": {
+    "name": "Saarländer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0502",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1411379578,
+  "lat": 51.3226982,
+  "lon": 12.2877142,
+  "tags": {
+    "name": "Schönauer Ring",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1433258484,
+  "lat": 51.3586041,
+  "lon": 12.4739469,
+  "tags": {
+    "name": "Hermelinstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0088",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1433439485,
+  "lat": 51.3455194,
+  "lon": 12.4151369,
+  "tags": {
+    "name": "Torgauer Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0049",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1433439508,
+  "lat": 51.3482979,
+  "lon": 12.4198841,
+  "tags": {
+    "name": "Volksgarten",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0051",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1445519550,
+  "lat": 51.3521704,
+  "lon": 12.3053336,
+  "tags": {
+    "railway": "tram_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 1629793191,
+  "lat": 51.3064053,
+  "lon": 12.2600409,
+  "tags": {
+    "name": "Lausen",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "222",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1629811732,
+  "lat": 51.3116470,
+  "lon": 12.2825915,
+  "tags": {
+    "name": "Ratzelbogen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0218",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1632175170,
+  "lat": 51.3391175,
+  "lon": 12.3806535,
+  "tags": {
+    "bus": "yes",
+    "name": "Augustusplatz",
+    "network": "MDV",
+    "operator": "LVB",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "toilets:wheelchair": "yes",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1654105237,
+  "lat": 51.3348531,
+  "lon": 12.3783090,
+  "tags": {
+    "name": "Roßplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0008",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1654105601,
+  "lat": 51.3381177,
+  "lon": 12.3637007,
+  "tags": {
+    "name": "Westplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0205",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1655510063,
+  "lat": 51.3434812,
+  "lon": 12.3859821,
+  "tags": {
+    "bus": "yes",
+    "name": "Hofmeisterstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0030",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1658902550,
+  "lat": 51.3602276,
+  "lon": 12.2855763,
+  "tags": {
+    "name": "Ludwig-Jahn-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0328",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1674825452,
+  "lat": 51.3217454,
+  "lon": 12.4188690,
+  "tags": {
+    "name": "Weißestraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0110",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1693807115,
+  "lat": 51.3217078,
+  "lon": 12.3995829,
+  "tags": {
+    "name": "Deutscher Platz",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1693818250,
+  "lat": 51.3213440,
+  "lon": 12.3985843,
+  "tags": {
+    "name": "Deutscher Platz",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1696100929,
+  "lat": 51.3531974,
+  "lon": 12.3874873,
+  "tags": {
+    "name": "Wittenberger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0014",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1696112359,
+  "lat": 51.3635539,
+  "lon": 12.4014776,
+  "tags": {
+    "name": "Mockauer/Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0017",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1711230461,
+  "lat": 51.3452644,
+  "lon": 12.3920090,
+  "tags": {
+    "name": "Friedrich-List-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0031",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1711424676,
+  "lat": 51.3358925,
+  "lon": 12.4081331,
+  "tags": {
+    "name": "Breite Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "103",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1711428763,
+  "lat": 51.3390797,
+  "lon": 12.3946508,
+  "tags": {
+    "name": "Gerichtsweg",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0071",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1956515335,
+  "lat": 51.3342098,
+  "lon": 12.3922167,
+  "tags": {
+    "name": "Gutenbergplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0120",
+    "shelter": "yes",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1956515338,
+  "lat": 51.3369320,
+  "lon": 12.3873082,
+  "tags": {
+    "name": "Johannisplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0070",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1956515339,
+  "lat": 51.3315474,
+  "lon": 12.3959848,
+  "tags": {
+    "name": "Ostplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0121",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1956515383,
+  "lat": 51.3250006,
+  "lon": 12.4010667,
+  "tags": {
+    "name": "Technisches Rathaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0123",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1956515384,
+  "lat": 51.3284597,
+  "lon": 12.3994113,
+  "tags": {
+    "name": "Witzgallstraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0122",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2017149849,
+  "lat": 51.2808474,
+  "lon": 12.3103520,
+  "tags": {
+    "bus": "yes",
+    "name": "Fortunabadstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2038415876,
+  "lat": 51.3367804,
+  "lon": 12.3354045,
+  "tags": {
+    "bus": "yes",
+    "name": "Lindenauer Markt",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0278",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2041867426,
+  "lat": 51.3404137,
+  "lon": 12.3508021,
+  "tags": {
+    "name": "Sportforum Süd",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0246",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2041907040,
+  "lat": 51.3381211,
+  "lon": 12.3415143,
+  "tags": {
+    "name": "Angerbrücke, Straßenbahnhof",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0247",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2042179120,
+  "lat": 51.3200675,
+  "lon": 12.3176478,
+  "tags": {
+    "bench": "yes",
+    "construction": "yes",
+    "name": "Diezmannstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0213",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2042179173,
+  "lat": 51.3143355,
+  "lon": 12.3159650,
+  "tags": {
+    "name": "Kurt-Kresse-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0214",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047713820,
+  "lat": 51.3324836,
+  "lon": 12.3506894,
+  "tags": {
+    "name": "Klingerweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0207",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047739458,
+  "lat": 51.3187765,
+  "lon": 12.3409312,
+  "tags": {
+    "name": "Rödelstraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047739468,
+  "lat": 51.3281693,
+  "lon": 12.3459932,
+  "tags": {
+    "name": "Holbeinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0208",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047739490,
+  "lat": 51.3284919,
+  "lon": 12.3462388,
+  "tags": {
+    "name": "Holbeinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0208",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047739516,
+  "lat": 51.3193409,
+  "lon": 12.3413275,
+  "tags": {
+    "name": "Rödelstraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2047742457,
+  "lat": 51.3201701,
+  "lon": 12.3306316,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Adler",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0211",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2052758700,
+  "lat": 51.3362848,
+  "lon": 12.3572599,
+  "tags": {
+    "name": "Marschnerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0206",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2052758708,
+  "lat": 51.3359388,
+  "lon": 12.3566954,
+  "tags": {
+    "name": "Marschnerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0206",
+    "shelter": "yes",
+    "tactile_paving": "no",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2055653504,
+  "lat": 51.3290900,
+  "lon": 12.3366988,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Elsterpassage",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0249",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2055653512,
+  "lat": 51.3319480,
+  "lon": 12.3385390,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Felsenkeller",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0228",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2055653520,
+  "lat": 51.3291580,
+  "lon": 12.3368160,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Elsterpassage",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0249",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2055657664,
+  "lat": 51.3311444,
+  "lon": 12.3328404,
+  "tags": {
+    "name": "Karl-Heine-/Merseburger Straße",
+    "network": "MDV",
+    "note": "Richtung stadteinwärts",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0229",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055657675,
+  "lat": 51.3313734,
+  "lon": 12.3336076,
+  "tags": {
+    "name": "Karl-Heine-/Merseburger Straße",
+    "network": "MDV",
+    "note": "Richtung Bahnhof Plagwitz",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0229",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055657699,
+  "lat": 51.3323752,
+  "lon": 12.3380299,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Felsenkeller",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0228",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2055667608,
+  "lat": 51.3249005,
+  "lon": 12.3339950,
+  "tags": {
+    "name": "Markranstädter Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0250",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055667610,
+  "lat": 51.3251538,
+  "lon": 12.3342365,
+  "tags": {
+    "name": "Markranstädter Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0250",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055682581,
+  "lat": 51.3203707,
+  "lon": 12.3261929,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Antonien-/Gießerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0212",
+    "tactile_paving": "no",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2055682591,
+  "lat": 51.3203561,
+  "lon": 12.3248597,
+  "tags": {
+    "name": "Antonien-/Gießerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0212",
+    "tactile_paving": "no",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055682610,
+  "lat": 51.3207193,
+  "lon": 12.3306131,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Adler",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0211",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2055700701,
+  "lat": 51.3433244,
+  "lon": 12.3656243,
+  "tags": {
+    "name": "Leibnizstraße",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0244",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2055704159,
+  "lat": 51.3423803,
+  "lon": 12.3593724,
+  "tags": {
+    "name": "Waldplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0245",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2055704164,
+  "lat": 51.3457392,
+  "lon": 12.3571254,
+  "tags": {
+    "bus": "yes",
+    "name": "Feuerbachstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0336",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055705074,
+  "lat": 51.3493580,
+  "lon": 12.3551217,
+  "tags": {
+    "bus": "yes",
+    "name": "Am Mückenschlösschen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0337",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2055705075,
+  "lat": 51.3489892,
+  "lon": 12.3552880,
+  "tags": {
+    "bus": "yes",
+    "name": "Am Mückenschlösschen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0337",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2057888211,
+  "lat": 51.3295351,
+  "lon": 12.3268014,
+  "tags": {
+    "name": "Karl-Heine-/Gießerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0230",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2057888227,
+  "lat": 51.3297498,
+  "lon": 12.3275104,
+  "tags": {
+    "name": "Karl-Heine-/Gießerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0230",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066493554,
+  "lat": 51.3180983,
+  "lon": 12.4078009,
+  "tags": {
+    "name": "Naunhofer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0125",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066517301,
+  "lat": 51.3148479,
+  "lon": 12.4115492,
+  "tags": {
+    "name": "Völkerschlachtdenkmal",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066528426,
+  "lat": 51.3067852,
+  "lon": 12.4224359,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Prager/Russenstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0128",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066528479,
+  "lat": 51.3111650,
+  "lon": 12.4171288,
+  "tags": {
+    "name": "Südfriedhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0127",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066557084,
+  "lat": 51.3008068,
+  "lon": 12.4307788,
+  "tags": {
+    "name": "Franzosenallee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0130",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066557091,
+  "lat": 51.2977986,
+  "lon": 12.4351038,
+  "tags": {
+    "name": "Roseggerstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0131",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066557167,
+  "lat": 51.2941458,
+  "lon": 12.4403626,
+  "tags": {
+    "name": "Meusdorf",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0132",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066557196,
+  "lat": 51.2941340,
+  "lon": 12.4402925,
+  "tags": {
+    "name": "Meusdorf",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0132",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066557218,
+  "lat": 51.2944386,
+  "lon": 12.4401223,
+  "tags": {
+    "name": "Meusdorf",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0132",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066619131,
+  "lat": 51.3414503,
+  "lon": 12.3680283,
+  "tags": {
+    "name": "Gottschedstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0204",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2066619142,
+  "lat": 51.3413503,
+  "lon": 12.3677395,
+  "tags": {
+    "name": "Gottschedstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0204",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068148777,
+  "lat": 51.3949047,
+  "lon": 12.3832536,
+  "tags": {
+    "name": "Georg-Herwegh-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0415",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068148799,
+  "lat": 51.3961665,
+  "lon": 12.3893200,
+  "tags": {
+    "bin": "yes",
+    "name": "S-Bahnhof Messe",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0416",
+    "ref_name": "Leipzig, S-Bahnhof Messe (Tram/Bus)",
+    "shelter": "yes",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068148808,
+  "lat": 51.3934747,
+  "lon": 12.3765090,
+  "tags": {
+    "name": "Wiederitzsch-Mitte",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0414",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068151107,
+  "lat": 51.3969628,
+  "lon": 12.3951581,
+  "tags": {
+    "name": "Messegelände",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068151111,
+  "lat": 51.3951511,
+  "lon": 12.3843388,
+  "tags": {
+    "name": "Georg-Herwegh-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0415",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232572,
+  "lat": 51.3835136,
+  "lon": 12.3816736,
+  "tags": {
+    "name": "Klinikum St. Georg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0411",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232672,
+  "lat": 51.3800697,
+  "lon": 12.3842436,
+  "tags": {
+    "name": "Hornbach Baumarkt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0410",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232678,
+  "lat": 51.3723840,
+  "lon": 12.3856863,
+  "tags": {
+    "name": "Mosenthinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0408",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232700,
+  "lat": 51.3683142,
+  "lon": 12.3860351,
+  "tags": {
+    "name": "Eutritzscher Markt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0407",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232725,
+  "lat": 51.3899427,
+  "lon": 12.3773116,
+  "tags": {
+    "name": "Dachauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0413",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068232750,
+  "lat": 51.3758415,
+  "lon": 12.3853801,
+  "tags": {
+    "name": "Delitzscher/Essener Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0409",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068250539,
+  "lat": 51.3647043,
+  "lon": 12.3842453,
+  "tags": {
+    "name": "Eutritzscher Zentrum",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0396",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068250559,
+  "lat": 51.3612543,
+  "lon": 12.3809062,
+  "tags": {
+    "name": "Wilhelminenstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0405",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068250628,
+  "lat": 51.3559302,
+  "lon": 12.3768013,
+  "tags": {
+    "name": "Chausseehaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0364",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068250660,
+  "lat": 51.3652094,
+  "lon": 12.3855659,
+  "tags": {
+    "bus": "yes",
+    "name": "Eutritzscher Zentrum",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0396",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068299514,
+  "lat": 51.3498628,
+  "lon": 12.3777310,
+  "tags": {
+    "name": "Wilhelm-Liebknecht-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0013",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337645,
+  "lat": 51.3436577,
+  "lon": 12.3210669,
+  "tags": {
+    "name": "Diakonissenhaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0312",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337668,
+  "lat": 51.3436346,
+  "lon": 12.3210130,
+  "tags": {
+    "name": "Diakonissenhaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0312",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337701,
+  "lat": 51.3381959,
+  "lon": 12.3273344,
+  "tags": {
+    "name": "Georg-Schwarz-Straße/Merseburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0309",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337720,
+  "lat": 51.3414046,
+  "lon": 12.3241790,
+  "tags": {
+    "name": "Wielandstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0311",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337773,
+  "lat": 51.3381942,
+  "lon": 12.3272745,
+  "tags": {
+    "name": "Georg-Schwarz-Straße/Merseburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0309",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068337778,
+  "lat": 51.3413883,
+  "lon": 12.3241492,
+  "tags": {
+    "name": "Wielandstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0311",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068369571,
+  "lat": 51.3474694,
+  "lon": 12.3143122,
+  "tags": {
+    "name": "Rathaus Leutzsch",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0313",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068369611,
+  "lat": 51.3494232,
+  "lon": 12.3101478,
+  "tags": {
+    "name": "Pfingstweide",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068369631,
+  "lat": 51.3476515,
+  "lon": 12.3138441,
+  "tags": {
+    "name": "Rathaus Leutzsch",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0313",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068369687,
+  "lat": 51.3493984,
+  "lon": 12.3101178,
+  "tags": {
+    "name": "Pfingstweide",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068384378,
+  "lat": 51.3514988,
+  "lon": 12.3061175,
+  "tags": {
+    "name": "Philipp-Reis-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0325",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068384429,
+  "lat": 51.3515216,
+  "lon": 12.3061418,
+  "tags": {
+    "name": "Philipp-Reis-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0325",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068408985,
+  "lat": 51.3530353,
+  "lon": 12.3033119,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "S-Bahnhof Leutzsch",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0027",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068408992,
+  "lat": 51.3530153,
+  "lon": 12.3032814,
+  "tags": {
+    "name": "S-Bahnhof Leutzsch",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0027",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068425689,
+  "lat": 51.3564490,
+  "lon": 12.2989841,
+  "tags": {
+    "name": "Barnecker Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0326",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2068425706,
+  "lat": 51.3594204,
+  "lon": 12.2925553,
+  "tags": {
+    "name": "Südstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0327",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068425713,
+  "lat": 51.3564308,
+  "lon": 12.2989492,
+  "tags": {
+    "name": "Barnecker Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0326",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2068425722,
+  "lat": 51.3594117,
+  "lon": 12.2924490,
+  "tags": {
+    "name": "Südstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0327",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2068488377,
+  "lat": 51.3316048,
+  "lon": 12.3188657,
+  "tags": {
+    "name": "Lindenau, Bushof",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0281",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068488400,
+  "lat": 51.3357357,
+  "lon": 12.3304358,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Lützner/Merseburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0279",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068488430,
+  "lat": 51.3338287,
+  "lon": 12.3248032,
+  "tags": {
+    "name": "Henriettenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0280",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068488493,
+  "lat": 51.3336415,
+  "lon": 12.3243429,
+  "tags": {
+    "name": "Henriettenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0280",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2068491931,
+  "lat": 51.3356458,
+  "lon": 12.3298312,
+  "tags": {
+    "name": "Lützner/Merseburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0279",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2070030476,
+  "lat": 51.3754056,
+  "lon": 12.3614135,
+  "tags": {
+    "name": "Landsberger/Max-Liebermann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0343",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2070096661,
+  "lat": 51.3758659,
+  "lon": 12.3610426,
+  "tags": {
+    "name": "Landsberger/Max-Liebermann-Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0343",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2073639379,
+  "lat": 51.3623844,
+  "lon": 12.3659703,
+  "tags": {
+    "name": "Georg-Schumann-/Lindenthaler Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0366",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2073676427,
+  "lat": 51.3626136,
+  "lon": 12.3649670,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Georg-Schumann-/Lindenthaler Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0366",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2073676474,
+  "lat": 51.3642130,
+  "lon": 12.3578768,
+  "tags": {
+    "name": "Wiederitzscher Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0367",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2074580936,
+  "lat": 51.3156084,
+  "lon": 12.3733905,
+  "tags": {
+    "name": "Richard-Lehmann-Straße, HTWK",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0171",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2074612814,
+  "lat": 51.3111216,
+  "lon": 12.3732017,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Connewitzer Kreuz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0172",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2074612835,
+  "lat": 51.3117818,
+  "lon": 12.3732653,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Connewitzer Kreuz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0172",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2074633037,
+  "lat": 51.3093465,
+  "lon": 12.3963470,
+  "tags": {
+    "name": "Triftweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0156",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2074633051,
+  "lat": 51.3009750,
+  "lon": 12.3963116,
+  "tags": {
+    "name": "Moritz-Hof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0158",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2074633058,
+  "lat": 51.3059981,
+  "lon": 12.3963855,
+  "tags": {
+    "name": "An der Märchenwiese",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0157",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2075411016,
+  "lat": 51.3807692,
+  "lon": 12.2930712,
+  "tags": {
+    "name": "Stahmelner Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0380",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078508908,
+  "lat": 51.3622379,
+  "lon": 12.3654421,
+  "tags": {
+    "name": "Georg-Schumann-/Lindenthaler Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0340",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078508917,
+  "lat": 51.3627934,
+  "lon": 12.3655251,
+  "tags": {
+    "name": "Georg-Schumann-/Lindenthaler Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0340",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078513083,
+  "lat": 51.3678757,
+  "lon": 12.3664414,
+  "tags": {
+    "name": "S-Bahnhof Coppiplatz",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0341",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078513086,
+  "lat": 51.3678797,
+  "lon": 12.3664806,
+  "tags": {
+    "name": "S-Bahnhof Coppiplatz",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0341",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078513095,
+  "lat": 51.3713575,
+  "lon": 12.3643142,
+  "tags": {
+    "name": "Viertelsweg",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0342",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078513109,
+  "lat": 51.3725663,
+  "lon": 12.3635093,
+  "tags": {
+    "name": "Viertelsweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0342",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078549432,
+  "lat": 51.3141758,
+  "lon": 12.3945060,
+  "tags": {
+    "name": "Richard-Lehmann-/Zwickauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0144",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2078549489,
+  "lat": 51.3182862,
+  "lon": 12.3948477,
+  "tags": {
+    "name": "An den Tierkliniken",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0155",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2084992409,
+  "lat": 51.3755573,
+  "lon": 12.3785732,
+  "tags": {
+    "name": "Gohlis-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0361",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2084992462,
+  "lat": 51.3691118,
+  "lon": 12.3765047,
+  "tags": {
+    "name": "Gottschallstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0360",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017497,
+  "lat": 51.3548499,
+  "lon": 12.3712425,
+  "tags": {
+    "bus": "yes",
+    "name": "Springerstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017517,
+  "lat": 51.3615397,
+  "lon": 12.3708877,
+  "tags": {
+    "name": "Georg-Schumann-/Lützowstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0358",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017525,
+  "lat": 51.3610440,
+  "lon": 12.3703637,
+  "tags": {
+    "bus": "yes",
+    "name": "Georg-Schumann-/Lützowstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0358",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017526,
+  "lat": 51.3568014,
+  "lon": 12.3690298,
+  "tags": {
+    "name": "Fritz-Seger-Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0357",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017527,
+  "lat": 51.3548347,
+  "lon": 12.3712077,
+  "tags": {
+    "name": "Springerstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017546,
+  "lat": 51.3633555,
+  "lon": 12.3738763,
+  "tags": {
+    "name": "S-Bahnhof Gohlis",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0359",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017549,
+  "lat": 51.3570269,
+  "lon": 12.3688732,
+  "tags": {
+    "bus": "yes",
+    "name": "Fritz-Seger-Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0357",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085017605,
+  "lat": 51.3633651,
+  "lon": 12.3738426,
+  "tags": {
+    "name": "S-Bahnhof Gohlis",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0359",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2085021358,
+  "lat": 51.3523428,
+  "lon": 12.3734446,
+  "tags": {
+    "name": "Nordplatz",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0356",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085021362,
+  "lat": 51.3526167,
+  "lon": 12.3733736,
+  "tags": {
+    "name": "Nordplatz",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0356",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085029089,
+  "lat": 51.3486303,
+  "lon": 12.3717100,
+  "tags": {
+    "name": "Zoo",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0355",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2085029109,
+  "lat": 51.3484977,
+  "lon": 12.3715690,
+  "tags": {
+    "name": "Zoo",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0355",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2085035766,
+  "lat": 51.3452482,
+  "lon": 12.3715246,
+  "tags": {
+    "name": "Lortzingstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0354",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2085035770,
+  "lat": 51.3452509,
+  "lon": 12.3715610,
+  "tags": {
+    "name": "Lortzingstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0354",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2091258633,
+  "lat": 51.3656664,
+  "lon": 12.3516462,
+  "tags": {
+    "name": "S-Bahnhof Möckern",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0368",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2091258642,
+  "lat": 51.3642836,
+  "lon": 12.3576796,
+  "tags": {
+    "name": "Wiederitzscher Straße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0367",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2091266730,
+  "lat": 51.3656423,
+  "lon": 12.3516358,
+  "tags": {
+    "name": "S-Bahnhof Möckern",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0368",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2095978552,
+  "lat": 51.2839573,
+  "lon": 12.3113367,
+  "tags": {
+    "bus": "yes",
+    "name": "Albersdorfer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099772000,
+  "lat": 51.3082575,
+  "lon": 12.3771848,
+  "tags": {
+    "name": "Stockartstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0173",
+    "survey:date": "2020-02-28",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099772008,
+  "lat": 51.3082397,
+  "lon": 12.3771622,
+  "tags": {
+    "name": "Stockartstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0173",
+    "survey:date": "2020-02-28",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099786489,
+  "lat": 51.3016824,
+  "lon": 12.3839068,
+  "tags": {
+    "name": "S-Bf. Connewitz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0175",
+    "ref_name": "Leipzig, S-Bahnhof Connewitz (Tram/Bus)",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099786495,
+  "lat": 51.3048310,
+  "lon": 12.3817638,
+  "tags": {
+    "name": "Hildebrandstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0174",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099786545,
+  "lat": 51.3048122,
+  "lon": 12.3816644,
+  "tags": {
+    "name": "Hildebrandstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0174",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099803613,
+  "lat": 51.2954394,
+  "lon": 12.3861683,
+  "tags": {
+    "name": "Raschwitzer Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0176",
+    "ref_name": "Leipzig, Raschwitzer Str.",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099803617,
+  "lat": 51.2954450,
+  "lon": 12.3862094,
+  "tags": {
+    "name": "Raschwitzer Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0176",
+    "ref_name": "Leipzig, Raschwitzer Str.",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099803627,
+  "lat": 51.2907269,
+  "lon": 12.3904630,
+  "tags": {
+    "name": "Friederikenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0177",
+    "ref_name": "Leipzig, Friederikenstr.",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099803640,
+  "lat": 51.2903758,
+  "lon": 12.3906086,
+  "tags": {
+    "name": "Friederikenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0177",
+    "ref_name": "Leipzig, Friederikenstr.",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099810750,
+  "lat": 51.2854055,
+  "lon": 12.3941161,
+  "tags": {
+    "name": "Dölitz, Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0179",
+    "ref_name": "Leipzig, Dölitz, Straßenbahnhof",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099810762,
+  "lat": 51.2866903,
+  "lon": 12.3929972,
+  "tags": {
+    "name": "Leinestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0178",
+    "ref_name": "Leipzig, Leinestraße",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099810764,
+  "lat": 51.2870411,
+  "lon": 12.3927890,
+  "tags": {
+    "name": "Leinestraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0178",
+    "ref_name": "Leipzig, Leinestraße",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099818062,
+  "lat": 51.2832521,
+  "lon": 12.3951533,
+  "tags": {
+    "name": "Am Eichwinkel",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0180",
+    "ref_name": "Leipzig, Am Eichwinkel",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099826427,
+  "lat": 51.3092476,
+  "lon": 12.3767208,
+  "tags": {
+    "name": "Wiedebachplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0153",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2099844075,
+  "lat": 51.3101199,
+  "lon": 12.3796579,
+  "tags": {
+    "name": "Arno-Nitzsche-/Arthur-Hoffmann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0160",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099844086,
+  "lat": 51.3093066,
+  "lon": 12.3867819,
+  "tags": {
+    "name": "Meusdorfer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0154",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2099844088,
+  "lat": 51.3093427,
+  "lon": 12.3867886,
+  "tags": {
+    "name": "Meusdorfer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0154",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100235736,
+  "lat": 51.3244548,
+  "lon": 12.3735795,
+  "tags": {
+    "name": "Südplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0169",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100366160,
+  "lat": 51.3575807,
+  "lon": 12.3593683,
+  "tags": {
+    "bus": "yes",
+    "name": "Stallbaumstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0338",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100366190,
+  "lat": 51.3575862,
+  "lon": 12.3593291,
+  "tags": {
+    "bus": "yes",
+    "name": "Stallbaumstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0338",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100366211,
+  "lat": 51.3594870,
+  "lon": 12.3622652,
+  "tags": {
+    "name": "Menckestraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0339",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100366218,
+  "lat": 51.3594894,
+  "lon": 12.3623027,
+  "tags": {
+    "name": "Menckestraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0339",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100407971,
+  "lat": 51.3174624,
+  "lon": 12.3783961,
+  "tags": {
+    "bus": "yes",
+    "name": "Steinplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0167",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100408023,
+  "lat": 51.3174620,
+  "lon": 12.3783572,
+  "tags": {
+    "name": "Steinplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0167",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100489241,
+  "lat": 51.3458432,
+  "lon": 12.3998308,
+  "tags": {
+    "name": "Einertstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0032",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100489242,
+  "lat": 51.3458746,
+  "lon": 12.3998300,
+  "tags": {
+    "name": "Einertstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0032",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100489260,
+  "lat": 51.3451242,
+  "lon": 12.4133965,
+  "tags": {
+    "name": "Torgauer Platz",
+    "name:ja": "トアガウアー広場",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0049",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100489263,
+  "lat": 51.3455380,
+  "lon": 12.4054062,
+  "tags": {
+    "name": "Hermann-Liebmann-/Eisenbahnstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0033",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100489280,
+  "lat": 51.3457254,
+  "lon": 12.4059221,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Hermann-Liebmann-/Eisenbahnstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0034",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100506646,
+  "lat": 51.3450647,
+  "lon": 12.4151050,
+  "tags": {
+    "name": "Torgauer Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0049",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100536031,
+  "lat": 51.3429193,
+  "lon": 12.4151957,
+  "tags": {
+    "name": "Edlichstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0074",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100536091,
+  "lat": 51.3437266,
+  "lon": 12.4221315,
+  "tags": {
+    "name": "Annenstraße",
+    "name:ja": "アネン通り",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0078",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100536101,
+  "lat": 51.3436662,
+  "lon": 12.4213638,
+  "tags": {
+    "name": "Annenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0078",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100568282,
+  "lat": 51.3406292,
+  "lon": 12.4090739,
+  "tags": {
+    "name": "Wiebelstraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0073",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100568308,
+  "lat": 51.3402882,
+  "lon": 12.4085820,
+  "tags": {
+    "name": "Wiebelstraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100673010,
+  "lat": 51.3509133,
+  "lon": 12.4063534,
+  "tags": {
+    "local_ref": "0035",
+    "name": "Stannebeinplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100673012,
+  "lat": 51.3538432,
+  "lon": 12.4115914,
+  "tags": {
+    "local_ref": "0036",
+    "name": "Stöckelstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100673015,
+  "lat": 51.3538116,
+  "lon": 12.4116694,
+  "tags": {
+    "local_ref": "0036",
+    "name": "Stöckelstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100673018,
+  "lat": 51.3511363,
+  "lon": 12.4072219,
+  "tags": {
+    "local_ref": "0035",
+    "name": "Stannebeinplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100674571,
+  "lat": 51.3563765,
+  "lon": 12.4156825,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Löbauer Straße",
+    "network": "MDV",
+    "network:wikidata": "Q1742463",
+    "network:wikipedia": "de:Mitteldeutscher Verkehrsverbund",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0037",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685004,
+  "lat": 51.3596698,
+  "lon": 12.4115423,
+  "tags": {
+    "name": "Rathaus Schönefeld",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0040",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685009,
+  "lat": 51.3639761,
+  "lon": 12.4028245,
+  "tags": {
+    "name": "Mockauer/Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0018",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685035,
+  "lat": 51.3593327,
+  "lon": 12.4154616,
+  "tags": {
+    "name": "Ossietzky-/Gorkistraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0039",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685039,
+  "lat": 51.3614281,
+  "lon": 12.4072061,
+  "tags": {
+    "name": "Schönefeld, Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0041",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685062,
+  "lat": 51.3593368,
+  "lon": 12.4162204,
+  "tags": {
+    "name": "Ossietzky-/Gorkistraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0038",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685065,
+  "lat": 51.3614184,
+  "lon": 12.4071714,
+  "tags": {
+    "name": "Schönefeld, Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0041",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100685074,
+  "lat": 51.3596980,
+  "lon": 12.4107505,
+  "tags": {
+    "name": "Rathaus Schönefeld",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0040",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100693221,
+  "lat": 51.3650326,
+  "lon": 12.4027116,
+  "tags": {
+    "name": "Mockauer/Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0017",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2100695643,
+  "lat": 51.3718651,
+  "lon": 12.4094891,
+  "tags": {
+    "name": "Döringstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0022",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100695650,
+  "lat": 51.3718356,
+  "lon": 12.4095008,
+  "tags": {
+    "name": "Döringstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0022",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100695664,
+  "lat": 51.3689426,
+  "lon": 12.4065748,
+  "tags": {
+    "name": "Friedrichshafner Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0021",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100695670,
+  "lat": 51.3680536,
+  "lon": 12.4057654,
+  "tags": {
+    "name": "Friedrichshafner Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0021",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100696659,
+  "lat": 51.3748792,
+  "lon": 12.4129448,
+  "tags": {
+    "name": "Mockau, Post",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0023",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2100699018,
+  "lat": 51.3757011,
+  "lon": 12.4182591,
+  "tags": {
+    "name": "Samuel-Lampel-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0024",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100699043,
+  "lat": 51.3756791,
+  "lon": 12.4182674,
+  "tags": {
+    "name": "Samuel-Lampel-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0024",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100701048,
+  "lat": 51.3770832,
+  "lon": 12.4207881,
+  "tags": {
+    "name": "Mockau, Kirche",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0025",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2100701081,
+  "lat": 51.3770757,
+  "lon": 12.4208231,
+  "tags": {
+    "name": "Mockau, Kirche",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0025",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101326071,
+  "lat": 51.3437203,
+  "lon": 12.4276988,
+  "tags": {
+    "name": "Sellerhausen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0079",
+    "source": "Tram 7, Tram 8",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101326084,
+  "lat": 51.3438831,
+  "lon": 12.4283563,
+  "tags": {
+    "name": "Sellerhausen",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0079",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101332009,
+  "lat": 51.3456332,
+  "lon": 12.4374553,
+  "tags": {
+    "name": "Ostheimstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0080",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2101332033,
+  "lat": 51.3456732,
+  "lon": 12.4374509,
+  "tags": {
+    "name": "Ostheimstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0080",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2101341615,
+  "lat": 51.3455106,
+  "lon": 12.4513918,
+  "tags": {
+    "name": "Barbarastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0082",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101341630,
+  "lat": 51.3455586,
+  "lon": 12.4495170,
+  "tags": {
+    "name": "Barbarastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0082",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2101378172,
+  "lat": 51.3520517,
+  "lon": 12.4587086,
+  "tags": {
+    "name": "Am Vorwerk",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0085",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2101378175,
+  "lat": 51.3460666,
+  "lon": 12.4579268,
+  "tags": {
+    "name": "Paunsdorf, Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0083",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2101400448,
+  "lat": 51.3513999,
+  "lon": 12.4792003,
+  "tags": {
+    "name": "Paunsdorfer Allee/Permoserstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0090",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2103971863,
+  "lat": 51.3667553,
+  "lon": 12.3467412,
+  "tags": {
+    "name": "Dantestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0369",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2103971865,
+  "lat": 51.3669445,
+  "lon": 12.3460398,
+  "tags": {
+    "name": "Dantestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0369",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2103989665,
+  "lat": 51.3694828,
+  "lon": 12.3384506,
+  "tags": {
+    "name": "Möckernscher Markt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0370",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2103989681,
+  "lat": 51.3694587,
+  "lon": 12.3384340,
+  "tags": {
+    "name": "Möckernscher Markt",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0370",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2103997536,
+  "lat": 51.3717190,
+  "lon": 12.3319747,
+  "tags": {
+    "name": "Annaberger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0371",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2103997551,
+  "lat": 51.3716996,
+  "lon": 12.3319564,
+  "tags": {
+    "name": "Annaberger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0371",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2130723901,
+  "lat": 51.3361118,
+  "lon": 12.3710347,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Neues Rathaus",
+    "name:ja": "ノイエス・ラートハウス",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0005",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2130723903,
+  "lat": 51.3350778,
+  "lon": 12.3703405,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Neues Rathaus",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0005",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2130734253,
+  "lat": 51.3356107,
+  "lon": 12.3786406,
+  "tags": {
+    "name": "Roßplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0008",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2158996985,
+  "lat": 51.3354332,
+  "lon": 12.4078368,
+  "tags": {
+    "name": "Breite Straße",
+    "name:ja": "ブライテ通り",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0103",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2159058368,
+  "lat": 51.3273543,
+  "lon": 12.4033214,
+  "tags": {
+    "bus": "yes",
+    "name": "Riebeck-/Stötteritzer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0105",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2159058404,
+  "lat": 51.3268802,
+  "lon": 12.4038415,
+  "tags": {
+    "name": "Riebeck-/Stötteritzer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0106",
+    "shelter": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2159081706,
+  "lat": 51.3308554,
+  "lon": 12.4053537,
+  "tags": {
+    "bus": "yes",
+    "name": "Riebeck-/Oststraße",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2159081710,
+  "lat": 51.3312106,
+  "lon": 12.4055256,
+  "tags": {
+    "bus": "yes",
+    "name": "Riebeck-/Oststraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0104",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2159108252,
+  "lat": 51.3200397,
+  "lon": 12.4266459,
+  "tags": {
+    "name": "Kolmstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0112",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2159108266,
+  "lat": 51.3191987,
+  "lon": 12.4198244,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Rathaus Stötteritz",
+    "network": "MDV",
+    "network:wikidata": "Q1742463",
+    "network:wikipedia": "de:Mitteldeutscher Verkehrsverbund",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0111",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2163522122,
+  "lat": 51.3598472,
+  "lon": 12.4429365,
+  "tags": {
+    "name": "Hohentichelnstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0066",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2163524991,
+  "lat": 51.3640818,
+  "lon": 12.4518157,
+  "tags": {
+    "name": "Heiterblick, Teslastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0056",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2163525014,
+  "lat": 51.3676940,
+  "lon": 12.4613735,
+  "tags": {
+    "alt_name": "Portitzer Allee/Bf. Heiterblick",
+    "name": "Portitzer Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0057",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165014024,
+  "lat": 51.3250210,
+  "lon": 12.2830387,
+  "tags": {
+    "name": "Grünau-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0287",
+    "tram": "yes",
+    "url": "https://www.leipzig-lexikon.de/GruenauNordHaltestelle",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165014036,
+  "lat": 51.3255886,
+  "lon": 12.2828685,
+  "tags": {
+    "name": "Grünau-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0287",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2165020637,
+  "lat": 51.3063712,
+  "lon": 12.2600958,
+  "tags": {
+    "name": "Lausen",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "222",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165023923,
+  "lat": 51.3071693,
+  "lon": 12.2659241,
+  "tags": {
+    "name": "Zschampertaue",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0221",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165025602,
+  "lat": 51.3089158,
+  "lon": 12.2715805,
+  "tags": {
+    "name": "Krakauer Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0220",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165033259,
+  "lat": 51.3132372,
+  "lon": 12.2927195,
+  "tags": {
+    "name": "Stuttgarter Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0217",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2165034723,
+  "lat": 51.3142748,
+  "lon": 12.3026258,
+  "tags": {
+    "name": "Schönauer/Ratzelstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0216",
+    "source:name": "survey",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2204539456,
+  "lat": 51.3794656,
+  "lon": 12.4254392,
+  "tags": {
+    "name": "Thekla",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0026",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208531006,
+  "lat": 51.3160445,
+  "lon": 12.3263759,
+  "tags": {
+    "name": "Schwartzestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0252",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208531027,
+  "lat": 51.3166519,
+  "lon": 12.3268274,
+  "tags": {
+    "name": "Schwartzestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0252",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208531052,
+  "lat": 51.3133306,
+  "lon": 12.3256950,
+  "tags": {
+    "name": "Kleinzschocher, Kötzschauer Straße",
+    "network": "MDV",
+    "operator": "Leipziger Verkehrsbetriebe GmbH (LVB)",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0253",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208531073,
+  "lat": 51.3124181,
+  "lon": 12.3256176,
+  "tags": {
+    "name": "Kleinzschocher, Kötzschauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0253",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557081,
+  "lat": 51.2999433,
+  "lon": 12.3214561,
+  "tags": {
+    "name": "Großzschocher, Gerhard-Ellrodt-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0257",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557082,
+  "lat": 51.3076273,
+  "lon": 12.3266603,
+  "tags": {
+    "name": "Arthur-Nagel-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0254",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557095,
+  "lat": 51.3005933,
+  "lon": 12.3274047,
+  "tags": {
+    "name": "Huttenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0256",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557102,
+  "lat": 51.2943035,
+  "lon": 12.3197120,
+  "tags": {
+    "name": "Wasserwerk Windorf",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0258",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557119,
+  "lat": 51.3006141,
+  "lon": 12.3274175,
+  "tags": {
+    "name": "Huttenstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0256",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557159,
+  "lat": 51.3077787,
+  "lon": 12.3266623,
+  "tags": {
+    "name": "Arthur-Nagel-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0254",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557160,
+  "lat": 51.3045823,
+  "lon": 12.3273719,
+  "tags": {
+    "name": "Kunzestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0255",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557174,
+  "lat": 51.3045877,
+  "lon": 12.3274110,
+  "tags": {
+    "name": "Kunzestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0255",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2208557177,
+  "lat": 51.2943099,
+  "lon": 12.3196448,
+  "tags": {
+    "name": "Wasserwerk Windorf",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0258",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2237645665,
+  "lat": 51.3835524,
+  "lon": 12.2807319,
+  "tags": {
+    "name": "Lützschena",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0385",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2237645711,
+  "lat": 51.3835277,
+  "lon": 12.2807128,
+  "tags": {
+    "name": "Lützschena",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0385",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2237721193,
+  "lat": 51.3857270,
+  "lon": 12.2740116,
+  "tags": {
+    "name": "Freirodaer Weg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0386",
+    "toilets:wheelchair": "no",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2237784882,
+  "lat": 51.3642537,
+  "lon": 12.4655525,
+  "tags": {
+    "name": "Heisenbergstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0058",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2237789201,
+  "lat": 51.3670840,
+  "lon": 12.4611785,
+  "tags": {
+    "alt_name": "Portitzer Allee/Bf. Heiterblick",
+    "name": "Portitzer Allee",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0057",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2288948080,
+  "lat": 51.3572472,
+  "lon": 12.4165248,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Löbauer Straße",
+    "network": "MDV",
+    "network:wikidata": "Q1742463",
+    "network:wikipedia": "de:Mitteldeutscher Verkehrsverbund",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0037",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2299420285,
+  "lat": 51.3359353,
+  "lon": 12.3766352,
+  "tags": {
+    "bus": "yes",
+    "name": "Wilhelm-Leuschner-Platz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0007",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2306689534,
+  "lat": 51.3612503,
+  "lon": 12.2768941,
+  "tags": {
+    "name": "Forstweg",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0329",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2360798181,
+  "lat": 51.3754945,
+  "lon": 12.4132978,
+  "tags": {
+    "name": "Mockau, Post",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0023",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2447572348,
+  "lat": 51.3016871,
+  "lon": 12.3840083,
+  "tags": {
+    "name": "S-Bf. Connewitz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0175",
+    "ref_name": "Leipzig, S-Bahnhof Connewitz (Tram/Bus)",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2486372443,
+  "lat": 51.3784922,
+  "lon": 12.3589521,
+  "tags": {
+    "name": "Beyerleinstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2486381359,
+  "lat": 51.2869028,
+  "lon": 12.3136892,
+  "tags": {
+    "name": "Seumestraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0259",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2487709637,
+  "lat": 51.2771618,
+  "lon": 12.3097100,
+  "tags": {
+    "name": "Knautkleeberg",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2497402634,
+  "lat": 51.3612104,
+  "lon": 12.4068509,
+  "tags": {
+    "name": "Schönefeld, Volbedingstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0041",
+    "route_ref": "1E",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2518402914,
+  "lat": 51.3305689,
+  "lon": 12.3812561,
+  "tags": {
+    "bus": "no",
+    "name": "Bayerischer Bahnhof",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0139",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2525517582,
+  "lat": 51.3384409,
+  "lon": 12.4038979,
+  "tags": {
+    "name": "Reudnitz, Koehlerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0072",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2530472276,
+  "lat": 51.3097478,
+  "lon": 12.3787058,
+  "tags": {
+    "name": "Wiedebachplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0153",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2532092342,
+  "lat": 51.3211548,
+  "lon": 12.3784662,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Kurt-Eisner-/Arthur-Hoffmann-Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0151",
+    "route_ref": "9;60",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2532247590,
+  "lat": 51.3325404,
+  "lon": 12.3779818,
+  "tags": {
+    "name": "Härtelstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0099",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2550549536,
+  "lat": 51.3328582,
+  "lon": 12.3775290,
+  "tags": {
+    "name": "Härtelstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0099",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2550549545,
+  "lat": 51.3301835,
+  "lon": 12.3819109,
+  "tags": {
+    "bus": "no",
+    "name": "Bayerischer Bahnhof",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0139",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2552515555,
+  "lat": 51.3304651,
+  "lon": 12.3805497,
+  "tags": {
+    "bus": "no",
+    "name": "Bayerischer Bahnhof",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2552515556,
+  "lat": 51.3301989,
+  "lon": 12.3802988,
+  "tags": {
+    "bus": "no",
+    "name": "Bayerischer Bahnhof",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2565296641,
+  "lat": 51.3614786,
+  "lon": 12.4463559,
+  "tags": {
+    "name": "Arcus Park",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2565327436,
+  "lat": 51.2772261,
+  "lon": 12.3090610,
+  "tags": {
+    "name": "Knautkleeberg",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2572851411,
+  "lat": 51.3199198,
+  "lon": 12.3297567,
+  "tags": {
+    "name": "Adler",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0211",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2590211554,
+  "lat": 51.2843010,
+  "lon": 12.3947327,
+  "tags": {
+    "name": "Dölitz, Straßenbahnhof",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0179",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2590266533,
+  "lat": 51.3441740,
+  "lon": 12.3734100,
+  "tags": {
+    "alt_name": "Goerdelerring, Gleis 4",
+    "bus": "yes",
+    "name": "Goerdelerring, Steig D",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0003",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2590266538,
+  "lat": 51.3443139,
+  "lon": 12.3719179,
+  "tags": {
+    "alt_name": "Goerdelerring, Gleis 1",
+    "bus": "yes",
+    "name": "Goerdelerring, Steig A",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0003",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2590268924,
+  "lat": 51.3453342,
+  "lon": 12.3787656,
+  "tags": {
+    "alt_name": "Hauptbahnhof Gleis 5",
+    "description": "Hauptbahnhof (Westseite), Gleis 5",
+    "name": "Hauptbahnhof, Westseite",
+    "name:ja": "中央駅 西口",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "5",
+    "source:ref": "survey",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2616489967,
+  "lat": 51.3861894,
+  "lon": 12.2680067,
+  "tags": {
+    "name": "Hänichen, Bismarckturm",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0387",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2683239117,
+  "lat": 51.3612057,
+  "lon": 12.3711456,
+  "tags": {
+    "name": "Georg-Schumann-/Lützowstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0365",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2694647881,
+  "lat": 51.3249890,
+  "lon": 12.4021082,
+  "tags": {
+    "name": "Technisches Rathaus",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0107",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2695749995,
+  "lat": 51.3191246,
+  "lon": 12.4299150,
+  "tags": {
+    "name": "Stötteritz, Holzhäuser Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0711",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2877338926,
+  "lat": 51.3064494,
+  "lon": 12.2599602,
+  "tags": {
+    "name": "Lausen",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "222",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2877341155,
+  "lat": 51.3152977,
+  "lon": 12.3098304,
+  "tags": {
+    "name": "Herrmann-Meyer-Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0215",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2877346360,
+  "lat": 51.3391894,
+  "lon": 12.3641170,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Westplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0205",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3090303238,
+  "lat": 51.3317627,
+  "lon": 12.3194382,
+  "tags": {
+    "name": "Lindenau, Bushof",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0281",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3092059487,
+  "lat": 51.3301823,
+  "lon": 12.3143652,
+  "tags": {
+    "name": "Credéstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0282",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3092059488,
+  "lat": 51.3303025,
+  "lon": 12.3148108,
+  "tags": {
+    "name": "Credéstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0282",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3165587846,
+  "lat": 51.3199310,
+  "lon": 12.3175936,
+  "tags": {
+    "bench": "yes",
+    "covered": "yes",
+    "lit": "yes",
+    "name": "Diezmannstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0213",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3239478398,
+  "lat": 51.3116200,
+  "lon": 12.2789137,
+  "tags": {
+    "name": "Grünau-Süd",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3239478399,
+  "lat": 51.3119391,
+  "lon": 12.2801100,
+  "tags": {
+    "name": "Grünau-Süd",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3239710364,
+  "lat": 51.3600202,
+  "lon": 12.4690657,
+  "tags": {
+    "name": "Paunsdorf-Nord",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0087",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3239710365,
+  "lat": 51.3600650,
+  "lon": 12.4690437,
+  "tags": {
+    "name": "Paunsdorf-Nord",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0087",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3239710366,
+  "lat": 51.3609309,
+  "lon": 12.4705633,
+  "tags": {
+    "name": "Paunsdorf-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0087",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656904,
+  "lat": 51.3556542,
+  "lon": 12.4598920,
+  "tags": {
+    "name": "Ahornstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0086",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656905,
+  "lat": 51.3566030,
+  "lon": 12.4605155,
+  "tags": {
+    "name": "Ahornstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0086",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656906,
+  "lat": 51.3455179,
+  "lon": 12.4065422,
+  "tags": {
+    "name": "Hermann-Liebmann-/Eisenbahnstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0033",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656907,
+  "lat": 51.3381513,
+  "lon": 12.3867768,
+  "tags": {
+    "name": "Johannisplatz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0070",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656908,
+  "lat": 51.3488129,
+  "lon": 12.4791429,
+  "tags": {
+    "name": "Paunsdorf-Center",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0091",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656909,
+  "lat": 51.3417228,
+  "lon": 12.3567958,
+  "tags": {
+    "name": "Waldplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0245",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285656910,
+  "lat": 51.3417766,
+  "lon": 12.3567645,
+  "tags": {
+    "name": "Waldplatz",
+    "network": "MDV",
+    "passenger_information_display": "yes",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0245",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285806867,
+  "lat": 51.3613994,
+  "lon": 12.4698096,
+  "tags": {
+    "name": "Paunsdorf-Nord",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0087",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3285806868,
+  "lat": 51.3520396,
+  "lon": 12.4265632,
+  "tags": {
+    "name": "Permoser-/Torgauer Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0052",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3287771695,
+  "lat": 51.3329303,
+  "lon": 12.3390160,
+  "tags": {
+    "name": "Felsenkeller",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0228",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3312151883,
+  "lat": 51.3970220,
+  "lon": 12.3951704,
+  "tags": {
+    "name": "Messegelände",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0417",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3312151884,
+  "lat": 51.3976864,
+  "lon": 12.3953646,
+  "tags": {
+    "name": "Messegelände",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0417",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3380873502,
+  "lat": 51.3194379,
+  "lon": 12.4193050,
+  "tags": {
+    "name": "Rathaus Stötteritz",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0111",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3380873503,
+  "lat": 51.3254651,
+  "lon": 12.4093139,
+  "tags": {
+    "name": "S-Bahnhof Stötteritz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0108",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3566508868,
+  "lat": 51.3744559,
+  "lon": 12.3233800,
+  "tags": {
+    "name": "Wahren, Pater-Aurelius-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0372",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3566515774,
+  "lat": 51.3744698,
+  "lon": 12.3233439,
+  "tags": {
+    "name": "Wahren, Pater-Aurelius-Platz",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0372",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3569576128,
+  "lat": 51.3766828,
+  "lon": 12.3129103,
+  "tags": {
+    "name": "Pittlerstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0383",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3569582393,
+  "lat": 51.3766291,
+  "lon": 12.3128985,
+  "tags": {
+    "name": "Pittlerstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0383",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3605262741,
+  "lat": 51.3743994,
+  "lon": 12.3242964,
+  "tags": {
+    "name": "Wahren",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0372",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3605264017,
+  "lat": 51.3744243,
+  "lon": 12.3242982,
+  "tags": {
+    "name": "Wahren",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0372",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3729717615,
+  "lat": 51.3324322,
+  "lon": 12.3736700,
+  "tags": {
+    "name": "Münzgasse, LVZ",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0223",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3729720127,
+  "lat": 51.3327551,
+  "lon": 12.3736892,
+  "tags": {
+    "name": "Münzgasse, LVZ",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0223",
+    "tactile_paving": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3762571359,
+  "lat": 51.3290622,
+  "lon": 12.3733815,
+  "tags": {
+    "name": "Hohe Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0168",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3762576757,
+  "lat": 51.3294211,
+  "lon": 12.3734677,
+  "tags": {
+    "name": "Hohe Straße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0168",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4186557807,
+  "lat": 51.3234186,
+  "lon": 12.3950446,
+  "tags": {
+    "name": "Deutsche Nationalbibliothek",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4186557808,
+  "lat": 51.3234629,
+  "lon": 12.3961459,
+  "tags": {
+    "name": "Deutsche Nationalbibliothek",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4186557809,
+  "lat": 51.3585314,
+  "lon": 12.3955255,
+  "tags": {
+    "name": "Hamburger Straße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4539944513,
+  "lat": 51.3063742,
+  "lon": 12.4226389,
+  "tags": {
+    "bus": "yes",
+    "name": "Prager/Russenstraße",
+    "network": "MDV",
+    "note": "Linie 2, 15, 76, 79",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0128",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4943793087,
+  "lat": 51.3732317,
+  "lon": 12.3276843,
+  "tags": {
+    "name": "Am Viadukt",
+    "network": "MDV",
+    "operator": "Leipziger Verkehrsbetriebe GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4992700498,
+  "lat": 51.3732098,
+  "lon": 12.3276684,
+  "tags": {
+    "name": "Am Viadukt",
+    "network": "MDV",
+    "operator": "Leipziger Verkehrsbetriebe GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5220172813,
+  "lat": 51.3423840,
+  "lon": 12.3989911,
+  "tags": {
+    "name": "Elsastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5220172814,
+  "lat": 51.3425034,
+  "lon": 12.3986300,
+  "tags": {
+    "name": "Elsastraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5414612322,
+  "lat": 51.3335992,
+  "lon": 12.3763672,
+  "tags": {
+    "name": "Windmühlenstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5414612323,
+  "lat": 51.3335709,
+  "lon": 12.3763170,
+  "tags": {
+    "name": "Windmühlenstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5414747489,
+  "lat": 51.3446722,
+  "lon": 12.4137383,
+  "tags": {
+    "name": "Torgauer Platz",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0049",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5659636876,
+  "lat": 51.3321660,
+  "lon": 12.3486339,
+  "tags": {
+    "name": "Nonnenstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tactile_paving": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5659637220,
+  "lat": 51.3321443,
+  "lon": 12.3483336,
+  "tags": {
+    "name": "Nonnenstraße",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tactile_paving": "yes",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5684537779,
+  "lat": 51.3449910,
+  "lon": 12.3546308,
+  "tags": {
+    "name": "Sportforum Ost",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6000382032,
+  "lat": 51.3714749,
+  "lon": 12.3771040,
+  "tags": {
+    "name": "Baaderstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6000382033,
+  "lat": 51.3714810,
+  "lon": 12.3770721,
+  "tags": {
+    "name": "Baaderstraße",
+    "network": "Mitteldeutscher Verkehrsverbund (MDV)",
+    "operator": "Leipziger Verkehrsbetriebe (LVB) GmbH",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "shelter": "yes",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6029298913,
+  "lat": 51.2957416,
+  "lon": 12.3965825,
+  "tags": {
+    "name": "Lößnig",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0159",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6899238233,
+  "lat": 51.3749293,
+  "lon": 12.3784269,
+  "tags": {
+    "name": "Gohlis-Nord",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7921146415,
+  "lat": 51.3349347,
+  "lon": 12.3741226,
+  "tags": {
+    "name": "Wilhelm-Leuschner-Platz/Peterssteinweg",
+    "network": "MDV",
+    "note": "nur bei Umleitungen",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7921146416,
+  "lat": 51.3352176,
+  "lon": 12.3742252,
+  "tags": {
+    "name": "Wilhelm-Leuschner-Platz/Peterssteinweg",
+    "network": "MDV",
+    "note": "nur bei Umleitungen",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7922940755,
+  "lat": 51.3413366,
+  "lon": 12.3593401,
+  "tags": {
+    "bus": "yes",
+    "name": "Waldplatz (nur bei Umleitungen)",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7922940756,
+  "lat": 51.3424208,
+  "lon": 12.3586898,
+  "tags": {
+    "bus": "yes",
+    "name": "Waldplatz (nur bei Umleitungen)",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7932348448,
+  "lat": 51.3323594,
+  "lon": 12.3398482,
+  "tags": {
+    "name": "Felsenkeller",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8063472844,
+  "lat": 51.3442089,
+  "lon": 12.3719150,
+  "tags": {
+    "bus": "yes",
+    "name": "Goerdelerring, Steig C",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8063472845,
+  "lat": 51.3442778,
+  "lon": 12.3734063,
+  "tags": {
+    "bus": "yes",
+    "name": "Goerdelerring, Steig B",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8287913717,
+  "lat": 51.3512205,
+  "lon": 12.4086259,
+  "tags": {
+    "name": "Stannebeinplatz",
+    "network": "MDV",
+    "note": "keine Nutzung im Regelverkehr; dient als Ausstiegshaltestelle bei endenden Fahrten aus Richtung Schönefeld",
+    "operator": "LVB",
+    "public_transport": "station",
+    "railway": "tram_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 8483341603,
+  "lat": 51.3243954,
+  "lon": 12.3786584,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Körnerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0150",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8483341604,
+  "lat": 51.3244140,
+  "lon": 12.3786195,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Körnerstraße",
+    "network": "MDV",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "ref": "0150",
+    "tram": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8920075607,
+  "lat": 51.3220749,
+  "lon": 12.3317504,
+  "tags": {
+    "name": "Ersatzhaltestelle Limburgerstraße",
+    "network": "MDV",
+    "note": "Ersatzhaltestelle während der Bauarbeiten Adler ab vsl. 24.07.2021",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8920075608,
+  "lat": 51.3227627,
+  "lon": 12.3322705,
+  "tags": {
+    "name": "Ersatzhaltestelle Limburgerstraße",
+    "network": "MDV",
+    "note": "Ersatzhaltestelle während der Bauarbeiten Adler ab vsl. 24.07.2021",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9056279674,
+  "lat": 51.3451184,
+  "lon": 12.3930961,
+  "tags": {
+    "name": "Friedrich-List-Platz",
+    "network": "MDV",
+    "operator": "LVB",
+    "public_transport": "stop_position",
+    "railway": "tram_stop",
+    "tram": "yes"
+  }
+}
+
+  ]
+}

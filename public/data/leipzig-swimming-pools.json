@@ -1,0 +1,329 @@
+[
+  {
+    "title": "Grünauer Welle",
+    "address": {
+      "leisure": "Grünauer Welle",
+      "house_number": "7",
+      "road": "Stuttgarter Allee",
+      "neighbourhood": "Wohnkomplex 4",
+      "suburb": "Grünau-Siedlung",
+      "city_district": "West",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04209",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/gruenauer-welle/",
+    "type": "indoor_pool",
+    "lat": "51.31507295",
+    "lon": "12.291681015468672"
+  },
+  {
+    "title": "Sachsen-Therme",
+    "address": {
+      "road": "Schongauerstraße",
+      "suburb": "Paunsdorf",
+      "city_district": "Ost",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04329",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sachsen-therme/",
+    "type": "indoor_pool",
+    "lat": "51.3486082",
+    "lon": "12.475952"
+  },
+  {
+    "title": "Schwimmhalle Mitte",
+    "address": {
+      "leisure": "Schwimmhalle Mitte",
+      "house_number": "84",
+      "road": "Kirschbergstraße",
+      "suburb": "Gohlis-Süd",
+      "city_district": "Nord",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04155",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-mitte/",
+    "type": "indoor_pool",
+    "lat": "51.36223905",
+    "lon": "12.353382424708549"
+  },
+  {
+    "title": "Schwimmhalle Nord",
+    "address": {
+      "leisure": "Schwimmhalle Nord",
+      "house_number": "54",
+      "road": "Kleiststraße",
+      "suburb": "Eutritzsch",
+      "city_district": "Nord",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04157",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-nord/",
+    "type": "indoor_pool",
+    "lat": "51.37231965",
+    "lon": "12.38134070842299"
+  },
+  {
+    "title": "Schwimmhalle Nordost",
+    "address": {
+      "leisure": "Schwimmhalle Nordost",
+      "house_number": "26",
+      "road": "Schönefelder Allee",
+      "neighbourhood": "Schönefeld",
+      "suburb": "Schönefeld-Abtnaundorf",
+      "city_district": "Nordost",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04347",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-nordost/",
+    "type": "indoor_pool",
+    "lat": "51.358358550000005",
+    "lon": "12.404955916520343"
+  },
+  {
+    "title": "Schwimmhalle Süd",
+    "address": {
+      "leisure": "Schwimmhalle Süd",
+      "house_number": "10",
+      "road": "Tarostraße",
+      "suburb": "Zentrum-Südost",
+      "city_district": "Mitte",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04103",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-sued/",
+    "type": "indoor_pool",
+    "lat": "51.3239909",
+    "lon": "12.385783649999993"
+  },
+  {
+    "title": "Schwimmhalle Südost",
+    "address": {
+      "leisure": "Schwimmhalle Südost",
+      "house_number": "35",
+      "road": "Kolmstraße",
+      "suburb": "Probstheida",
+      "city_district": "Südost",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04299",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-suedost/",
+    "type": "indoor_pool",
+    "lat": "51.31632955",
+    "lon": "12.42836830011111"
+  },
+  {
+    "title": "Schwimmhalle Universität Leipzig",
+    "address": {
+      "leisure": "Sprunghalle",
+      "house_number": "4",
+      "road": "Mainzer Straße",
+      "neighbourhood": "Bachviertel",
+      "suburb": "Zentrum-West",
+      "city_district": "Mitte",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04109",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-universitaet-leipzig/",
+    "type": "indoor_pool",
+    "lat": "51.336345",
+    "lon": "12.353650897046567"
+  },
+  {
+    "title": "Schwimmhalle West",
+    "address": {
+      "leisure": "Schwimmhalle West",
+      "house_number": "52a",
+      "road": "Hans-Driesch-Straße",
+      "suburb": "Leutzsch",
+      "city_district": "Altwest",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04179",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schwimmhalle-west/",
+    "type": "indoor_pool",
+    "lat": "51.34652235",
+    "lon": "12.311952829626495"
+  },
+  {
+    "title": "Sportbad an der Elster",
+    "address": {
+      "leisure": "Sportbad an der Elster",
+      "house_number": "8",
+      "road": "Antonienstraße",
+      "suburb": "Schleußig",
+      "city_district": "Südwest",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04229",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sportbad-an-der-elster/",
+    "type": "indoor_pool",
+    "lat": "51.319954300000006",
+    "lon": "12.336005139793688"
+  },
+  {
+    "title": "Sprunghalle der Universität Leipzig",
+    "address": {
+      "leisure": "Sprunghalle",
+      "house_number": "4",
+      "road": "Mainzer Straße",
+      "neighbourhood": "Bachviertel",
+      "suburb": "Zentrum-West",
+      "city_district": "Mitte",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04109",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sprunghalle-der-universitaet-leipzig/",
+    "type": "indoor_pool",
+    "lat": "51.336345",
+    "lon": "12.353650897046567"
+  },
+  {
+    "title": "Kinderfreibecken \"Robbe\"",
+    "address": {
+      "leisure": "Schwimmhalle Nord",
+      "house_number": "54",
+      "road": "Kleiststraße",
+      "suburb": "Eutritzsch",
+      "city_district": "Nord",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04157",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/kinderfreibecken-robbe/",
+    "type": "outdoor_pool",
+    "lat": "51.37231965",
+    "lon": "12.38134070842299"
+  },
+  {
+    "title": "Ökobad Lindenthal",
+    "address": {
+      "leisure": "Ökobad Lindenthal",
+      "house_number": "3",
+      "road": "Am Freibad",
+      "suburb": "Lindenthal",
+      "city_district": "Nordwest",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04158",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/oekobad-lindenthal/",
+    "type": "outdoor_pool",
+    "lat": "51.39330115",
+    "lon": "12.326786040773502"
+  },
+  {
+    "title": "Schreberbad",
+    "address": {
+      "leisure": "Schreberbad",
+      "house_number": "15",
+      "road": "Schreberstraße",
+      "neighbourhood": "Bachviertel",
+      "suburb": "Zentrum-West",
+      "city_district": "Mitte",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04109",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/schreberbad/",
+    "type": "outdoor_pool",
+    "lat": "51.338967100000005",
+    "lon": "12.358802401994044"
+  },
+  {
+    "title": "Sommerbad Kleinzschocher",
+    "address": {
+      "leisure": "Sommerbad Kleinzschocher",
+      "house_number": "75",
+      "road": "Küchenholzallee",
+      "suburb": "Schleußig",
+      "city_district": "Südwest",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04229",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sommerbad-kleinzschocher/",
+    "type": "outdoor_pool",
+    "lat": "51.316385600000004",
+    "lon": "12.339059870524782"
+  },
+  {
+    "title": "Sommerbad Schönefeld",
+    "address": {
+      "leisure": "Sommerbad Schönefeld",
+      "house_number": "39",
+      "road": "Volbedingstraße",
+      "neighbourhood": "Schönefeld",
+      "suburb": "Schönefeld-Abtnaundorf",
+      "city_district": "Nordost",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04357",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sommerbad-schoenefeld/",
+    "type": "outdoor_pool",
+    "lat": "51.3630321",
+    "lon": "12.411970819689838"
+  },
+  {
+    "title": "Sommerbad Südost",
+    "address": {
+      "leisure": "Sommerbad Südost",
+      "house_number": "173",
+      "road": "Oststraße",
+      "suburb": "Stötteritz",
+      "city_district": "Südost",
+      "city": "Leipzig",
+      "state": "Sachsen",
+      "postcode": "04299",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "link": "https://www.leipzig.de/detailansicht-adresse/sommerbad-suedost/",
+    "type": "outdoor_pool",
+    "lat": "51.32639035",
+    "lon": "12.420285180237116"
+  }
+]

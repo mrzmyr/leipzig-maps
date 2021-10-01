@@ -1,0 +1,594 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "(24) Naturkost Sommerstrauss",
+      "description": "Naturkost Sommerstrauss\nFerdinand-Jost-Straße 28A\n04299 Leipzig-Stötteritz\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.418054, 51.320907]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "iconClass": "Drop",
+        "iconUrl": "✸",
+        "color": "#072c24"
+      },
+      "name": "(27) Altes KranWerk",
+      "description": "Altes KranWerk\nLutherstraße 10\n04683 Naunhof"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.594001, 51.280011]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "(28) Wissenschaftspark",
+      "description": "Wissenschaftspark, Gebäude 9.1 (Uni Leipzig)\nPermoser Str. 15\n04318 Leipzig\n\nVerteilstation nur für Mitarbeitende auf dem Wissenschaftscampus zugänglich"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.430955, 51.351683]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "(3) Leipziger Str. 19",
+      "description": "Leipziger Str. 19\n04425 Taucha"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.497369, 51.380456]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Blumenhaus Stopp (1)",
+      "desc": "Nr.=1\nVerteilstation=Blumenhaus Stopp\nAdresse=Nonnenstraße 17\nPLZ=04229\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Blumenhaus Stopp\nNonnenstraße 17\n04229 Leipzig\n\nAbholung: \nDi & Mi: 8:30-18 Uhr"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.342778, 51.328267]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Blumenhaus Stopp (2) ",
+      "desc": "Nr.=2\nVerteilstation=Blumenhaus Stopp\nAdresse=Riebeckstraße 29\nPLZ=04317\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconClass": "Drop",
+        "iconUrl": "✸"
+      },
+      "description": "Blumenhaus Stopp\nRiebeckstraße 29\n04317 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.404315, 51.32844]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "cäseladen (35)",
+      "description": "cäseladen\nArthur-Hoffmann-Str. 88\n04275 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "housenumber": "88",
+      "city": "Leipzig",
+      "street": "Arthur-Hoffmann-Str.",
+      "postcode": "04275",
+      "state": "Saxony",
+      "osm_value": "supermarket",
+      "osm_key": "shop",
+      "country": "Germany",
+      "osm_type": "N",
+      "desc": "Nr.=35Verteilstation=cäseladenAdresse=Arthur-Hoffmann-Str. 88PLZ=04275Stadt=LeipzigAbholung="
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.378336, 51.320942]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Denkmalsozial gGmbH (37)",
+      "description": "Denkmalsozial gGmbH\nGutsMuthsstr. 46\n04177 Leipzig\n\nAbholung am Liefertag zwischen 14:00-18:00",
+      "desc": "Nr.=37Verteilstation=Denkmalsozial gGmbHAdresse=GutsMuthsstr. 46PLZ=04177Stadt=LeipzigAbholung="
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.331585, 51.331624]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Gebiet X",
+      "desc": "name=Gebiet X"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [12.367923, 51.334754],
+        [12.363825, 51.338186],
+        [12.36155, 51.336403],
+        [12.360671, 51.334017],
+        [12.361636, 51.332851],
+        [12.362924, 51.332596],
+        [12.367923, 51.334754]
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (10)",
+      "desc": "Nr.=10\nVerteilstation=Konsum Leipzig eG\nAdresse=Jahnallee 10-12\nPLZ=04109\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nJahnallee 10-12\n04109 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.361205, 51.342525]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (11)",
+      "desc": "Nr.=11\nVerteilstation=Konsum Leipzig eG\nAdresse=Universitätsstraße 16\nPLZ=04109\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nUniversitätsstraße 16\n04109 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.377558, 51.338454]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (12)",
+      "desc": "Nr.=12\nVerteilstation=Konsum Leipzig eG\nAdresse=Demmeringstraße 9\nPLZ=04177\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nDemmeringstraße 9\n04177 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.33499, 51.338375]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (13)",
+      "desc": "Nr.=13\nVerteilstation=Konsum Leipzig eG\nAdresse=Ellernweg 1a\nPLZ=04179\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nEllernweg 1a\n04179 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.318693, 51.345515]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (14) ",
+      "desc": "Nr.=14\nVerteilstation=Konsum Leipzig eG\nAdresse=Lützner Straße 162\nPLZ=04179\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nLützner Straße 162\n04179 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.318778, 51.332058]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (15) ",
+      "desc": "Nr.=15\nVerteilstation=Konsum Leipzig eG\nAdresse=Karl-Heine-Straße 87\nPLZ=04229\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nKarl-Heine-Straße 87\n04229 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.330956, 51.330457]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (16)",
+      "desc": "Nr.=16\nVerteilstation=Konsum Leipzig eG\nAdresse=Könneritzstraße 50\nPLZ=04229\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nKönneritzstraße 50\n04229 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.34345, 51.32387]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (17)",
+      "desc": "Nr.=17\nVerteilstation=Konsum Leipzig eG\nAdresse=Bornaische Straße 55\nPLZ=04277\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nBornaische Straße 55\n04277 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.381935, 51.304862]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (18)",
+      "description": "Konsum Leipzig eG\nRosa-Luxemburgstr. 35\n04315 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.394268, 51.346537]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (19)",
+      "description": "Konsum Leipzig eG\nZittauer Straße 20\n04315 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.408041, 51.356375]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (20) ",
+      "desc": "Nr.=20\nVerteilstation=Konsum Leipzig eG\nAdresse=Rathausstraße 33-35\nPLZ=04416\nStadt=Markleeberg\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nRathausstraße 33-35\n04416 Markleeberg\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.369894, 51.27885]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (21)",
+      "description": "Konsum Leipzig eG\nCoppistraße 42-44\n04157 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      }
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.375407, 51.367159]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "osm_id": 365867491,
+      "osm_type": "N",
+      "country": "Germany",
+      "osm_key": "shop",
+      "housenumber": "25",
+      "city": "Leipzig",
+      "street": "Dufourstraße",
+      "osm_value": "supermarket",
+      "postcode": "04107",
+      "name": "Konsum Leipzig eG (29)",
+      "state": "Saxony",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nDufourstraße 25\n04107 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.370615, 51.326415]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (5)",
+      "desc": "Nr.=5\nVerteilstation=Konsum Leipzig eG\nAdresse=Nordstraße 41\nPLZ=04105\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nNordstraße 41\n04105 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.374056, 51.349442]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (6)",
+      "desc": "Nr.=6\nVerteilstation=Konsum Leipzig eG\nAdresse=Prager Straße 12a\nPLZ=04103\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nPrager Straße 12a\n04103 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.389418, 51.335624]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (7)",
+      "desc": "Nr.=7\nVerteilstation=Konsum Leipzig eG\nAdresse=Goyastraße 2\nPLZ=04105\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nGoyastraße 2\n04105 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.352763, 51.349439]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (8)",
+      "desc": "Nr.=8\nVerteilstation=Konsum Leipzig eG\nAdresse=Arthur-Hoffmann-Straße 175\nPLZ=04277\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nArthur-Hoffmann-Straße 175\n04277 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.379922, 51.311102]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Konsum Leipzig eG (9)",
+      "desc": "Nr.=9\nVerteilstation=Konsum Leipzig eG\nAdresse=Hauptmannstraße 6\nPLZ=04109\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Konsum Leipzig eG\nHauptmannstraße 6\n04109 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.359754, 51.336001]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Kostbar Naturkost (22) ",
+      "desc": "Nr.=22\nVerteilstation=Kostbar Naturkost\nAdresse=Karl-Heine-Straße 77\nPLZ=04229\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "Kostbar Naturkost\nKarl-Heine-Straße 77\n04229 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.332942, 51.331013]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "LOCKER und LOSE (38)",
+      "description": "LOCKER und LOSE\nJosephinenstraße 12\n04317 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "desc": "Nr.=38Verteilstation=LOCKER und LOSEAdresse=Josephinenstraße 12PLZ=04317Stadt=LeipzigAbholung="
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.398474, 51.332804]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Nachtigall (34)",
+      "description": "Nachtigall \nNeustädter Str. 13\n04315 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "desc": "Nr.=34Verteilstation=Nachtigall SpätverkaufAdresse=Neustädter Str. 13PLZ=04315Stadt=LeipzigAbholung="
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.400445, 51.347279]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "natur & fein (36)",
+      "description": "Konsum Leipzig eG\nWaldstraße 23\n04105 Leipzig\n\nAbholung innerhalb der Öffnungszeiten",
+      "desc": "Nr.=36Verteilstation=natur & feinAdresse=Waldstraße 23PLZ=04105Stadt=LeipzigAbholung="
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.357573, 51.344473]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "waschbar (26)",
+      "desc": "Nr.=26\nVerteilstation=waschbar\nAdresse=Georg-Schwarz-Straße 2\nPLZ=04177\nStadt=Leipzig\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "description": "waschbar\nGeorg-Schwarz-Straße 2\n04177 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.32747, 51.337871]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "KoLa Leipzig eG (4) ",
+      "desc": "Nr.=4\nVerteilstation=KoLa Leipzig eG\nAdresse=Margarethenweg\nPLZ=04425\nStadt=Taucha\nAbholung=",
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "/uploads/pictogram/bicycle-24-white.png"
+      },
+      "description": "KoLa Leipzig eG,\nEngelsdorfer Str. 99, 04425 Taucha\nAbholung hier erst ab Sommer 2021 möglich"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.505531, 51.364705]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Konsum Leipzig eG (23)",
+      "description": "Konsum Leipzig eG\nViertelsweg 56, 04157 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.363242, 51.372087]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Konsum Leipzig eG (25)",
+      "description": "Konsum Leipzig eG\nFockestr. 4, 04275 Leipzig\n\nAbholung innerhalb der Öffnungszeiten\n"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.365515, 51.322793]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Konsum Leipzig eG (30)",
+      "description": "Konsum Leipzig eG\nJohannes-R.-Becher-Straße 2, 04279 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.397337, 51.300796]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Konsum Leipzig eG (31)",
+      "description": "Konsum Leipzig eG\nGrassistr. 13, 04107 Leipzig\n\nAbholung innerhalb der Öffnungszeiten\n"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.368262, 51.330423]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "_umap_options": {
+        "color": "#072c24",
+        "iconUrl": "✸"
+      },
+      "name": "Konsum Leipzig eG (32)",
+      "description": "Konsum Leipzig eG\nDresdner Straße 9a, 04103 Leipzig\n\nAbholung innerhalb der Öffnungszeiten"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.390385, 51.338801]
+    }
+  }],
+  "_umap_options": {
+    "displayOnLoad": true,
+    "browsable": true,
+    "name": "Kola-Verteilstationen",
+    "id": 1174296,
+    "remoteData": {},
+    "color": "DarkRed",
+    "iconUrl": "/uploads/pictogram/bar-24_1.png"
+  }
+}
