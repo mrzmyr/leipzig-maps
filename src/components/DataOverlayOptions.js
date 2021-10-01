@@ -49,7 +49,10 @@ const DataOverlayOptions = ({
                 type="radio"
                 id={key}
                 label={
-                    <span style={{ textTransform: 'capitalize' }}>{dataEntries[key].title}</span>
+                    <span style={{ textTransform: 'capitalize' }}>
+                      {dataEntries[key].title}&nbsp;
+                      {loadings[key] && <Spinner animation="border" size="sm" />}
+                    </span>
                 }
                 checked={selectedDataKey === key}
                 onChange={e => selectDataOverlayCategory(key)}
