@@ -79,10 +79,10 @@ Project Link: [https://github.com/mrzmyr/leipzig-maps](https://github.com/mrzmyr
 
 ## Sources used
 
-- [Leipzig - Schwimmhallen](https://www.leipzig.de/freizeit-kultur-und-tourismus/sport/sportstaetten/schwimmhallen) ([leipzig.de](https://leipzig.de)
-- [Leipzig - Freibäder](https://www.leipzig.de/freizeit-kultur-und-tourismus/sport/sportstaetten/freibaeder) ([leipzig.de](https://leipzig.de)
-- [Leipzig - Spielplätze](https://github.com/CodeforLeipzig/kidsle/blob/master/project/playgrounds/data/new_playgrounds.json) ([CodeforLeipzig/kidsle](https://github.com/CodeforLeipzig/kidsle)
-- [Leipzig - Wochenmärkte](https://raw.githubusercontent.com/CodeforLeipzig/wo-ist-markt.github.io/master/cities/leipzig.json) ([CodeforLeipzig/wo-ist-markt.github.io](https://github.com/CodeforLeipzig/wo-ist-markt.github.io)
+- [Leipzig - Schwimmhallen](https://www.leipzig.de/freizeit-kultur-und-tourismus/sport/sportstaetten/schwimmhallen) ([leipzig.de](https://leipzig.de))
+- [Leipzig - Freibäder](https://www.leipzig.de/freizeit-kultur-und-tourismus/sport/sportstaetten/freibaeder) ([leipzig.de](https://leipzig.de))
+- [Leipzig - Spielplätze](https://github.com/CodeforLeipzig/kidsle/blob/master/project/playgrounds/data/new_playgrounds.json) ([CodeforLeipzig/kidsle](https://github.com/CodeforLeipzig/kidsle))
+- [Leipzig - Wochenmärkte](https://raw.githubusercontent.com/CodeforLeipzig/wo-ist-markt.github.io/master/cities/leipzig.json) ([CodeforLeipzig/wo-ist-markt.github.io](https://github.com/CodeforLeipzig/wo-ist-markt.github.io))
 - [Leipzig - Einwohner mit Migrationshintergund (Jahreszahlen)](https://opendata.leipzig.de/dataset/einwohner-mit-migrationshintergund-jahreszahlen) ([OpenData Leipzig](https://opendata.leipzig.de))
 - [Leipzig - Einwohnerdichte (Jahreszahlen)](https://opendata.leipzig.de/dataset/einwohnerdichte-jahreszahlen) ([OpenData Leipzig](https://opendata.leipzig.de))
 - [Leipzig - Arbeitslose (Jahreszahlen)](https://opendata.leipzig.de/dataset/arbeitslose-jahreszahlen) ([OpenData Leipzig](https://opendata.leipzig.de))
