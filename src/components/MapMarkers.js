@@ -3,8 +3,9 @@ import { renderToString } from 'react-dom/server'
 
 import L from 'leaflet'
 import { Tooltip, Marker, Popup } from 'react-leaflet'
+import Button from 'react-bootstrap/Button';
 
-const MapMarkers = ({ data, renderTooltip, isVisible, renderIcon, renderLink = null }) => {
+const MapMarkers = ({ data, onClick = null, renderTooltip, isVisible, renderIcon, renderLink = null }) => {
   return data.map((item, index) => {
 
     var myIcon = L.divIcon({
@@ -16,7 +17,10 @@ const MapMarkers = ({ data, renderTooltip, isVisible, renderIcon, renderLink = n
       <Popup>
         <div style={{ fontSize: '1rem' }}>
           {renderTooltip(item)}
-          (<a href={renderLink(item)}>Mehr Details</a>)
+          <Button variant="link" onClick={e => {
+            if(typeof(onClick) === 'function') onClick(item);
+            if(renderLink !== null) window.open(renderLink(item))
+          }}>Mehr Details</Button>
         </div>
       </Popup>
     )
@@ -38,11 +42,12 @@ const MapMarkers = ({ data, renderTooltip, isVisible, renderIcon, renderLink = n
         key={index}
         position={[item.lat, item.lon]}
         icon={myIcon}
-        eventHandlers={{
-          click: () => renderLink !== null && !isMobile ? window.open(renderLink(item)) : {}
-        }}
+        // eventHandlers={{
+        //   click: () => {
+        //   }
+        // }}
       >
-        {isMobile && popup}
+        {popup}
         {!isMobile && tooltip}
       </Marker>
     )

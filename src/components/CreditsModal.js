@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 const CreditsModal = (props) => {
@@ -21,6 +22,12 @@ const CreditsModal = (props) => {
           <li><a href="https://github.com/mrzmyr/leipzig-maps">GitHub Source Code</a><br /></li>
         </ul>
         <p>Ein Teil der Beschriftungen kommen aus anderen Quellen und sind daher nicht gegendert.</p>
+        <p>
+          <Button variant="link" onClick={() => {
+            localStorage.clear()
+            window.location.reload()
+          }}>Clear Local Storage</Button>
+        </p>
       </Modal.Body>
     </Modal>
   );

@@ -1,8 +1,7 @@
+import { faBaby, faBicycle, faBus, faChild, faDumbbell, faHome, faShoppingBasket, faSubway, faSwimmingPool, faTrain, faTree } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Form from 'react-bootstrap/Form';
 import Spinner from 'react-bootstrap/Spinner';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBus, faSwimmingPool, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree, faBicycle, faCouch } from '@fortawesome/free-solid-svg-icons'
 
 export const colors = {
   bus_stops: '#1a73e8',

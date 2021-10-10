@@ -1,24 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, useMapEvent } from 'react-leaflet'
-import chroma from 'chroma-js';
-
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Spinner from 'react-bootstrap/Spinner';
-
+import { faChartPie, faCog, faCouch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faCog, faCouch } from '@fortawesome/free-solid-svg-icons'
-
-import CreditsModal from './CreditsModal'
-import Markers from './Markers'
-import MarkerToggles, { colors } from './MarkerToggles'
-import DataOverlay from './DataOverlay'
-import DataOverlayOptions from './DataOverlayOptions'
-import ColorScale from './ColorScale'
+import chroma from 'chroma-js';
+import React, { useEffect, useState } from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Spinner from 'react-bootstrap/Spinner';
+import { MapContainer, TileLayer, useMapEvent } from 'react-leaflet';
 import ApartmentOptions from './ApartmentOptions';
-import { sub } from 'date-fns';
+import ColorScale from './ColorScale';
+import CreditsModal from './CreditsModal';
+import DataOverlay from './DataOverlay';
+import DataOverlayOptions from './DataOverlayOptions';
+import Markers from './Markers';
+import MarkerToggles, { colors } from './MarkerToggles';
 
 const dataOverlayEntries = {
   'aerzte': { 
@@ -104,14 +100,14 @@ const Map = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(true);
   const [showCreditsModal, setShowCreditsModal] = useState(false);
   const [apartmentOptions, setApartmentOptions] = useState({
-    rooms_min: 1,
-    rooms_max: 10,
+    rooms_min: 2,
+    rooms_max: 6,
     price_warm_min: 0,
-    price_warm_max: 10000,
+    price_warm_max: 1500,
     owner_type: null,
     show_trade: 'none',
-    size_min: 0,
-    size_max: 999999,
+    size_min: 50,
+    size_max: 150,
     floor_min: 0,
     floor_max: 99,
     configuration: [],
@@ -226,7 +222,6 @@ const Map = () => {
     }
   }, [cache, selectedDataKey])
 
-  let databasis = null;
   let databasisMax = null;
   let databasisMin = null;
   let databasisMaxYears = null;
@@ -236,7 +231,6 @@ const Map = () => {
     cache[selectedDataKey][selectedX] &&
     cache[selectedDataKey][selectedX][selectedY]
   ) {
-    databasis = cache[selectedDataKey][selectedX][selectedY];
     const selectedYValues = Object.keys(cache[selectedDataKey]).map(key => 
       cache[selectedDataKey][key][selectedY] ? cache[selectedDataKey][key][selectedY].map(d => d.value) : 0
     ).flat(1)

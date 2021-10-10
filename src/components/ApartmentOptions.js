@@ -1,22 +1,14 @@
 import chroma from 'chroma-js';
 import 'rc-slider/assets/index.css';
 import Form from 'react-bootstrap/Form';
-import ColorScale from './ColorScale';
 
 import Slider, { SliderTooltip } from 'rc-slider';
-import { sub } from 'date-fns';
 const { Handle, createSliderWithTooltip } = Slider;
 const SliderWithTooltip = createSliderWithTooltip(Slider.Range);
 
-const handleStyle = {
-  borderColor: 'blue',
-  height: 28,
-  width: 28,
-  backgroundColor: 'blue',
-}
-
 const RoomsSlider = ({
   data,
+  apartmentOptions,
   setApartmentOptions
 }) => {
 
@@ -37,7 +29,10 @@ const RoomsSlider = ({
       <Slider.Range
         min={minRoomsTotal} 
         max={maxRoomsTotal}
-        defaultValue={[minRoomsTotal, maxRoomsTotal]}
+        defaultValue={[
+          apartmentOptions.rooms_min, 
+          apartmentOptions.rooms_max
+        ]} 
         marks={roomsTotalMarks} 
         step={1}
         allowCross={false}
@@ -50,12 +45,13 @@ const RoomsSlider = ({
 
 const PriceSlider = ({
   data,
+  apartmentOptions,
   setApartmentOptions
 }) => {
 
   let price_numbers = data.filter(d => !isNaN(d.price_warm)).map(d => d.price_warm)
   
-  const min = data ? Math.min(...price_numbers) : 0;
+  // const min = data ? Math.min(...price_numbers) : 0;
   const max = data ? Math.max(...price_numbers) : 0;
   
   const handle = props => {
@@ -81,11 +77,14 @@ const PriceSlider = ({
       <SliderWithTooltip
         min={0} 
         max={max}
-        defaultValue={[0, max]} 
+        defaultValue={[
+          apartmentOptions.price_warm_min, 
+          apartmentOptions.price_warm_max
+        ]} 
         allowCross={false}
         style={{ height: 40 }}
         handle={handle}
-        marks={{ [0]: `${0} €`, [max]: `${max} €` }}
+        marks={{ 0: `${0} €`, [max]: `${max} €` }}
         step={100}
         tipFormatter={value => `${value}€`}
         onAfterChange={e => setApartmentOptions(o => ({ 
@@ -100,6 +99,7 @@ const PriceSlider = ({
 
 const SizeSlider = ({
   data,
+  apartmentOptions,
   setApartmentOptions
 }) => {
 
@@ -130,7 +130,10 @@ const SizeSlider = ({
     <SliderWithTooltip
       min={min} 
       max={max}
-      defaultValue={[min, max]} 
+      defaultValue={[
+        apartmentOptions.size_min, 
+        apartmentOptions.size_max
+      ]} 
       allowCross={false}
       handle={handle}
       marks={{ [min]: `${min} m²`, [max]: `${max} m²` }}
@@ -458,11 +461,11 @@ const ApartmentOptions = ({
       <p className="h6">Hervorheben</p>
       <HighlightOptions data={data} setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <p className="h6">Filter: Räume</p>
-      <RoomsSlider data={data} setApartmentOptions={setApartmentOptions} />
+      <RoomsSlider data={data} apartmentOptions={apartmentOptions} setApartmentOptions={setApartmentOptions} />
       <p className="h6">Filter: Preis (Warm)</p>
-      <PriceSlider data={data} setApartmentOptions={setApartmentOptions} />
+      <PriceSlider data={data} apartmentOptions={apartmentOptions} setApartmentOptions={setApartmentOptions} />
       <p className="h6">Filter: Größe</p>
-      <SizeSlider data={data} setApartmentOptions={setApartmentOptions} />
+      <SizeSlider data={data} apartmentOptions={apartmentOptions} setApartmentOptions={setApartmentOptions} />
       <p className="h6">Filter: Tausch</p>
       <TradeOptions setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <p className="h6">Filter: Nutzer Typ</p>
