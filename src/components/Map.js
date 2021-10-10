@@ -103,7 +103,7 @@ const Map = () => {
     rooms_min: 2,
     rooms_max: 6,
     price_warm_min: 0,
-    price_warm_max: 1500,
+    price_warm_max: 800,
     owner_type: null,
     show_trade: 'none',
     size_min: 50,
