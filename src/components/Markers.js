@@ -1,11 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBus, faSwimmingPool, faSwimmer, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree } from '@fortawesome/free-solid-svg-icons'
+import { faBus, faSwimmingPool, faSwimmer, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree, faCouch } from '@fortawesome/free-solid-svg-icons'
 
 import MapMarkers from './MapMarkers'
+import { contrastColor } from 'contrast-color'
 
 import { colors } from './MarkerToggles'
+import { isAfter, isBefore, parse, sub } from 'date-fns';
 
-const Markers = ({ showMarker, cache }) => <>
+const Markers = ({ 
+  cache,
+  showMarker, 
+  apartmentOptions,
+}) => <>
   {showMarker.bus_stops && 
     <MapMarkers
       data={cache.bus_stops.elements}
@@ -14,6 +20,114 @@ const Markers = ({ showMarker, cache }) => <>
       }
       renderIcon={item => <FontAwesomeIcon color={colors.bus_stops} icon={faBus} />}
       renderLink={item => `https://www.openstreetmap.org/${item.type}/${item.id}`}
+    />
+  }
+  {showMarker.ebay_apartments &&
+    <MapMarkers
+      data={cache.ebay_apartments}
+      isVisible={item => {
+        if(item.only_trade === true && apartmentOptions.show_trade === 'none') {
+          return false;
+        }
+
+        if(item.only_trade !== true && apartmentOptions.show_trade === 'only') {
+          return false;
+        }
+
+        if(
+          apartmentOptions.configuration.length > 0 &&
+          !apartmentOptions.configuration.every(d => item.configuration.includes(d))
+        ) {
+          return false;
+        }
+
+        if(apartmentOptions.owner_type === 'private_only' && item.user.private !== true) {
+          return false;
+        }
+
+        if(apartmentOptions.owner_type === 'commercial_only' && item.user.private === true) {
+          return false;
+        }
+
+        if(
+          apartmentOptions.age !== null &&
+          isBefore(parse(item.extra_info.date_created, 'dd.MM.yyyy', new Date()), sub(new Date(), { days: apartmentOptions.age }))
+        ) {
+          return false;
+        }
+        
+        return (
+          item.rooms_total >= apartmentOptions.rooms_min &&
+          item.rooms_total <= apartmentOptions.rooms_max &&
+          item.size >= apartmentOptions.size_min &&
+          item.size <= apartmentOptions.size_max &&
+          item.price_warm >= apartmentOptions.price_warm_min &&
+          item.price_warm <= apartmentOptions.price_warm_max
+        )
+      }}
+      renderTooltip={item =>
+        <div style={{ minWidth: 200, maxWidth: 400, padding: '5px 10px', textAlign: 'left', fontSize: '0.8rem' }}>
+          {/* <img src={item.image_urls[0]} alt={item.title} width="100" /><br /> */}
+          <strong style={{ whiteSpace: 'pre-wrap' }}>{item.title}</strong> <br />
+          Erstellt: {item.extra_info.date_created}<br />
+          {item.rooms_total} Zimmer ({item.size}m²) <br />
+          {item.floor && <div>{item.floor}. Etage</div>}
+          <div>Preis: {item.price_warm}&nbsp;€ ({item.price_size_ratio}€/m²)</div>
+        </div>
+      }
+      renderIcon={item => {
+        if(!apartmentOptions.highlight_on) {
+          return <FontAwesomeIcon color={colors.ebay_apartments} icon={faCouch} />;
+        } else {
+          if(!item[apartmentOptions.highlight_category]) {
+            console.log(apartmentOptions.highlight_category, 'not found in item', item)
+            return null;
+          }
+          
+          const backgroundColor = apartmentOptions.highlight_scale(item[apartmentOptions.highlight_category]);
+          const color = contrastColor({ bgColor: backgroundColor });
+          const style = { 
+            color,
+            backgroundColor, 
+            width: 20, 
+            height: 20, 
+            border: 'none', 
+            borderRadius: 3, 
+            boxShadow: 'rgba(0, 0, 0, 0.3) 0px 1px 4px' 
+          };
+          
+          if(apartmentOptions.highlight_category === 'price_warm') {
+            return (
+              <div style={{...style,  width: 40, transform: 'translateX(-50%)' }}>
+                {item[apartmentOptions.highlight_category]} {apartmentOptions.highlight_unit}
+              </div>
+            )
+          }
+
+          if(apartmentOptions.highlight_category === 'price_size_ratio') {
+            return (
+              <div style={{...style,  width: 50, transform: 'translateX(-50%)' }}>
+                {item[apartmentOptions.highlight_category]}&nbsp;{apartmentOptions.highlight_unit}
+              </div>
+            )
+          }
+
+          if(apartmentOptions.highlight_category === 'size') {
+            return (
+              <div style={{...style,  width: 60, transform: 'translateX(-50%)' }}>
+                {item[apartmentOptions.highlight_category]} {apartmentOptions.highlight_unit}
+              </div>
+            )
+          }
+
+          return (
+            <div style={style}>
+              {item[apartmentOptions.highlight_category]} {apartmentOptions.highlight_unit}
+            </div>
+          )
+        }
+      }}
+      renderLink={item => `${item.url}`}
     />
   }
 

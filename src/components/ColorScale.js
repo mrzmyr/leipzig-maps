@@ -2,6 +2,7 @@ const ColorScale = ({
   min,
   max,
   scale,
+  unit = null
 }) => {
   const databasisColorScale = scale.domain([0, 100]);
   
@@ -17,8 +18,8 @@ const ColorScale = ({
           width: '1%', height: 10 
         }}>
       </span>)}
-      <div style={{ float: 'left' }}>{min}</div>
-      <div style={{ float: 'right' }}>{max}</div>
+      <div style={{ float: 'left' }}>{min}{unit}</div>
+      <div style={{ float: 'right' }}>{max}{unit}</div>
     </div>
   )
 }

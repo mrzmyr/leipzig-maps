@@ -8,15 +8,17 @@ import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faCog } from '@fortawesome/free-solid-svg-icons'
+import { faChartPie, faCog, faCouch } from '@fortawesome/free-solid-svg-icons'
 
 import CreditsModal from './CreditsModal'
 import Markers from './Markers'
-import MarkerToggles from './MarkerToggles'
+import MarkerToggles, { colors } from './MarkerToggles'
 import DataOverlay from './DataOverlay'
 import DataOverlayOptions from './DataOverlayOptions'
 import ColorScale from './ColorScale'
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import ApartmentOptions from './ApartmentOptions';
+import { sub } from 'date-fns';
 
 const dataOverlayEntries = {
   'aerzte': { 
@@ -101,6 +103,26 @@ const Map = () => {
 
   const [showOffcanvas, setShowOffcanvas] = useState(true);
   const [showCreditsModal, setShowCreditsModal] = useState(false);
+  const [apartmentOptions, setApartmentOptions] = useState({
+    rooms_min: 1,
+    rooms_max: 10,
+    price_warm_min: 0,
+    price_warm_max: 10000,
+    owner_type: null,
+    show_trade: 'none',
+    size_min: 0,
+    size_max: 999999,
+    floor_min: 0,
+    floor_max: 99,
+    configuration: [],
+    age: 3,
+    highlight_on: true,
+    highlight_category: 'price_warm',
+    highlight_scale: chroma.scale('PuRd'),
+    highlight_min: 0,
+    highlight_max: 100,
+    highlight_unit: null,
+  });
 
   const [loadings, setLoadings] = useState({
     districts: true
@@ -116,6 +138,7 @@ const Map = () => {
     daycares: false,
     data_overlay: false,
     markets: false,
+    ebay_apartments: false,
   });
 
   const [selectedDataKey, setSelectedDataKey] = useState(null);
@@ -150,6 +173,30 @@ const Map = () => {
         .then(response => response.json())
         .then(data => {
           setCache({ ...cache, [key]: data })
+          setShowMarker({ ...showMarker, [key]: !showMarker[key] })
+          setLoadings({ ...loadings, [key]: false })
+        });
+    } else {
+      setShowMarker({ ...showMarker, [key]: !showMarker[key] })
+    }
+  }
+
+  const toggleApartments = (key) => {
+    if(!cache[key]) {
+      setLoadings({ ...loadings, [key]: true })
+      fetch(`https://api.apify.com/v2/datasets/gbsMcdHkH54QgdZVk/items?clean=true&format=json`)
+      // fetch(`${process.env.PUBLIC_URL}/data/leipzig-flats.json`)
+        .then(response => response.json())
+        .then(data => {
+          const newData = data.filter(d =>  (
+            d.lon !== null && 
+            d.lat !== null
+          )).map(d => {
+            let price_size_ratio = null;
+            if(!isNaN(d.price_warm) && !isNaN(d.size)) price_size_ratio = Math.round(d.price_warm / d.size)
+            return { ...d, price_size_ratio }
+          });
+          setCache({ ...cache, [key]: newData })
           setShowMarker({ ...showMarker, [key]: !showMarker[key] })
           setLoadings({ ...loadings, [key]: false })
         });
@@ -227,7 +274,11 @@ const Map = () => {
         url="https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"
       />}
       <Hooks />
-      <Markers showMarker={showMarker} cache={cache} />
+      <Markers 
+        cache={cache}
+        showMarker={showMarker} 
+        apartmentOptions={apartmentOptions}
+      />
       {
         showMarker.data_overlay && 
         !loadings.districts && 
@@ -260,7 +311,19 @@ const Map = () => {
           >
               <div>{selectedY}&nbsp;({selectedX})</div>
           </OverlayTrigger>
-              <ColorScale scale={dataOverlayScale} data={databasis} min={databasisMin} max={databasisMax} />
+          <ColorScale scale={dataOverlayScale} min={databasisMin} max={databasisMax} />
+        </div>
+      }
+      {
+        showMarker.ebay_apartments &&
+        apartmentOptions.highlight_on &&
+        <div style={{ position: 'absolute', fontFamily: 'monospace', zIndex: 999, left: 10, bottom: 10, padding: 10, borderRadius: 10, background: 'white', cursor: 'pointer', width: 200 }} onClick={() => setShowOffcanvas(true)}>
+          <ColorScale 
+            scale={apartmentOptions.highlight_scale} 
+            min={apartmentOptions.highlight_min} 
+            max={apartmentOptions.highlight_max} 
+            unit={apartmentOptions.highlight_unit}
+          />
         </div>
       }
       <Offcanvas 
@@ -302,6 +365,26 @@ const Map = () => {
                 loadings={loadings}
               />
             </>
+          }
+          <div style={{ padding: '0 20px' }}>
+            <Form.Check
+              style={{ paddingTop: 3, paddingBottom: 3 }}
+              disabled={loadings.ebay_apartments}
+              type="checkbox"
+              id={'showEbayApartments'}
+              label={<span>{loadings.ebay_apartments ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.ebay_apartments} icon={faCouch} />} Wohnungen  anzeigen</span>}
+              checked={showMarker.ebay_apartments}
+              onChange={e => toggleApartments('ebay_apartments')}
+            />
+          </div>
+          { 
+            showMarker.ebay_apartments &&
+            <ApartmentOptions
+              data={cache.ebay_apartments}
+              toggleApartments={toggleApartments}
+              setApartmentOptions={setApartmentOptions}
+              apartmentOptions={apartmentOptions}
+            />
           }
           <MarkerToggles 
             showMarker={showMarker}

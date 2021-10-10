@@ -4,7 +4,7 @@ import { renderToString } from 'react-dom/server'
 import L from 'leaflet'
 import { Tooltip, Marker, Popup } from 'react-leaflet'
 
-const MapMarkers = ({ data, renderTooltip, renderIcon, renderLink = null }) => {
+const MapMarkers = ({ data, renderTooltip, isVisible, renderIcon, renderLink = null }) => {
   return data.map((item, index) => {
 
     var myIcon = L.divIcon({
@@ -28,6 +28,10 @@ const MapMarkers = ({ data, renderTooltip, renderIcon, renderLink = null }) => {
         </div>
       </Tooltip>
     )
+    
+    let isMarkerVisible = typeof(isVisible) === 'function' ? isVisible(item) === true : true;
+    
+    if(!isMarkerVisible) return null;
     
     return (
       <Marker 

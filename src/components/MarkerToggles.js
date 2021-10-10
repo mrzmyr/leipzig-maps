@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Spinner from 'react-bootstrap/Spinner';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBus, faSwimmingPool, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree, faBicycle } from '@fortawesome/free-solid-svg-icons'
+import { faBus, faSwimmingPool, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree, faBicycle, faCouch } from '@fortawesome/free-solid-svg-icons'
 
 export const colors = {
   bus_stops: '#1a73e8',
@@ -16,6 +16,7 @@ export const colors = {
   parks: '#34a853',
   supermarkets: '#f29900',
   markets: '#f29900',
+  ebay_apartments: '#8c0e0d',
 }
 
 const MarkerToggles = ({
