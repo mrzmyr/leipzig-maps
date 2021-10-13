@@ -1,6 +1,7 @@
 import { faChartPie, faCog, faCouch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import chroma from 'chroma-js';
+import { differenceInDays, parse } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
@@ -103,21 +104,21 @@ const Map = () => {
     rooms_min: 2,
     rooms_max: 6,
     price_warm_min: 0,
-    price_warm_max: 800,
+    price_warm_max: 1000,
     owner_type: null,
     show_trade: 'none',
-    size_min: 50,
+    size_min: 40,
     size_max: 150,
     floor_min: 0,
     floor_max: 99,
     configuration: [],
-    age: 3,
+    age: 1,
     highlight_on: true,
-    highlight_category: 'price_warm',
-    highlight_scale: chroma.scale('PuRd'),
+    highlight_category: 'price_size_ratio',
+    highlight_scale: chroma.scale('OrRd').gamma(0.5).domain([0, 30]),
     highlight_min: 0,
-    highlight_max: 100,
-    highlight_unit: null,
+    highlight_max: 20,
+    highlight_unit: '€/m²',
   });
 
   const [loadings, setLoadings] = useState({
@@ -189,8 +190,11 @@ const Map = () => {
             d.lat !== null
           )).map(d => {
             let price_size_ratio = null;
-            if(!isNaN(d.price_warm) && !isNaN(d.size)) price_size_ratio = Math.round(d.price_warm / d.size)
-            return { ...d, price_size_ratio }
+            let age = differenceInDays(new Date(), parse(d.extra_info.date_created, 'dd.MM.yyyy', new Date()));
+            if(!isNaN(d.price_warm) && !isNaN(d.size)) {
+              price_size_ratio = Math.round(d.price_warm / d.size)
+            }
+            return { ...d, price_size_ratio, age }
           });
           setCache({ ...cache, [key]: newData })
           setShowMarker({ ...showMarker, [key]: !showMarker[key] })
@@ -311,6 +315,7 @@ const Map = () => {
       {
         showMarker.ebay_apartments &&
         apartmentOptions.highlight_on &&
+        apartmentOptions.highlight_scale &&
         <div style={{ position: 'absolute', fontFamily: 'monospace', zIndex: 999, left: 10, bottom: 10, padding: 10, borderRadius: 10, background: 'white', cursor: 'pointer', width: 200 }} onClick={() => setShowOffcanvas(true)}>
           <ColorScale 
             scale={apartmentOptions.highlight_scale} 

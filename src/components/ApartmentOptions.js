@@ -1,10 +1,58 @@
 import chroma from 'chroma-js';
+import { isBefore, parse, sub } from 'date-fns';
+import Slider, { SliderTooltip } from 'rc-slider';
 import 'rc-slider/assets/index.css';
 import Form from 'react-bootstrap/Form';
 
-import Slider, { SliderTooltip } from 'rc-slider';
 const { Handle, createSliderWithTooltip } = Slider;
 const SliderWithTooltip = createSliderWithTooltip(Slider.Range);
+
+export const getFilteredApartments = ({
+  apartmentOptions, 
+  data
+}) => data.filter(item => {
+  if(item.only_trade === true && apartmentOptions.show_trade === 'none') {
+    return false;
+  }
+
+  if(item.only_trade !== true && apartmentOptions.show_trade === 'only') {
+    return false;
+  }
+
+  if(
+    apartmentOptions.configuration.length > 0 &&
+    !apartmentOptions.configuration.every(d => item.configuration.includes(d))
+  ) {
+    return false;
+  }
+
+  if(apartmentOptions.owner_type === 'private_only' && item.user.private !== true) {
+    return false;
+  }
+
+  if(apartmentOptions.owner_type === 'commercial_only' && item.user.private === true) {
+    return false;
+  }
+
+  if(
+    apartmentOptions.age !== null &&
+    isBefore(
+      parse(item.extra_info.date_created, 'dd.MM.yyyy', new Date()), 
+      sub(new Date(), { days: apartmentOptions.age + 1 })
+    )
+  ) {
+    return false;
+  }
+  
+  return (
+    item.rooms_total >= apartmentOptions.rooms_min &&
+    item.rooms_total <= apartmentOptions.rooms_max &&
+    item.size >= apartmentOptions.size_min &&
+    item.size <= apartmentOptions.size_max &&
+    item.price_warm >= apartmentOptions.price_warm_min &&
+    item.price_warm <= apartmentOptions.price_warm_max
+  )
+})
 
 const RoomsSlider = ({
   data,
@@ -51,7 +99,7 @@ const PriceSlider = ({
 
   let price_numbers = data.filter(d => !isNaN(d.price_warm)).map(d => d.price_warm)
   
-  // const min = data ? Math.min(...price_numbers) : 0;
+  const min = data ? Math.min(...price_numbers) : 0;
   const max = data ? Math.max(...price_numbers) : 0;
   
   const handle = props => {
@@ -75,7 +123,7 @@ const PriceSlider = ({
       marginBottom: 10
     }}>
       <SliderWithTooltip
-        min={0} 
+        min={min} 
         max={max}
         defaultValue={[
           apartmentOptions.price_warm_min, 
@@ -84,7 +132,7 @@ const PriceSlider = ({
         allowCross={false}
         style={{ height: 40 }}
         handle={handle}
-        marks={{ 0: `${0} €`, [max]: `${max} €` }}
+        marks={{ [min]: `${min} €`, [max]: `${max} €` }}
         step={100}
         tipFormatter={value => `${value}€`}
         onAfterChange={e => setApartmentOptions(o => ({ 
@@ -339,6 +387,16 @@ const AgeOptions = ({
           setApartmentOptions(o => ({ ...o, age: 7 }))
         }}
       />
+      <Form.Check
+        style={{ paddingTop: 3, paddingBottom: 3 }}
+        type="radio"
+        id={`apartmentOptionsAgeThirdyDay`}
+        label={<span>Vor 30 Tagen erstellt</span>}
+        checked={apartmentOptions.age === 30}
+        onChange={e => {
+          setApartmentOptions(o => ({ ...o, age: 30 }))
+        }}
+      />
     </div>
   )
 }
@@ -360,10 +418,10 @@ const HighlightOptions = ({
   let numbers_rooms = data.filter(d => !isNaN(d.rooms_total)).map(d => d.rooms_total)
   const roomsMin = data ? Math.min(...numbers_rooms) : 0;
   const roomsMax = data ? Math.max(...numbers_rooms) : 0;
-
-  let numbers_price_size_ratio = data.filter(d => !isNaN(d.price_size_ratio)).map(d => d.price_size_ratio)
-  const priceSizeRatioMin = data ? Math.min(...numbers_price_size_ratio) : 0;
-  const priceSizeRatioMax = data ? Math.max(...numbers_price_size_ratio) : 0;
+  
+  let numbers_age = data.filter(d => !isNaN(d.age)).map(d => d.age)
+  const ageMin = data ? Math.min(...numbers_age) : 0;
+  const ageMax = data ? Math.max(...numbers_age) : 0;
   
   return (
     <div style={{
@@ -390,6 +448,19 @@ const HighlightOptions = ({
       />
       { apartmentOptions.highlight_on &&
         <div>
+          <Form.Check
+            type="radio"
+            id="highlightAge"
+            label="Erstellt am (Tage)"
+            checked={apartmentOptions.highlight_category === 'age'}
+            onChange={e => setApartmentOptions(o => ({ ...o, 
+              highlight_category: 'age',
+              highlight_scale: chroma.scale('Purples').domain([ageMin, 30]),
+              highlight_min: 0,
+              highlight_max: 30,
+              highlight_unit: ' Tage',
+          }))}
+          />
           <Form.Check
             type="radio"
             id="highlightPrice"
@@ -439,9 +510,9 @@ const HighlightOptions = ({
             onChange={e => setApartmentOptions(o => ({ 
               ...o, 
               highlight_category: 'price_size_ratio',
-              highlight_scale: chroma.scale('OrRd').domain([priceSizeRatioMin, priceSizeRatioMax]),
-              highlight_min: priceSizeRatioMin,
-              highlight_max: priceSizeRatioMax,
+              highlight_scale: chroma.scale('OrRd').gamma(0.5).domain([0, 20]),
+              highlight_min: 0,
+              highlight_max: 20,
               highlight_unit: '€/m²',
             }))}
           />
@@ -460,6 +531,8 @@ const ApartmentOptions = ({
     <div style={{ paddingBottom: 20, paddingLeft: 20, paddingRight: 20, paddingTop: 5, }}>
       <p className="h6">Hervorheben</p>
       <HighlightOptions data={data} setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
+      <p className="h6">Filter: Erstellt am</p>
+      <AgeOptions setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <p className="h6">Filter: Räume</p>
       <RoomsSlider data={data} apartmentOptions={apartmentOptions} setApartmentOptions={setApartmentOptions} />
       <p className="h6">Filter: Preis (Warm)</p>
@@ -470,8 +543,6 @@ const ApartmentOptions = ({
       <TradeOptions setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <p className="h6">Filter: Nutzer Typ</p>
       <CreatorTypeOptions setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
-      <p className="h6">Filter: Erstellt am</p>
-      <AgeOptions setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <p className="h6">Filter: Ausstattung</p>
       <ConfigurationOptions data={data} setApartmentOptions={setApartmentOptions} apartmentOptions={apartmentOptions} />
       <hr />

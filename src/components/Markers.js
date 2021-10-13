@@ -5,8 +5,8 @@ import MapMarkers from './MapMarkers'
 import { contrastColor } from 'contrast-color'
 
 import { colors } from './MarkerToggles'
-import { isBefore, parse, sub } from 'date-fns';
 import { useEffect, useState } from 'react';
+import { getFilteredApartments } from './ApartmentOptions';
 
 const Markers = ({ 
   cache,
@@ -41,47 +41,10 @@ const Markers = ({
         onClick={item => {
           setVisited(v => [...v, item.extra_info.id])
         }}
-        data={cache.ebay_apartments}
-        isVisible={item => {
-          if(item.only_trade === true && apartmentOptions.show_trade === 'none') {
-            return false;
-          }
-
-          if(item.only_trade !== true && apartmentOptions.show_trade === 'only') {
-            return false;
-          }
-
-          if(
-            apartmentOptions.configuration.length > 0 &&
-            !apartmentOptions.configuration.every(d => item.configuration.includes(d))
-          ) {
-            return false;
-          }
-
-          if(apartmentOptions.owner_type === 'private_only' && item.user.private !== true) {
-            return false;
-          }
-
-          if(apartmentOptions.owner_type === 'commercial_only' && item.user.private === true) {
-            return false;
-          }
-
-          if(
-            apartmentOptions.age !== null &&
-            isBefore(parse(item.extra_info.date_created, 'dd.MM.yyyy', new Date()), sub(new Date(), { days: apartmentOptions.age }))
-          ) {
-            return false;
-          }
-          
-          return (
-            item.rooms_total >= apartmentOptions.rooms_min &&
-            item.rooms_total <= apartmentOptions.rooms_max &&
-            item.size >= apartmentOptions.size_min &&
-            item.size <= apartmentOptions.size_max &&
-            item.price_warm >= apartmentOptions.price_warm_min &&
-            item.price_warm <= apartmentOptions.price_warm_max
-          )
-        }}
+        data={getFilteredApartments({
+          data: cache.ebay_apartments,
+          apartmentOptions,
+        })}
         renderTooltip={item =>
           <div style={{ minWidth: 200, maxWidth: 400, padding: '5px 10px', textAlign: 'left', fontSize: '0.8rem' }}>
             {/* <img src={item.image_urls[0]} alt={item.title} width="100" /><br /> */}
@@ -90,9 +53,9 @@ const Markers = ({
             {item.type && <div>{item.type} {item.floor && <span>({item.floor}. Etage)</span>}</div>}
             {item.address && <div>{item.address}</div>}
             <hr />
-            {item.available_from && <div>Verfügbar ab: {item.available_from}</div>}
             <div>Preis: {item.price_warm}&nbsp;€ ({item.price_size_ratio}€/m²)</div>
             {item.extra_info.date_created && <div>Erstellt am: {item.extra_info.date_created}</div>}
+            {item.available_from && <div>Verfügbar ab: {item.available_from}</div>}
             <hr />
             {item.configuration.length > 0 && <>Ausstattung:<div style={{ whiteSpace: 'pre-line' }}>{item.configuration.join(', ')}</div></>}
           </div>
@@ -101,6 +64,7 @@ const Markers = ({
           if(!apartmentOptions.highlight_on) {
             return <FontAwesomeIcon style={{ opacity: visited.includes(item.extra_info.id) ? 0.5 : 1 }} color={colors.ebay_apartments} icon={faCouch} />;
           } else {
+            
             if(!item[apartmentOptions.highlight_category]) {
               console.log(apartmentOptions.highlight_category, 'not found in item', item)
               return null;
