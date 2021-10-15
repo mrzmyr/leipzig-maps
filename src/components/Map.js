@@ -1,22 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, useMapEvent } from 'react-leaflet'
-import chroma from 'chroma-js';
-
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Spinner from 'react-bootstrap/Spinner';
-
+import { faChartPie, faCog } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartPie, faCog } from '@fortawesome/free-solid-svg-icons'
-
-import CreditsModal from './CreditsModal'
-import Markers from './Markers'
-import MarkerToggles from './MarkerToggles'
-import DataOverlay from './DataOverlay'
-import DataOverlayOptions from './DataOverlayOptions'
-import ColorScale from './ColorScale'
+import chroma from 'chroma-js';
+import React, { useEffect, useState } from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Spinner from 'react-bootstrap/Spinner';
+import { isMobile } from "react-device-detect";
+import { MapContainer, TileLayer, useMapEvent } from 'react-leaflet';
+import ColorScale from './ColorScale';
+import DataOverlay from './DataOverlay';
+import DataOverlayOptions from './DataOverlayOptions';
+import Markers from './Markers';
+import MarkerToggles from './MarkerToggles';
+import OffcanvasFooter from './OffcanvasFooter';
+import OwnLocationMarker from './OwnLocationMarker';
+import SwitchLine from "./SwitchLine";
 
 const dataOverlayEntries = {
   'aerzte': { 
@@ -100,7 +99,6 @@ const Map = () => {
   const [cache, setCache] = useState({})
 
   const [showOffcanvas, setShowOffcanvas] = useState(true);
-  const [showCreditsModal, setShowCreditsModal] = useState(false);
 
   const [loadings, setLoadings] = useState({
     districts: true
@@ -125,7 +123,7 @@ const Map = () => {
   const toggleDataOverlay = () => {
     setShowMarker({ ...showMarker, data_overlay: !showMarker.data_overlay })
   }
-
+  
   const selectDataOverlayCategory = (key) => {
     setSelectedDataKey(key)
     
@@ -240,11 +238,31 @@ const Map = () => {
           selectedY={selectedY}
         />
       }
+      {
+        showMarker.own_location && 
+        <OwnLocationMarker />
+      }
     </MapContainer>
       {
         !showOffcanvas && 
-        <div style={{ position: 'absolute', zIndex: 999, right: 10, top: 10, padding: 10, borderRadius: 10, background: 'white', cursor: 'pointer' }} onClick={() => setShowOffcanvas(true)}>
-          <FontAwesomeIcon icon={faCog} />
+        <div style={{ 
+          position: 'absolute', 
+          zIndex: 999, 
+          right: 20, 
+          bottom: 20, 
+          boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 12px'
+        }}>
+          <Button 
+            style={{ 
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              width: 60,
+              height: 60,
+            }}
+            size="lg" 
+            onClick={() => setShowOffcanvas(true)}
+          ><FontAwesomeIcon size="lg" icon={faCog} /></Button>
         </div>
       }
       {
@@ -267,26 +285,31 @@ const Map = () => {
         show={showOffcanvas} 
         onHide={() => setShowOffcanvas(false)} 
         backdrop={false} 
-        placement="end"
+        placement={isMobile ? 'bottom' : 'end'}
+        style={{
+          height: isMobile ? '40vh' : '100vh',
+          border: 0,
+          boxShadow: 'rgba(0, 0, 0, 0.1) 0px -10px 20px 0px',
+        }}
       >
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Einstellungen</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
+      <Offcanvas.Header closeButton>
+        <Offcanvas.Title>Einstellungen</Offcanvas.Title>
+      </Offcanvas.Header>
+        <Offcanvas.Body
+          style={{
+            padding: 0,
+          }}
+        >
           {loadings.districts && <div style={{ textAlign: 'center', padding: 10 }}><Spinner animation="border" size="sm" /></div>}
           {!loadings.districts &&
           <>
-            <div style={{ padding: '0 20px' }}>
-              <Form.Check
-                style={{ paddingTop: 3, paddingBottom: 3 }}
-                type="checkbox"
-                id={'showDataOverlay'}
-                label={<span><FontAwesomeIcon icon={faChartPie} /> Details zu Ortsteilen anzeigen</span>}
-                checked={showMarker.data_overlay}
-                onChange={e => toggleDataOverlay()}
-              />
-            </div>
-          
+            <SwitchLine
+              loading={loadings.data_overlay}
+              checked={showMarker.data_overlay}
+              onChange={e => toggleDataOverlay()}
+              icon={<FontAwesomeIcon icon={faChartPie} />}
+              label="Details zu Ortsteilen anzeigen"
+            />
           {
             showMarker.data_overlay &&  
             <>
@@ -309,31 +332,11 @@ const Map = () => {
             setShowMarker={setShowMarker}
             loadings={loadings}
           />
-          <hr />
+          <div style={{ height: 1, background: '#eee', marginTop: 10, marginBottom: 10 }} />
           </>
           }
           
-          {/* Credits */}
-          <div style={{ fontSize: 12 }}>
-            <Button 
-              style={{ textDecoration: 'none' }}
-              variant="link" 
-              size="sm" 
-              onClick={() => setShowCreditsModal(true)}
-            >Copyright &amp; Daten</Button>
-            <br />
-            <Button 
-              style={{ textDecoration: 'none' }}
-              variant="link" 
-              size="sm" 
-              onClick={() => window.open('https://twitter.com/mrzmyr')}
-            >🧑🏻‍💻 mrzmyr</Button>
-            <br />
-            <CreditsModal 
-              show={showCreditsModal}
-              onHide={() => setShowCreditsModal(false)}
-            />
-          </div>
+          <OffcanvasFooter />
         </Offcanvas.Body>
       </Offcanvas>
     </>

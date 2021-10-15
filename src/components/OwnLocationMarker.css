@@ -1,0 +1,13 @@
+.ownLocationMarker {
+  background-color: transparent;
+}
+
+@keyframes pulseRing {
+  0% { transform: scale(.5); }
+  80%, 100% { opacity: 0; }
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}

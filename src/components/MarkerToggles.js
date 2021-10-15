@@ -1,13 +1,13 @@
-import Form from 'react-bootstrap/Form';
-import Spinner from 'react-bootstrap/Spinner';
-
+import { faBaby, faBicycle, faBus, faChild, faDumbbell, faHome, faLocationArrow, faShoppingBasket, faSubway, faSwimmingPool, faTrain, faTree } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBus, faSwimmingPool, faChild, faBaby, faHome, faSubway, faTrain, faDumbbell, faShoppingBasket, faTree, faBicycle } from '@fortawesome/free-solid-svg-icons'
+import 'rc-switch/assets/index.css';
+import SwitchLine from './SwitchLine';
 
 export const colors = {
   bus_stops: '#1a73e8',
   train_stops: '#1a73e8',
   tram_stops: '#1a73e8',
+  own_location: '#1a73e8',
   swimming_pools: '#7986cb',
   fitness_stuidos: '#78909c',
   daycares: '#f06292',
@@ -25,105 +25,93 @@ const MarkerToggles = ({
   loadings,
 }) => {  
   return (
-    <div style={{ padding: '0 20px' }}>
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }}
-        disabled={loadings.bus_stops}
-        type="checkbox"
-        id={'showBusStops'}
-        label={<span>{loadings.bus_stops ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.bus_stops} icon={faBus} />} Bushaltestellen anzeigen</span>}
+    <div>
+      { 
+        "geolocation" in navigator && 
+        <SwitchLine
+          loading={loadings.own_location}
+          checked={showMarker.own_location}
+          onChange={e => setShowMarker({ ...showMarker, own_location: !showMarker.own_location })}
+          icon={<FontAwesomeIcon color={colors.own_location} icon={faLocationArrow} />}
+          label="Eigenen Standort anzeigen"
+        />
+      }
+      <SwitchLine
+        loading={loadings.bus_stops}
         checked={showMarker.bus_stops}
         onChange={e => toggleMarkers('bus_stops')}
+        icon={<FontAwesomeIcon color={colors.bus_stops} icon={faBus} />}
+        label="Bushaltestellen anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.train_stops}
-        type="checkbox"
-        id={'showTrainStops'}
-        label={<span>{loadings.train_stops ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.train_stops} icon={faSubway} />} Zugbahnhöfe anzeigen</span>}
+      <SwitchLine
+        loading={loadings.train_stops}
         checked={showMarker.train_stops}
         onChange={e => toggleMarkers('train_stops')}
+        icon={<FontAwesomeIcon color={colors.train_stops} icon={faSubway} />}
+        label="Zugbahnhöfe anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.tram_stops}
-        type="checkbox"
-        id={'showTramStops'}
-        label={<span>{loadings.tram_stops ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.tram_stops} icon={faTrain} />} Tramstops anzeigen</span>}
+      <SwitchLine
+        loading={loadings.tram_stops}
         checked={showMarker.tram_stops}
         onChange={e => toggleMarkers('tram_stops')}
+        icon={<FontAwesomeIcon color={colors.tram_stops} icon={faTrain} />}
+        label="Tramstops anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.swimming_pools}
-        type="checkbox"
-        id={'showSwimmingPools'}
-        label={<span>{loadings.swimming_pools ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.swimming_pools} icon={faSwimmingPool} />} Swimming Pools anzeigen</span>}
+      <SwitchLine
+        loading={loadings.swimming_pools}
         checked={showMarker.swimming_pools}
         onChange={e => toggleMarkers('swimming_pools')}
+        icon={<FontAwesomeIcon color={colors.swimming_pools} icon={faSwimmingPool} />}
+        label="Swimming Pools anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.fitness_stuidos}
-        type="checkbox"
-        id={'showFitnessStuidos'}
-        label={<span>{loadings.fitness_stuidos ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.fitness_stuidos} icon={faDumbbell} />} Fitness Studios anzeigen</span>}
+      <SwitchLine
+        loading={loadings.fitness_stuidos}
         checked={showMarker.fitness_stuidos}
         onChange={e => toggleMarkers('fitness_stuidos')}
+        icon={<FontAwesomeIcon color={colors.fitness_stuidos} icon={faDumbbell} />}
+        label="Fitness Studios anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.daycares}
-        type="checkbox"
-        id={'showDaycares'}
-        label={<span>{loadings.daycares ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.daycares} icon={faBaby} />} Kitas anzeigen</span>}
+      <SwitchLine
+        loading={loadings.daycares}
         checked={showMarker.daycares}
         onChange={e => toggleMarkers('daycares')}
+        icon={<FontAwesomeIcon color={colors.daycares} icon={faBaby} />}
+        label="Kitas anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.playgrounds}
-        type="checkbox"
-        id={'showPlaygrounds'}
-        label={<span>{loadings.playgrounds ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.playgrounds} icon={faChild} />} Spielplätze anzeigen</span>}
+      <SwitchLine
+        loading={loadings.playgrounds}
         checked={showMarker.playgrounds}
         onChange={e => toggleMarkers('playgrounds')}
+        icon={<FontAwesomeIcon color={colors.playgrounds} icon={faChild} />}
+        label="Spielplätze anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.bike_lanes}
-        type="checkbox"
-        id={'showBikeLanes'}
-        label={<span>{loadings.bike_lanes ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.bike_lanes} icon={faBicycle} />} Radwege anzeigen</span>}
+      <SwitchLine
+        loading={loadings.bike_lanes}
         checked={showMarker.bike_lanes}
         onChange={e => setShowMarker({ ...showMarker, bike_lanes: !showMarker.bike_lanes })}
+        icon={<FontAwesomeIcon color={colors.bike_lanes} icon={faBicycle} />}
+        label="Radwege anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.parks}
-        type="checkbox"
-        id={'showParks'}
-        label={<span>{loadings.parks ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.parks} icon={faTree} />} Parks anzeigen</span>}
+      <SwitchLine
+        loading={loadings.parks}
         checked={showMarker.parks}
         onChange={e => toggleMarkers('parks')}
+        icon={<FontAwesomeIcon color={colors.parks} icon={faTree} />}
+        label="Parks anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.supermarkets}
-        type="checkbox"
-        id={'showSupermarkets'}
-        label={<span>{loadings.supermarkets ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.supermarkets} icon={faShoppingBasket} />} Supermärkte anzeigen</span>}
+      <SwitchLine
+        loading={loadings.supermarkets}
         checked={showMarker.supermarkets}
         onChange={e => toggleMarkers('supermarkets')}
+        icon={<FontAwesomeIcon color={colors.supermarkets} icon={faShoppingBasket} />}
+        label="Supermärkte anzeigen"
       />
-      <Form.Check
-        style={{ paddingTop: 3, paddingBottom: 3 }} 
-        disabled={loadings.markets}
-        type="checkbox"
-        id={'showMarkets'}
-        label={<span>{loadings.markets ? <Spinner animation="border" size="sm" /> : <FontAwesomeIcon color={colors.markets} icon={faHome} />} Wochenmärkte anzeigen</span>}
+      <SwitchLine
+        loading={loadings.markets}
         checked={showMarker.markets}
         onChange={e => toggleMarkers('markets')}
+        icon={<FontAwesomeIcon color={colors.markets} icon={faHome} />}
+        label="Wochenmärkte anzeigen"
       />
     </div>
   )
